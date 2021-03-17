@@ -606,6 +606,18 @@ themes["classic-light"] = {
 	base08 = "AC4142"; base09 = "D28445"; base0A = "F4BF75"; base0B = "90A959";
 	base0C = "75B5AA"; base0D = "6A9FB5"; base0E = "AA759F"; base0F = "8F5536";
 }
+themes["equilibrium-gray-light"] = {
+	base00 = "F1F1F1", base01 = "E2E2E2", base02 = "D4D4D4", base03 = "777777",
+	base04 = "5E5E5E", base05 = "474747", base06 = "303030", base07 = "1B1B1B",
+	base08 = "D02023", base09 = "BF3E05", base0A = "9D6F00", base0B = "637200",
+	base0C = "007A72", base0D = "0073B5", base0E = "4E66B6", base0F = "C42775",
+}
+--[[
+
+
+scheme: "Equilibrium Gray Light"
+author: "Carlo Abelli"
+--]]
 themes["codeschool"] = {
 	base00 = "232c31"; base01 = "1c3657"; base02 = "2a343a"; base03 = "3f4944";
 	base04 = "84898c"; base05 = "9ea7a6"; base06 = "a7cfa3"; base07 = "b5d8f6";
