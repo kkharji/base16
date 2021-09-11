@@ -8,10 +8,11 @@ return function(slug)
   -- stylua: ignore start
   -- Vim editor colors ----------------------------------------------------------
   HI.Normal                 = { fg = "05", bg = "00" }
+  HI.NormalFloat            = { fg = "05", bg = "00" }
   HI.Bold                   = { attr = "bold" }
   HI.Debug                  = { fg = "08" }
   HI.Directory              = { fg = "0D" }
-  HI.Error                  = { fg = "00", bg = "08" }
+  HI.Error                  = { fg = "08", bg = "00" }
   HI.ErrorMsg               = { fg = "08", bg = "00" }
   HI.Exception              = { fg = "08" }
   HI.FoldColumn             = { fg = "0C", bg = "01" }
@@ -19,7 +20,7 @@ return function(slug)
   HI.IncSearch              = { fg = "01", bg = "09", attr = "none" }
   HI.Italic                 = { attr = "italic" }
   HI.Macro                  = { fg = "08" }
-  HI.MatchParen             = { bg = "03" }
+  HI.MatchParen             = { fg = "0A", bg = "00", attr = "bold" }
   HI.ModeMsg                = { fg = "0B" }
   HI.MoreMsg                = { fg = "0B" }
   HI.Question               = { fg = "0D" }
@@ -32,26 +33,31 @@ return function(slug)
   HI.VisualNOS              = { fg = "08" }
   HI.WarningMsg             = { fg = "08" }
   HI.WildMenu               = { fg = "00", bg = "05" }
-  HI.Title                  = { fg = "0D", attr = "none" }
+  HI.Title                  = { fg = "0D", attr = "bold" }
   HI.Conceal                = { fg = "0D", bg = "00" }
   HI.Cursor                 = { fg = "00", bg = "05", attr = "inverse" }
   HI.NonText                = { fg = "03" }
   HI.Whitespace             = { fg = "03" }
   HI.LineNr                 = { fg = "03", bg = "00" }
-  HI.SignColumn             = { fg = "03", bg = "00" }
-  HI.StatusLine             = { fg = "04", bg = "01" }
-  HI.StatusLineNC           = { fg = "03", bg = "01", attr = "none" }
-  HI.VertSplit              = { fg = "01", bg = "00", attr = "none"}
+  HI.LineNrNC               = { fg = "03", bg = "01" }
+  HI.LineNrSel              = { fg = "02", bg = "00" }
+  HI.SignColumn             = { fg = "02", bg = "00" }
+  HI.SignColumnNC           = { fg = "02", bg = "01" }
+  HI.StatusLine             = { fg = "05", bg = "01", attr = "none" }
+  HI.StatusLineNC           = { fg = "05", bg = "01", attr = "none" }
+  HI.VertSplit              = { fg = "02", bg = "00", attr = "none"}
   HI.ColorColumn            = { bg = "01", attr = "none" }
   HI.CursorColumn           = { bg = "01", attr = "none" }
   HI.CursorLine             = { bg = "01", attr = "none" }
-  HI.CursorLineNr           = { fg = "04", bg = "01", attr = "bold" }
+  HI.CursorLineNr           = { fg = "03", bg = "01", attr = "none" }
   HI.QuickFixLine           = { bg = "01", attr = "none" }
-  HI.PMenu                  = { fg = "05", bg = "02", attr = "none" }
-  HI.PMenuSel               = { fg = "01", bg = "05" }
-  HI.TabLine                = { fg = "03", bg = "01", attr = "none" }
-  HI.TabLineFill            = { fg = "03", bg = "01", attr = "none" }
-  HI.TabLineSel             = { fg = "0B", bg = "01", attr = "none" }
+  HI.Pmenu                  = { fg = "05", bg = "00" }
+  HI.PmenuSel               = { fg = "05", bg = "02" }
+  HI.PmenuSbar              = { fg = "05", bg = "01" }
+  HI.PmenuThumb             = { fg = "03", bg = "02" }
+  HI.TabLine                = { fg = "03", bg = "00", attr = "none" }
+  HI.TabLineFill            = { fg = "01", bg = "00", attr = "none" }
+  HI.TabLineSel             = { fg = "05", bg = "01", attr = "none" }
   -- Standard syntax highlighting -----------------------------------------------
   HI.Boolean                = { fg = "09" }
   HI.Character              = { fg = "08" }
@@ -59,7 +65,7 @@ return function(slug)
   HI.Conditional            = { fg = "0E" }
   HI.Constant               = { fg = "09" }
   HI.Define                 = { fg = "0E", attr = "none" }
-  HI.Delimiter              = { fg = "0F" }
+  HI.Delimiter              = { fg = "08", attr = "bold" }
   HI.Float                  = { fg = "09" }
   HI.Function               = { fg = "0D" }
   HI.Identifier             = { fg = "08", attr = "none" }
@@ -97,7 +103,7 @@ return function(slug)
   HI.WarningHighlight       = { fg = "00", bg = "09", attr = "underline", sp = "09", cterm = true }
   HI.InfoHighlight          = { fg = "00", bg = "0D", attr = "underline", sp = "0D", cterm = true }
   HI.HintHighlight          = { fg = "00", bg = "0C", attr = "underline", sp = "0C", cterm = true }
-  HI.SpellBad               = { fg = "00", bg = "08", attr = "undercurl", sp = "08", cterm = true }
+  HI.SpellBad               = { fg = "05", bg = "08", attr = "underline" }
   HI.SpellLocal             = { fg = "00", bg = "0C", attr = "undercurl", sp = "0C", cterm = true }
   HI.SpellCap               = { fg = "00", bg = "0D", attr = "undercurl", sp = "0D", cterm = true }
   HI.SpellRare              = { fg = "00", bg = "0E", attr = "undercurl", sp = "0E", cterm = true }
@@ -170,10 +176,16 @@ return function(slug)
   HI.mailURL                = { fg = "0D" }
   HI.mailEmail              = { fg = "0D" }
   -- Markdown highlighting ------------------------------------------------------
-  HI.markdownCode           =   { fg = "0B" }
-  HI.markdownError          =   { fg = "05", bg = "00" }
-  HI.markdownCodeBlock      =   { fg = "0B" }
-  HI.markdownHeadingDelimiter = { fg = "0D" }
+  HI.markdownCode           = { fg = "0B" }
+  HI.markdownError          = { fg = "05" }
+  HI.markdownCodeBlock      = { fg = "0B" }
+  HI.markdownBold           = { fg = "08", attr = "bold" }
+  HI.markdownBoldDelimiter  = { fg = "03" }
+  HI.markdownHeadingRule    = { attr = "bold" }
+  -- HI.markdownItalic      = { fg = "08", attr = "italic" }
+  HI.markdownItalicDelimiter  = { fg = "03" }
+  HI.markdownHeadingDelimiter = { fg = "04" }
+
   -- NERDTree highlighting ------------------------------------------------------
   HI.NERDTreeDirSlash       = { fg = "0D" }
   HI.NERDTreeExecFile       = { fg = "05" }
@@ -214,8 +226,72 @@ return function(slug)
   -- Treesitter-refactor highlighting -------------------------------------------
   HI.TSDefinition           = { bg = "03" }
   HI.TSDefinitionUsage      = { bg = "02", attr = "none" }
+  HI.TSKeyword              = { fg = "0E", attr = "none" }
+  HI.TSConstant             = { fg = "0E", attr = "none" }
+  HI.TSPunctBracket         = { fg = "03", attr = "bold" }
+  HI.TSParameter            = { fg = "05" }
+	-- Parans ---------------------------------------------------------------------
+  HI.clojureParen            = { fg = "03", attr = "bold" }
+  HI.NvimNestingParenthesis  = { fg = "03", attr = "bold" }
+  HI.FennelParen             = { fg = "03", attr = "bold" }
+  HI.JanetParen              = { fg = "03", attr = "bold" }
   -- Java highlighting ----------------------------------------------------------
   HI.javaOperator           = { fg = "0D" }
+	-- Barbar ---------------------------------------------------------------------
+	HI.BufferCurrent            = { fg = "05", bg = "04" }
+	HI.BufferCurrentIndex       = { fg = "0D", bg = "04" }
+	HI.BufferCurrentMod         = { fg = "0A", bg = "04" }
+	HI.BufferCurrentSign        = { fg = "0D", bg = "04" }
+	HI.BufferCurrentTarget      = { fg = "08", bg = "04" }
+	HI.BufferVisible            = { fg = "05", bg = "01" }
+	HI.BufferVisibleIndex       = { fg = "0D", bg = "01" }
+	HI.BufferVisibleMod         = { fg = "0A", bg = "01" }
+	HI.BufferVisibleSign        = { fg = "0D", bg = "01" }
+	HI.BufferVisibleTarget      = { fg = "08", bg = "01" }
+	HI.BufferInactive           = { fg = "00", bg = "01" }
+	HI.BufferInactiveIndex      = { fg = "00", bg = "01" }
+	HI.BufferInactiveTarget     = { fg = "08", bg = "01" }
+	HI.BufferInactiveMod        = { fg = "0A", bg = "01" }
+	HI.BufferInactiveSign       = { fg = "0D", bg = "01" }
+	HI.BufferTabpage            = { fg = "0D", bg = "01" }
+	HI.BufferTabpages           = { bg = "00" }
+  HI.BufferLineSelected       = { attr = "bold" }
+	-- Fern Highlighting ---------------------------------------------------------
+	HI.FernBranchText           = { fg = '0D' }
+	-- Floatterm -----------------------------------------------------------------
+	HI.FloatermBorder           = { fg = "01", bg = "02" }
+	-- LspTrouble Highlighting ---------------------------------------------------
+	HI.LspTroubleText           = { fg = "04" }
+	HI.LspTroubleCount          = { fg = "0E", bg = "04" }
+	HI.LspTroubleNormal         = { fg = "04", bg = "00" }
+	-- Telescope Highlighting ----------------------------------------------------
+	HI.TelescopeBorder          = { fg = "02", bg = "00" }
+	HI.TelescopeMatching        = { fg = "08", bg = "00" }
+	HI.TelescopeNormal          = { fg = "05", bg = "00" }
+	HI.TelescopeSelection       = { fg = "07", bg = "00" }
+	-- LspSaga Highlighting ------------------------------------------------------
+	HI.DiagnosticError          = { fg = "08" }
+	HI.DiagnosticWarning        = { fg = "0A" }
+	HI.DiagnosticInformation    = { fg = "03" }
+	HI.DiagnosticHint           = { fg = "03" }
+	HI.LspFloatWinNormal        = { bg = "01" }
+	HI.LspFloatWinBorder        = { fg = "02" }
+	HI.LspSagaBorderTitle       = { fg = "0C" }
+	HI.LspSagaHoverBorder       = { fg = "0D" }
+	HI.LspSagaRenameBorder      = { fg = "0B" }
+	HI.LspSagaDefPreviewBorder  = { fg = "0B" }
+	HI.LspSagaCodeActionBorder  = { fg = "0D" }
+	HI.LspSagaFinderSelection   = { fg = "04" }
+	HI.LspSagaCodeActionTitle   = { fg = "0D" }
+	HI.LspSagaCodeActionContent = { fg = "0E" }
+	HI.ReferencesCount          = { fg = "0E" }
+	HI.DefinitionCount          = { fg = "0E" }
+	HI.DefinitionIcon           = { fg = "0D" }
+	HI.ReferencesIcon           = { fg = "0D" }
+	HI.TargetWord               = { fg = "0C" }
+	-- Compe Highlights --------------------------------------------------------
+  HI.CompeDocumentation       = { fg = "05", bg = "00" }
+  HI.CompeDocumentationBorder = { fg = "02", bg = "00" }
   -- LSP highlighting -----------------------------------------------------------
   HI.LINK.LspDiagnosticsSignError          = "ErrorSign"
   HI.LINK.LspDiagnosticsSignWarning        = "WarningSign"
@@ -241,6 +317,7 @@ return function(slug)
   HI.LINK.GitGutterChange                  = "GitChangeSign"
   HI.LINK.GitGutterDelete                  = "GitDeleteSign"
   HI.LINK.GitGutterChangeDelete            = "GitChangeDeleteSign"
+
   -- stylua: ignore end
 
   HI.apply()
