@@ -72,10 +72,10 @@ vim.g.base16_colors = {
 
 local HI = require'base16_indexer'(vim.g.base16_codes)
 
-vim.cmd [[
-  highlight clear
-  syntax reset
-]]
+-- vim.cmd [[
+--   highlight clear
+--   syntax reset
+-- ]]
 
 -- Vim editor colors ----------------------------------------------------------
 HI.Normal                 = { fg = "05", bg = "00" }
@@ -114,8 +114,8 @@ HI.LineNrNC               = { fg = "03", bg = "01" }
 HI.LineNrSel              = { fg = "02", bg = "00" }
 HI.SignColumn             = { fg = "02", bg = "00" }
 HI.SignColumnNC           = { fg = "02", bg = "01" }
-HI.StatusLine             = { fg = "05", bg = "01", attr = "none", sp = "none" }
-HI.StatusLineNC           = { fg = "05", bg = "01", attr = "none", sp = "none" }
+HI.StatusLine             = { fg = "04", bg = "01", attr = "bold" }
+HI.StatusLineNC           = { fg = "05", bg = "01", attr = "bold" }
 HI.VertSplit              = { fg = "02", bg = "00", attr = "none"}
 HI.ColorColumn            = { bg = "01", attr = "none" }
 HI.CursorColumn           = { bg = "01", attr = "none" }
@@ -174,7 +174,7 @@ HI.ErrorHighlight         = { fg = "00", bg = "08", attr = "underline", sp = "08
 HI.WarningHighlight       = { fg = "00", bg = "09", attr = "underline", sp = "09", cterm = true }
 HI.InfoHighlight          = { fg = "00", bg = "0D", attr = "underline", sp = "0D", cterm = true }
 HI.HintHighlight          = { fg = "00", bg = "0C", attr = "underline", sp = "0C", cterm = true }
-HI.SpellBad               = { fg = "05", bg = "08", attr = "underline" }
+HI.SpellBad               = { fg = "05", attr = "underline" }
 HI.SpellLocal             = { fg = "00", bg = "0C", attr = "undercurl", sp = "0C", cterm = true }
 HI.SpellCap               = { fg = "00", bg = "0D", attr = "undercurl", sp = "0D", cterm = true }
 HI.SpellRare              = { fg = "00", bg = "0E", attr = "undercurl", sp = "0E", cterm = true }
@@ -301,6 +301,10 @@ HI.TSKeyword              = { fg = "0E", attr = "none" }
 HI.TSConstant             = { fg = "0E", attr = "none" }
 HI.TSPunctBracket         = { fg = "03", attr = "bold" }
 HI.TSParameter            = { fg = "05" }
+HI.TSKeyword              = { fg = "0E" }
+HI.TSConstant             = { fg = "0E" }
+HI.TSProperty             = { fg = '0A' }
+
 -- Parans ---------------------------------------------------------------------
 HI.clojureParen            = { fg = "03", attr = "bold" }
 HI.NvimNestingParenthesis  = { fg = "03", attr = "bold" }
@@ -309,24 +313,24 @@ HI.JanetParen              = { fg = "03", attr = "bold" }
 -- Java highlighting ----------------------------------------------------------
 HI.javaOperator           = { fg = "0D" }
 -- Barbar ---------------------------------------------------------------------
-HI.BufferCurrent            = { fg = "05", bg = "04" }
-HI.BufferCurrentIndex       = { fg = "0D", bg = "04" }
-HI.BufferCurrentMod         = { fg = "0A", bg = "04" }
-HI.BufferCurrentSign        = { fg = "0D", bg = "04" }
-HI.BufferCurrentTarget      = { fg = "08", bg = "04" }
-HI.BufferVisible            = { fg = "05", bg = "01" }
-HI.BufferVisibleIndex       = { fg = "0D", bg = "01" }
-HI.BufferVisibleMod         = { fg = "0A", bg = "01" }
-HI.BufferVisibleSign        = { fg = "0D", bg = "01" }
-HI.BufferVisibleTarget      = { fg = "08", bg = "01" }
-HI.BufferInactive           = { fg = "00", bg = "01" }
-HI.BufferInactiveIndex      = { fg = "00", bg = "01" }
-HI.BufferInactiveTarget     = { fg = "08", bg = "01" }
-HI.BufferInactiveMod        = { fg = "0A", bg = "01" }
-HI.BufferInactiveSign       = { fg = "0D", bg = "01" }
-HI.BufferTabpage            = { fg = "0D", bg = "01" }
-HI.BufferTabpages           = { bg = "00" }
-HI.BufferLineSelected       = { attr = "bold" }
+-- HI.BufferCurrent            = { fg = "05", bg = "00" }
+-- HI.BufferCurrentIndex       = { fg = "0D", bg = "00" }
+-- HI.BufferCurrentMod         = { fg = "0A", bg = "00" }
+-- HI.BufferCurrentSign        = { fg = "0D", bg = "00" }
+-- HI.BufferCurrentTarget      = { fg = "08", bg = "00" }
+-- HI.BufferVisible            = { fg = "05", bg = "00" }
+-- HI.BufferVisibleIndex       = { fg = "0D", bg = "00" }
+-- HI.BufferVisibleMod         = { fg = "0A", bg = "00" }
+-- HI.BufferVisibleSign        = { fg = "0D", bg = "00" }
+-- HI.BufferVisibleTarget      = { fg = "08", bg = "00" }
+-- HI.BufferInactive           = { fg = "03", bg = "02" }
+-- HI.BufferInactiveIndex      = { fg = "03", bg = "02" }
+-- HI.BufferInactiveTarget     = { fg = "08", bg = "02" }
+-- HI.BufferInactiveMod        = { fg = "0A", bg = "02" }
+-- HI.BufferInactiveSign       = { fg = "0D", bg = "02" }
+-- HI.BufferTabpage            = { fg = "0D", bg = "02" }
+-- HI.BufferTabpages           = { bg = "00" }
+-- HI.BufferLineSelected       = { attr = "bold" }
 -- Fern Highlighting ---------------------------------------------------------
 HI.FernBranchText           = { fg = '0D' }
 -- Floatterm -----------------------------------------------------------------
@@ -342,9 +346,9 @@ HI.TelescopeNormal          = { fg = "05", bg = "00" }
 HI.TelescopeSelection       = { fg = "07", bg = "00" }
 -- LspSaga Highlighting ------------------------------------------------------
 HI.DiagnosticError          = { fg = "08" }
-HI.DiagnosticWarning        = { fg = "0A" }
-HI.DiagnosticInformation    = { fg = "03" }
-HI.DiagnosticHint           = { fg = "03" }
+HI.DiagnosticWarning        = { fg = "09" }
+HI.DiagnosticInformation    = { fg = "04" }
+HI.DiagnosticHint           = { fg = "04" }
 HI.LspFloatWinNormal        = { bg = "01" }
 HI.LspFloatWinBorder        = { fg = "02" }
 HI.LspSagaBorderTitle       = { fg = "0C" }
@@ -383,6 +387,9 @@ HI.LINK.LspDiagnosticsUnderlineHint      = "HintHighlight"
 HI.LINK.LsoReferenceText                 = "ReferenceText"
 HI.LINK.LsoReferenceRead                 = "ReferenceRead"
 HI.LINK.LsoReferenceWrite                = "ReferenceWrite"
+HI.LspDiagnosticsDefaultError            = { fg = "08" }
+HI.LspDiagnosticsDefaultWarning          = { fg = "09" }
+HI.LspDiagnosticsDefaultInformation      = { fg = "04" }
 -- GitGutter highlighting -----------------------------------------------------
 HI.LINK.GitGutterAdd                     = "GitAddSign"
 HI.LINK.GitGutterChange                  = "GitChangeSign"
