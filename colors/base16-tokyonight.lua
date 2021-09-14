@@ -8,7 +8,7 @@ vim.g.colors_name ='base16-tokyonight'
 --- GUI color definitions
 vim.g.base16_codes = {
   ["00"] = "1a1b26",
-  ["01"] = "33467C",
+  ["01"] = "1f2335",
   ["02"] = "292e42",
   ["03"] = "414868",
   ["04"] = "565f89",
@@ -52,7 +52,7 @@ end
 
 vim.g.base16_colors = {
   bgdefault = '#1a1b26',
-  bglight   = '#33467C',
+  bglight   = '#1f2335',
   bgselect  = '#292e42',
   comment   = '#414868',
   fgdark    = '#565f89',
