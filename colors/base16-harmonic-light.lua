@@ -297,14 +297,17 @@ HI.StartifySpecial        = { fg = "03" }
 -- Treesitter-refactor highlighting -------------------------------------------
 HI.TSDefinition           = { bg = "03" }
 HI.TSDefinitionUsage      = { bg = "02", attr = "none" }
-HI.TSKeyword              = { fg = "0E", attr = "none" }
+HI.TSKeyword              = { fg = "0E", attr = "italic" }
+-- HI.TSKeywordFunction      = { fg = "0E", attr = "italic" }
+HI.TSConstBuiltin         = { fg = "09", attr = 'italic' }
+HI.TSVariableBuiltin      = { fg = "09", attr = 'italic' }
 HI.TSConstant             = { fg = "0E", attr = "none" }
 HI.TSPunctBracket         = { fg = "03", attr = "bold" }
 HI.TSParameter            = { fg = "05" }
 HI.TSKeyword              = { fg = "0E" }
 HI.TSConstant             = { fg = "0E" }
 HI.TSProperty             = { fg = '0A' }
-
+HI.TSComment              = { attr = "none" }
 -- Parans ---------------------------------------------------------------------
 HI.clojureParen            = { fg = "03", attr = "bold" }
 HI.NvimNestingParenthesis  = { fg = "03", attr = "bold" }
