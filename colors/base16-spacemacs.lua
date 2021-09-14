@@ -312,25 +312,6 @@ HI.FennelParen             = { fg = "03", attr = "bold" }
 HI.JanetParen              = { fg = "03", attr = "bold" }
 -- Java highlighting ----------------------------------------------------------
 HI.javaOperator           = { fg = "0D" }
--- Barbar ---------------------------------------------------------------------
--- HI.BufferCurrent            = { fg = "05", bg = "00" }
--- HI.BufferCurrentIndex       = { fg = "0D", bg = "00" }
--- HI.BufferCurrentMod         = { fg = "0A", bg = "00" }
--- HI.BufferCurrentSign        = { fg = "0D", bg = "00" }
--- HI.BufferCurrentTarget      = { fg = "08", bg = "00" }
--- HI.BufferVisible            = { fg = "05", bg = "00" }
--- HI.BufferVisibleIndex       = { fg = "0D", bg = "00" }
--- HI.BufferVisibleMod         = { fg = "0A", bg = "00" }
--- HI.BufferVisibleSign        = { fg = "0D", bg = "00" }
--- HI.BufferVisibleTarget      = { fg = "08", bg = "00" }
--- HI.BufferInactive           = { fg = "03", bg = "02" }
--- HI.BufferInactiveIndex      = { fg = "03", bg = "02" }
--- HI.BufferInactiveTarget     = { fg = "08", bg = "02" }
--- HI.BufferInactiveMod        = { fg = "0A", bg = "02" }
--- HI.BufferInactiveSign       = { fg = "0D", bg = "02" }
--- HI.BufferTabpage            = { fg = "0D", bg = "02" }
--- HI.BufferTabpages           = { bg = "00" }
--- HI.BufferLineSelected       = { attr = "bold" }
 -- Fern Highlighting ---------------------------------------------------------
 HI.FernBranchText           = { fg = '0D' }
 -- Floatterm -----------------------------------------------------------------
@@ -368,10 +349,6 @@ HI.TargetWord               = { fg = "0C" }
 HI.CompeDocumentation       = { fg = "05", bg = "00" }
 HI.CompeDocumentationBorder = { fg = "02", bg = "00" }
 -- LSP highlighting -----------------------------------------------------------
-HI.LINK.LspDiagnosticsSignError          = "ErrorSign"
-HI.LINK.LspDiagnosticsSignWarning        = "WarningSign"
-HI.LINK.LspDiagnosticsSignInfo           = "InfoSign"
-HI.LINK.LspDiagnosticsSignHint           = "HintSign"
 HI.LINK.LspDiagnosticsVirtualTextError   = "ErrorSign"
 HI.LINK.LspDiagnosticsVirtualTextWarning = "WarningSign"
 HI.LINK.LspDiagnosticsVirtualTextInfo    = "InfoSign"
@@ -390,6 +367,10 @@ HI.LINK.LsoReferenceWrite                = "ReferenceWrite"
 HI.LspDiagnosticsDefaultError            = { fg = "08" }
 HI.LspDiagnosticsDefaultWarning          = { fg = "09" }
 HI.LspDiagnosticsDefaultInformation      = { fg = "04" }
+HI.LspDiagnosticsDefaultHint             = { fg = "04" }
+HI.LspDiagnosticsVirtualTextHint         = { fg = "04" }
+
+
 -- GitGutter highlighting -----------------------------------------------------
 HI.LINK.GitGutterAdd                     = "GitAddSign"
 HI.LINK.GitGutterChange                  = "GitChangeSign"
