@@ -51,31 +51,31 @@ else
 end
 
 vim.g.base16_colors = {
-  bgdefault = '#{{base00-hex}}',
-  bglight   = '#{{base01-hex}}',
-  bgselect  = '#{{base02-hex}}',
-  comment   = '#{{base03-hex}}',
-  fgdark    = '#{{base04-hex}}',
-  fgdefault = '#{{base05-hex}}',
-  fglight   = '#{{base06-hex}}',
-  fglighter = '#{{base07-hex}}',
+  bg            = '#{{base00-hex}}',
+  bg_dark       = '#{{base01-hex}}',
+  bg_highlight  = '#{{base02-hex}}',
+  comment       = '#{{base03-hex}}',
+  fg_dark       = '#{{base04-hex}}',
+  fg            = '#{{base05-hex}}',
+  fg_gutter     = '#{{base06-hex}}',
+  fg_light      = '#{{base07-hex}}',  -- TODO: this doesn't make sesne
 
-  red       = '#{{base08-hex}}',
-  orange    = '#{{base09-hex}}',
-  yellow    = '#{{base0A-hex}}',
-  green     = '#{{base0B-hex}}',
-  cyan      = '#{{base0C-hex}}',
-  blue      = '#{{base0D-hex}}',
-  violet    = '#{{base0E-hex}}',
-  magenta   = '#{{base0E-hex}}'
+  red           = '#{{base08-hex}}',
+  orange        = '#{{base09-hex}}',
+  yellow        = '#{{base0A-hex}}',
+  green         = '#{{base0B-hex}}',
+  cyan          = '#{{base0C-hex}}',
+  blue          = '#{{base0D-hex}}',
+  purple        = '#{{base0E-hex}}',
+  magenta       = '#{{base0E-hex}}'
 }
 
 local HI = require'base16_indexer'(vim.g.base16_codes)
 
--- vim.cmd [[
---   highlight clear
---   syntax reset
--- ]]
+vim.cmd [[
+  highlight clear
+  syntax reset
+]]
 
 -- Vim editor colors ----------------------------------------------------------
 HI.Normal                 = { fg = "05", bg = "00" }
@@ -307,7 +307,7 @@ HI.TSParameter            = { fg = "05" }
 HI.TSKeyword              = { fg = "0E" }
 HI.TSConstant             = { fg = "0E" }
 HI.TSProperty             = { fg = '0A' }
-HI.TSComment              = { attr = "none" }
+HI.LINK.TSComment         = "Comment"
 -- Parans ---------------------------------------------------------------------
 HI.clojureParen            = { fg = "03", attr = "bold" }
 HI.NvimNestingParenthesis  = { fg = "03", attr = "bold" }

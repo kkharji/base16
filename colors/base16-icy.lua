@@ -51,31 +51,31 @@ else
 end
 
 vim.g.base16_colors = {
-  bgdefault = '#021012',
-  bglight   = '#031619',
-  bgselect  = '#041f23',
-  comment   = '#052e34',
-  fgdark    = '#064048',
-  fgdefault = '#095b67',
-  fglight   = '#0c7c8c',
-  fglighter = '#109cb0',
+  bg            = '#021012',
+  bg_dark       = '#031619',
+  bg_highlight  = '#041f23',
+  comment       = '#052e34',
+  fg_dark       = '#064048',
+  fg            = '#095b67',
+  fg_gutter     = '#0c7c8c',
+  fg_light      = '#109cb0',  -- TODO: this doesn't make sesne
 
-  red       = '#16c1d9',
-  orange    = '#b3ebf2',
-  yellow    = '#80deea',
-  green     = '#4dd0e1',
-  cyan      = '#26c6da',
-  blue      = '#00bcd4',
-  violet    = '#00acc1',
-  magenta   = '#00acc1'
+  red           = '#16c1d9',
+  orange        = '#b3ebf2',
+  yellow        = '#80deea',
+  green         = '#4dd0e1',
+  cyan          = '#26c6da',
+  blue          = '#00bcd4',
+  purple        = '#00acc1',
+  magenta       = '#00acc1'
 }
 
 local HI = require'base16_indexer'(vim.g.base16_codes)
 
--- vim.cmd [[
---   highlight clear
---   syntax reset
--- ]]
+vim.cmd [[
+  highlight clear
+  syntax reset
+]]
 
 -- Vim editor colors ----------------------------------------------------------
 HI.Normal                 = { fg = "05", bg = "00" }
@@ -307,7 +307,7 @@ HI.TSParameter            = { fg = "05" }
 HI.TSKeyword              = { fg = "0E" }
 HI.TSConstant             = { fg = "0E" }
 HI.TSProperty             = { fg = '0A' }
-HI.TSComment              = { attr = "none" }
+HI.LINK.TSComment         = "Comment"
 -- Parans ---------------------------------------------------------------------
 HI.clojureParen            = { fg = "03", attr = "bold" }
 HI.NvimNestingParenthesis  = { fg = "03", attr = "bold" }
