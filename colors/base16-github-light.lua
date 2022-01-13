@@ -1,47 +1,47 @@
 -- vim:filetype=lua
 -- base16.lua (http//github.com/tami5/base16.lua)
 -- based on base16-vim (http//github.com/chriskempson/base16-vim)
--- Brewer scheme by Timothée Poisot (http://github.com/tpoisot)
+-- github-light scheme by Defman21
 -- stylua: ignore start
 local util = require'base16_util'
 
 --- Set color name
-vim.g.colors_name ='base16-brewer'
+vim.g.colors_name ='base16-github-light'
 
-local b0 = '#0c0d0e'
-local b1 = '#2e2f30'
-local b2 = '#515253'
-local b3 = '#737475'
-local b4 = '#959697'
-local b5 = '#b7b8b9'
-local b6 = '#dadbdc'
-local b7 = '#fcfdfe'
-local b8 = '#e31a1c'
-local b9 = '#e6550d'
-local ba = '#dca060'
-local bb = '#31a354'
-local bc = '#80b1d3'
-local bd = '#3182bd'
-local be = '#756bb1'
+local b0 = '#ffffff'
+local b1 = '#f5f5f5'
+local b2 = '#c8c8fa'
+local b3 = '#969896'
+local b4 = '#e8e8e8'
+local b5 = '#333333'
+local b6 = '#ffffff'
+local b7 = '#ffffff'
+local b8 = '#ed6a43'
+local b9 = '#0086b3'
+local ba = '#795da3'
+local bb = '#183691'
+local bc = '#183691'
+local bd = '#795da3'
+local be = '#a71d5d'
 
 vim.g.base16_colors = {
-  bg            = '#0c0d0e',
-  bg_dark       = '#2e2f30',
-  bg_highlight  = '#515253',
-  comment       = '#737475',
-  fg_dark       = '#959697',
-  fg            = '#b7b8b9',
-  fg_gutter     = '#dadbdc',
-  fg_light      = '#fcfdfe',  -- TODO: this doesn't make sesne
+  bg            = '#ffffff',
+  bg_dark       = '#f5f5f5',
+  bg_highlight  = '#c8c8fa',
+  comment       = '#969896',
+  fg_dark       = '#e8e8e8',
+  fg            = '#333333',
+  fg_gutter     = '#ffffff',
+  fg_light      = '#ffffff',  -- TODO: this doesn't make sesne
 
-  red           = '#e31a1c',
-  orange        = '#e6550d',
-  yellow        = '#dca060',
-  green         = '#31a354',
-  cyan          = '#80b1d3',
-  blue          = '#3182bd',
-  purple        = '#756bb1',
-  magenta       = '#756bb1'
+  red           = '#ed6a43',
+  orange        = '#0086b3',
+  yellow        = '#795da3',
+  green         = '#183691',
+  cyan          = '#183691',
+  blue          = '#795da3',
+  purple        = '#a71d5d',
+  magenta       = '#a71d5d'
 }
 
 -- local custom = {}
@@ -53,48 +53,48 @@ vim.g.base16_colors = {
 
 --- GUI color definitions
 vim.g.base16_codes = {
-  ["00"] = "0c0d0e",
-  ["01"] = "2e2f30",
-  ["02"] = "515253",
-  ["03"] = "737475",
-  ["04"] = "959697",
-  ["05"] = "b7b8b9",
-  ["06"] = "dadbdc",
-  ["07"] = "fcfdfe",
-  ["08"] = "e31a1c",
-  ["09"] = "e6550d",
-  ["0A"] = "dca060",
-  ["0B"] = "31a354",
-  ["0C"] = "80b1d3",
-  ["0D"] = "3182bd",
-  ["0E"] = "756bb1",
-  ["0F"] = "b15928",
+  ["00"] = "ffffff",
+  ["01"] = "f5f5f5",
+  ["02"] = "c8c8fa",
+  ["03"] = "969896",
+  ["04"] = "e8e8e8",
+  ["05"] = "333333",
+  ["06"] = "ffffff",
+  ["07"] = "ffffff",
+  ["08"] = "ed6a43",
+  ["09"] = "0086b3",
+  ["0A"] = "795da3",
+  ["0B"] = "183691",
+  ["0C"] = "183691",
+  ["0D"] = "795da3",
+  ["0E"] = "a71d5d",
+  ["0F"] = "333333",
 }
 
 -- Neovim terminal colours
-vim.g.terminal_color_0 = "#0c0d0e"
-vim.g.terminal_color_1 = "#e31a1c"
-vim.g.terminal_color_2 = "#31a354"
-vim.g.terminal_color_3 = "#dca060"
-vim.g.terminal_color_4 = "#3182bd"
-vim.g.terminal_color_5 = "#756bb1"
-vim.g.terminal_color_6 = "#80b1d3"
-vim.g.terminal_color_7 = "#b7b8b9"
-vim.g.terminal_color_8 = "#737475"
-vim.g.terminal_color_9 = "#e31a1c"
-vim.g.terminal_color_10 = "#31a354"
-vim.g.terminal_color_11 = "#dca060"
-vim.g.terminal_color_12 = "#3182bd"
-vim.g.terminal_color_13 = "#756bb1"
-vim.g.terminal_color_14 = "#80b1d3"
-vim.g.terminal_color_15 = "#fcfdfe"
+vim.g.terminal_color_0 = "#ffffff"
+vim.g.terminal_color_1 = "#ed6a43"
+vim.g.terminal_color_2 = "#183691"
+vim.g.terminal_color_3 = "#795da3"
+vim.g.terminal_color_4 = "#795da3"
+vim.g.terminal_color_5 = "#a71d5d"
+vim.g.terminal_color_6 = "#183691"
+vim.g.terminal_color_7 = "#333333"
+vim.g.terminal_color_8 = "#969896"
+vim.g.terminal_color_9 = "#ed6a43"
+vim.g.terminal_color_10 = "#183691"
+vim.g.terminal_color_11 = "#795da3"
+vim.g.terminal_color_12 = "#795da3"
+vim.g.terminal_color_13 = "#a71d5d"
+vim.g.terminal_color_14 = "#183691"
+vim.g.terminal_color_15 = "#ffffff"
 
 if vim.o.background == "light" then
-  vim.g.terminal_color_background = "#b7b8b9"
-  vim.g.terminal_color_foreground = "#31a354"
+  vim.g.terminal_color_background = "#333333"
+  vim.g.terminal_color_foreground = "#183691"
 else
-  vim.g.terminal_color_background = "#0c0d0e"
-  vim.g.terminal_color_foreground = "#756bb1"
+  vim.g.terminal_color_background = "#ffffff"
+  vim.g.terminal_color_foreground = "#a71d5d"
 end
 
 local HI = require'base16_indexer'(vim.g.base16_codes)

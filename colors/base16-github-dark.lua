@@ -1,74 +1,101 @@
+-- vim:filetype=lua
 -- base16.lua (http//github.com/tami5/base16.lua)
 -- based on base16-vim (http//github.com/chriskempson/base16-vim)
--- Github scheme by Defman21
+-- github-dark scheme by Defman21
 -- stylua: ignore start
+local util = require'base16_util'
 
 --- Set color name
-vim.g.colors_name ='base16-github'
+vim.g.colors_name ='base16-github-dark'
+
+local b0 = '#24292e'
+local b1 = '#24292e'
+local b2 = '#444c56'
+local b3 = '#969896'
+local b4 = '#666666'
+local b5 = '#d1d5da'
+local b6 = '#e8e8e8'
+local b7 = '#ffffff'
+local b8 = '#f14c4c'
+local b9 = '#0086b3'
+local ba = '#e2e210'
+local bb = '#23d18b'
+local bc = '#29b7da'
+local bd = '#3b8eea'
+local be = '#bc3fbc'
+
+vim.g.base16_colors = {
+  bg            = '#24292e',
+  bg_dark       = '#24292e',
+  bg_highlight  = '#444c56',
+  comment       = '#969896',
+  fg_dark       = '#666666',
+  fg            = '#d1d5da',
+  fg_gutter     = '#e8e8e8',
+  fg_light      = '#ffffff',  -- TODO: this doesn't make sesne
+
+  red           = '#f14c4c',
+  orange        = '#0086b3',
+  yellow        = '#e2e210',
+  green         = '#23d18b',
+  cyan          = '#29b7da',
+  blue          = '#3b8eea',
+  purple        = '#bc3fbc',
+  magenta       = '#bc3fbc'
+}
+
+-- local custom = {}
+-- colors.gitSigns = {
+--   add = util.brighten(colors.gitSigns.add, 0.2),
+--   change = util.brighten(colors.gitSigns.change, 0.2),
+--   delete = util.brighten(colors.gitSigns.delete, 0.2),
+-- }
+
 --- GUI color definitions
 vim.g.base16_codes = {
-  ["00"] = "ffffff",
-  ["01"] = "f5f5f5",
-  ["02"] = "c8c8fa",
+  ["00"] = "24292e",
+  ["01"] = "24292e",
+  ["02"] = "444c56",
   ["03"] = "969896",
-  ["04"] = "e8e8e8",
-  ["05"] = "333333",
-  ["06"] = "ffffff",
+  ["04"] = "666666",
+  ["05"] = "d1d5da",
+  ["06"] = "e8e8e8",
   ["07"] = "ffffff",
-  ["08"] = "ed6a43",
+  ["08"] = "f14c4c",
   ["09"] = "0086b3",
-  ["0A"] = "795da3",
-  ["0B"] = "183691",
-  ["0C"] = "183691",
-  ["0D"] = "795da3",
-  ["0E"] = "a71d5d",
+  ["0A"] = "e2e210",
+  ["0B"] = "23d18b",
+  ["0C"] = "29b7da",
+  ["0D"] = "3b8eea",
+  ["0E"] = "bc3fbc",
   ["0F"] = "333333",
 }
+
 -- Neovim terminal colours
-vim.g.terminal_color_0 = "#ffffff"
-vim.g.terminal_color_1 = "#ed6a43"
-vim.g.terminal_color_2 = "#183691"
-vim.g.terminal_color_3 = "#795da3"
-vim.g.terminal_color_4 = "#795da3"
-vim.g.terminal_color_5 = "#a71d5d"
-vim.g.terminal_color_6 = "#183691"
-vim.g.terminal_color_7 = "#333333"
+vim.g.terminal_color_0 = "#24292e"
+vim.g.terminal_color_1 = "#f14c4c"
+vim.g.terminal_color_2 = "#23d18b"
+vim.g.terminal_color_3 = "#e2e210"
+vim.g.terminal_color_4 = "#3b8eea"
+vim.g.terminal_color_5 = "#bc3fbc"
+vim.g.terminal_color_6 = "#29b7da"
+vim.g.terminal_color_7 = "#d1d5da"
 vim.g.terminal_color_8 = "#969896"
-vim.g.terminal_color_9 = "#ed6a43"
-vim.g.terminal_color_10 = "#183691"
-vim.g.terminal_color_11 = "#795da3"
-vim.g.terminal_color_12 = "#795da3"
-vim.g.terminal_color_13 = "#a71d5d"
-vim.g.terminal_color_14 = "#183691"
+vim.g.terminal_color_9 = "#f14c4c"
+vim.g.terminal_color_10 = "#23d18b"
+vim.g.terminal_color_11 = "#e2e210"
+vim.g.terminal_color_12 = "#3b8eea"
+vim.g.terminal_color_13 = "#bc3fbc"
+vim.g.terminal_color_14 = "#29b7da"
 vim.g.terminal_color_15 = "#ffffff"
 
 if vim.o.background == "light" then
-  vim.g.terminal_color_background = "#333333"
-  vim.g.terminal_color_foreground = "#183691"
+  vim.g.terminal_color_background = "#d1d5da"
+  vim.g.terminal_color_foreground = "#23d18b"
 else
-  vim.g.terminal_color_background = "#ffffff"
-  vim.g.terminal_color_foreground = "#a71d5d"
+  vim.g.terminal_color_background = "#24292e"
+  vim.g.terminal_color_foreground = "#bc3fbc"
 end
-
-vim.g.base16_colors = {
-  bg            = '#ffffff',
-  bg_dark       = '#f5f5f5',
-  bg_highlight  = '#c8c8fa',
-  comment       = '#969896',
-  fg_dark       = '#e8e8e8',
-  fg            = '#333333',
-  fg_gutter     = '#ffffff',
-  fg_light      = '#ffffff',  -- TODO: this doesn't make sesne
-
-  red           = '#ed6a43',
-  orange        = '#0086b3',
-  yellow        = '#795da3',
-  green         = '#183691',
-  cyan          = '#183691',
-  blue          = '#795da3',
-  purple        = '#a71d5d',
-  magenta       = '#a71d5d'
-}
 
 local HI = require'base16_indexer'(vim.g.base16_codes)
 
@@ -123,7 +150,7 @@ HI.CursorLine             = { bg = "01", attr = "none" }
 HI.CursorLineNr           = { fg = "03", bg = "01", attr = "none" }
 HI.QuickFixLine           = { bg = "01", attr = "none" }
 HI.Pmenu                  = { fg = "05", bg = "00" }
-HI.PmenuSel               = { fg = "05", bg = "02" }
+HI.PmenuSel               = { bg = "02" }
 HI.PmenuSbar              = { fg = "05", bg = "01" }
 HI.PmenuThumb             = { fg = "03", bg = "02" }
 HI.TabLine                = { fg = "03", bg = "00", attr = "none" }
@@ -170,17 +197,17 @@ HI.ErrorFloat             = { fg = "08", bg = "02" }
 HI.WarningFloat           = { fg = "09", bg = "02" }
 HI.InfoFloat              = { fg = "0D", bg = "02" }
 HI.HintFloat              = { fg = "0C", bg = "02" }
-HI.ErrorHighlight         = { fg = "00", bg = "08", attr = "underline", sp = "08", cterm = true }
-HI.WarningHighlight       = { fg = "00", bg = "09", attr = "underline", sp = "09", cterm = true }
-HI.InfoHighlight          = { fg = "00", bg = "0D", attr = "underline", sp = "0D", cterm = true }
-HI.HintHighlight          = { fg = "00", bg = "0C", attr = "underline", sp = "0C", cterm = true }
+HI.ErrorHighlight         = { fg = "00", bg = "08", attr = "underline", sp = "08" }
+HI.WarningHighlight       = { fg = "00", bg = "09", attr = "underline", sp = "09" }
+HI.InfoHighlight          = { fg = "00", bg = "0D", attr = "underline", sp = "0D" }
+HI.HintHighlight          = { fg = "00", bg = "0C", attr = "underline", sp = "0C" }
 HI.SpellBad               = { fg = "05", attr = "underline" }
-HI.SpellLocal             = { fg = "00", bg = "0C", attr = "undercurl", sp = "0C", cterm = true }
-HI.SpellCap               = { fg = "00", bg = "0D", attr = "undercurl", sp = "0D", cterm = true }
-HI.SpellRare              = { fg = "00", bg = "0E", attr = "undercurl", sp = "0E", cterm = true }
-HI.ReferenceText          = { fg = "01", bg = "0A" }
-HI.ReferenceRead          = { fg = "01", bg = "0B" }
-HI.ReferenceWrite         = { fg = "01", bg = "08" }
+HI.SpellLocal             = { fg = "00", bg = "0C", attr = "undercurl", sp = "0C" }
+HI.SpellCap               = { fg = "00", bg = "0D", attr = "undercurl", sp = "0D" }
+HI.SpellRare              = { fg = "00", bg = "0E", attr = "undercurl", sp = "0E" }
+HI.ReferenceText          = { bg = "02" }
+HI.ReferenceRead          = { bg = "02" }
+HI.ReferenceWrite         = { bg = "02" }
 -- C highlighting -------------------------------------------------------------
 HI.cOperator              = { fg = "0C" }
 HI.cPreCondit             = { fg = "0E" }
@@ -295,16 +322,24 @@ HI.StartifySelect         = { fg = "0C" }
 HI.StartifySlash          = { fg = "03" }
 HI.StartifySpecial        = { fg = "03" }
 -- Treesitter-refactor highlighting -------------------------------------------
+-- TODO: Make Italics configureable
 HI.TSDefinition           = { bg = "03" }
 HI.TSDefinitionUsage      = { bg = "02", attr = "none" }
-HI.TSKeyword              = { fg = "0E", attr = "italic" }
--- HI.TSKeywordFunction      = { fg = "0E", attr = "italic" }
-HI.TSConstBuiltin         = { fg = "09", attr = 'italic' }
-HI.TSVariableBuiltin      = { fg = "09", attr = 'italic' }
+HI.TSKeyword              = { fg = "0E", --[[ attr = "italic" --]] }
+HI.TSConstBuiltin         = { fg = "09", --[[ attr = 'italic' --]] }
+HI.TSField                = { fg = "0B" } -- For fields.
+HI.TSLabel                = { fg = "0D" }
+HI.TSKeywordFunction      = { fg = "0E" }
+HI.TSVariable             = {}
+HI.TSParameter            = { fg = "0A" }
+HI.TSTextReference        = { fg = "0C" }
+HI.TSConstructor          = { fg = "0E" }
+HI.TSVariableBuiltin      = { fg = "09", --[[ attr = 'italic' --]] }
 HI.TSConstant             = { fg = "0E", attr = "none" }
 HI.TSPunctBracket         = { fg = "03", attr = "bold" }
 HI.TSParameter            = { fg = "05" }
 HI.TSKeyword              = { fg = "0E" }
+HI.TSType                 = { fg = "0C" }
 HI.TSConstant             = { fg = "0E" }
 HI.TSProperty             = { fg = '0A' }
 HI.LINK.TSComment         = "Comment"
@@ -330,8 +365,8 @@ HI.TelescopeNormal          = { fg = "05", bg = "00" }
 HI.TelescopeSelection       = { fg = "07", bg = "00" }
 -- LspSaga Highlighting ------------------------------------------------------
 HI.DiagnosticError          = { fg = "08" }
-HI.DiagnosticWarning        = { fg = "09" }
-HI.DiagnosticInformation    = { fg = "04" }
+HI.DiagnosticWarn           = { fg = "09" }
+HI.DiagnosticInfo           = { fg = "04" }
 HI.DiagnosticHint           = { fg = "04" }
 HI.LspFloatWinNormal        = { bg = "01" }
 HI.LspFloatWinBorder        = { fg = "02" }
@@ -352,33 +387,35 @@ HI.TargetWord               = { fg = "0C" }
 HI.CompeDocumentation       = { fg = "05", bg = "00" }
 HI.CompeDocumentationBorder = { fg = "02", bg = "00" }
 -- LSP highlighting -----------------------------------------------------------
-HI.LINK.LspDiagnosticsVirtualTextError   = "ErrorSign"
-HI.LINK.LspDiagnosticsVirtualTextWarning = "WarningSign"
-HI.LINK.LspDiagnosticsVirtualTextInfo    = "InfoSign"
-HI.LINK.LspDiagnosticsVirtualTextHint    = "HintSign"
-HI.LINK.LspDiagnosticsFloatingError      = "ErrorFloat"
-HI.LINK.LspDiagnosticsFloatingWarning    = "WarningFloat"
-HI.LINK.LspDiagnosticsFloatingInfo       = "InfoFloat"
-HI.LINK.LspDiagnosticsFloatingHint       = "HintFloat"
-HI.LINK.LspDiagnosticsUnderlineError     = "ErrorHighlight"
-HI.LINK.LspDiagnosticsUnderlineWarning   = "WarningHighlight"
-HI.LINK.LspDiagnosticsUnderlineInfo      = "InfoHighlight"
-HI.LINK.LspDiagnosticsUnderlineHint      = "HintHighlight"
-HI.LINK.LsoReferenceText                 = "ReferenceText"
-HI.LINK.LsoReferenceRead                 = "ReferenceRead"
-HI.LINK.LsoReferenceWrite                = "ReferenceWrite"
-HI.LspDiagnosticsDefaultError            = { fg = "08" }
-HI.LspDiagnosticsDefaultWarning          = { fg = "09" }
-HI.LspDiagnosticsDefaultInformation      = { fg = "04" }
-HI.LspDiagnosticsDefaultHint             = { fg = "04" }
-HI.LspDiagnosticsVirtualTextHint         = { fg = "04" }
+HI.LINK.DiagnosticVirtualTextError   = "ErrorSign"
+HI.LINK.DiagnosticVirtualTextWarn    = "WarningSign"
+HI.LINK.DiagnosticVirtualTextInfo    = "InfoSign"
+HI.LINK.DiagnosticVirtualTextHint    = "HintSign"
+HI.LINK.DiagnosticFloatingError      = "ErrorFloat"
+HI.LINK.DiagnosticFloatingWarn       = "WarningFloat"
+HI.LINK.DiagnosticFloatingInfo       = "InfoFloat"
+HI.LINK.DiagnosticFloatingHint       = "HintFloat"
+HI.LINK.DiagnosticUnderlineError     = "ErrorHighlight"
+HI.LINK.DiagnosticUnderlineWarn      = "WarningHighlight"
+HI.LINK.DiagnosticUnderlineInfo      = "InfoHighlight"
+HI.LINK.DiagnosticUnderlineHint      = "HintHighlight"
+HI.LINK.LspReferenceText             = "ReferenceText"
+HI.LINK.LspReferenceRead             = "ReferenceRead"
+HI.LINK.LspReferenceWrite            = "ReferenceWrite"
+HI.DiagnosticDefaultError            = { fg = "08" }
+HI.DiagnosticDefaultWarn             = { fg = "09" }
+HI.DiagnosticDefaultInfo             = { fg = "04" }
+HI.DiagnosticDefaultHint             = { fg = "04" }
+HI.DiagnosticVirtualTextHint         = { fg = "04" }
 
-
--- GitGutter highlighting -----------------------------------------------------
+-- GitGutter/GitSings highlighting -----------------------------------------------------
 HI.LINK.GitGutterAdd                     = "GitAddSign"
 HI.LINK.GitGutterChange                  = "GitChangeSign"
 HI.LINK.GitGutterDelete                  = "GitDeleteSign"
 HI.LINK.GitGutterChangeDelete            = "GitChangeDeleteSign"
 
+HI.LINK.GitGutterAdd                     = "GitAddSign"
+HI.LINK.GitSignsChange                   = "GitChangeSign"
+HI.LINK.GitSignsDelete                   = "GitDeleteSign"
+
 -- stylua: ignore end
--- vim: filetype=lua
