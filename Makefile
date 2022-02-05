@@ -2,6 +2,7 @@
 
 BUILD=pybase16
 OUTPUT=share
+TARGETS=-t nvim -t shell -t tmux
 
 all: update clean build
 
@@ -12,4 +13,4 @@ clean:
 	rm -rf ${OUTPUT}
 
 build: clean
-	$(BUILD) build -t nvim -t shell -t tmux -o ${OUTPUT}
+	$(BUILD) build ${TARGETS} -o ${OUTPUT}
