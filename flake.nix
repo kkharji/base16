@@ -1,9 +1,8 @@
 {
   description = "Base16 flake: shell, tmux and neovim.";
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    utils.url = "github:numtide/flake-utils";
-  };
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+  inputs.utils.url = "github:numtide/flake-utils";
+
   outputs = { self, nixpkgs, utils, ... }:
     utils.lib.eachDefaultSystem (system:
       with (import nixpkgs { inherit system; });
@@ -18,11 +17,12 @@
           };
       in rec {
         packages = {
+          base16HomeModule = modules;
           base16 = stdenv.mkDerivation rec {
             name = "base16";
             version = "master";
             src = ./.;
-            buildInputs = [ pybase16 git cacert ];
+            buildInputs = [ pybase16 git cacert installShellFiles ];
             buildPhase = ''
               runHook preBuild
               # Because pybase16 does use git to do internal fetching
@@ -36,10 +36,15 @@
               mkdir -p $out/share
               mv share $out
               cp -r lua $out/share/nvim/lua
+              cp shell/plugin.zsh $out/share/shell/plugin.zsh
               runHook postInstall
+            '';
+            postInstall = ''
+              installShellCompletion --zsh shell/completions/_color
             '';
           };
         };
+        modules = import ./default.nix;
         defaultPackage = packages.base16;
       });
 }
