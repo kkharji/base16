@@ -1,21 +1,15 @@
-.PHONY: all update build
+.PHONY: all update clean build
 
 BUILD=pybase16
-LUA_THEME_DIR=colors
-TMUX_THEME_DIR=tmux
-SHELL_THEME_DIR=shell
-OUTPUT=output
+OUTPUT=share
 
-all: update build
+all: update clean build
 
 update:
 	$(BUILD) update
 
-build:
+clean:
 	rm -rf ${OUTPUT}
-	rm -rf ${LUA_THEME_DIR} ${SHELL_THEME_DIR} ${TMUX_THEME_DIR}
+
+build: clean
 	$(BUILD) build -t nvim -t shell -t tmux -o ${OUTPUT}
-	mv ${OUTPUT}/nvim/colors/ ${LUA_THEME_DIR}/
-	mv ${OUTPUT}/shell/scripts/ ${SHELL_THEME_DIR}/
-	mv ${OUTPUT}/tmux/colors/ ${TMUX_THEME_DIR}/
-	rm -rf ${OUTPUT}
