@@ -9,7 +9,7 @@ include `inputs.base16.packages`
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-    base16.url = "path:///Users/tami5/repos/neovim/base16";
+    base16.url = "path:///Users/kkharji/repos/neovim/base16";
     base16.inputs.nixpkgs.follows = "nixpkgs";
   };
   outputs = { self, ... }@inputs: { ... }
@@ -19,7 +19,7 @@ include `inputs.base16.packages`
 Checkout how to setup using ./default.nix;
 
 ```nix
-tami5.modules.base16 = {
+kkharji.modules.base16 = {
       enable = true;
       withTmux = true;
       withNvim = true;
