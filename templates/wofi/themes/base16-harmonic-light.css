@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Harmonic16 Light scheme by Jannik Siebert (https://github.com/janniks) */
+
+window {
+	background-color: #f7f9fb;
+	color: #405c79;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f7f9fb;
+}
+
+#entry:nth-child(even) {
+	background-color: #e5ebf1;
+}
+
+#entry:selected {
+	background-color: #cbd6e2;
+}
+
+#input {
+	background-color: #e5ebf1;
+	color: #627e99;
+	border-color: #cbd6e2; 
+}
+
+#input:focus {
+	border-color: #8bbf56; 
+}

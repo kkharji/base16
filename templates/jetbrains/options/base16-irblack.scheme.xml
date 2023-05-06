@@ -1,0 +1,9 @@
+<!--    Base16 IR Black
+        Scheme author: Timothée Poisot (http://timotheepoisot.fr)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 IR Black" />
+  </component>
+</application>

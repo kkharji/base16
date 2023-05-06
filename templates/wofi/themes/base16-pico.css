@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Pico scheme by PICO-8 (http://www.lexaloffle.com/pico-8.php) */
+
+window {
+	background-color: #000000;
+	color: #5f574f;
+}
+
+#entry:nth-child(odd) {
+	background-color: #000000;
+}
+
+#entry:nth-child(even) {
+	background-color: #1d2b53;
+}
+
+#entry:selected {
+	background-color: #7e2553;
+}
+
+#input {
+	background-color: #1d2b53;
+	color: #ab5236;
+	border-color: #7e2553; 
+}
+
+#input:focus {
+	border-color: #fff024; 
+}

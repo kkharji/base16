@@ -1,0 +1,23 @@
+[Base16 Tokyodark]
+text=abb2bf
+text(bold)=abb2bf
+background=11121d
+black=11121d
+black(bold)=393a45
+red=a485dd
+red(bold)=a485dd
+green=d7a65f
+green(bold)=151621
+yellow=7199ee
+yellow(bold)=43444f
+blue=95c561
+blue(bold)=1b1c27
+magenta=ee6d85
+magenta(bold)=555661
+cyan=a485dd
+cyan(bold)=773440
+white=abb2bf
+white(bold)=2c2d38
+[Names]
+name0=Base16 Tokyodark
+count=1

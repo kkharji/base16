@@ -1,0 +1,23 @@
+[Base16 Ayu Light]
+text=5c6773
+text(bold)=5c6773
+background=fafafa
+black=fafafa
+black(bold)=abb0b6
+red=f07178
+red(bold)=fa8d3e
+green=86b300
+green(bold)=f3f4f5
+yellow=f2ae49
+yellow(bold)=f8f9fa
+blue=36a3d9
+blue(bold)=828c99
+magenta=a37acc
+magenta(bold)=242936
+cyan=4cbf99
+cyan(bold)=e6ba7e
+white=5c6773
+white(bold)=1a1f29
+[Names]
+name0=Base16 Ayu Light
+count=1

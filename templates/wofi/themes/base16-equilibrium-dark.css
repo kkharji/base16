@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Equilibrium Dark scheme by Carlo Abelli */
+
+window {
+	background-color: #0c1118;
+	color: #afaba2;
+}
+
+#entry:nth-child(odd) {
+	background-color: #0c1118;
+}
+
+#entry:nth-child(even) {
+	background-color: #181c22;
+}
+
+#entry:selected {
+	background-color: #22262d;
+}
+
+#input {
+	background-color: #181c22;
+	color: #949088;
+	border-color: #22262d; 
+}
+
+#input:focus {
+	border-color: #bb8801; 
+}

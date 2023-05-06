@@ -1,0 +1,23 @@
+[Base16 Kimber]
+text=dedee7
+text(bold)=dedee7
+background=222222
+black=222222
+black(bold)=644646
+red=c88c8c
+red(bold)=476c88
+green=99c899
+green(bold)=313131
+yellow=d8b56d
+yellow(bold)=555d55
+blue=537c9c
+blue(bold)=5a5a5a
+magenta=86cacd
+magenta(bold)=c3c3b4
+cyan=78b4b4
+cyan(bold)=704f4f
+white=dedee7
+white(bold)=ffffe6
+[Names]
+name0=Base16 Kimber
+count=1

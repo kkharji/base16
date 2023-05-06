@@ -1,0 +1,23 @@
+[Base16 Material Darker]
+text=eeffff
+text(bold)=eeffff
+background=212121
+black=212121
+black(bold)=4a4a4a
+red=f07178
+red(bold)=f78c6c
+green=c3e88d
+green(bold)=303030
+yellow=ffcb6b
+yellow(bold)=353535
+blue=82aaff
+blue(bold)=b2ccd6
+magenta=c792ea
+magenta(bold)=eeffff
+cyan=89ddff
+cyan(bold)=ff5370
+white=eeffff
+white(bold)=ffffff
+[Names]
+name0=Base16 Material Darker
+count=1

@@ -1,0 +1,23 @@
+[Base16 Framer]
+text=d0d0d0
+text(bold)=d0d0d0
+background=181818
+black=181818
+black(bold)=747474
+red=fd886b
+red(bold)=fc4769
+green=32ccdc
+green(bold)=151515
+yellow=fecb6e
+yellow(bold)=464646
+blue=20bcfc
+blue(bold)=b9b9b9
+magenta=ba8cfc
+magenta(bold)=e8e8e8
+cyan=acddfd
+cyan(bold)=b15f4a
+white=d0d0d0
+white(bold)=eeeeee
+[Names]
+name0=Base16 Framer
+count=1

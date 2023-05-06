@@ -1,0 +1,23 @@
+[Base16 Darcula]
+text=a9b7c6
+text(bold)=a9b7c6
+background=2b2b2b
+black=2b2b2b
+black(bold)=606366
+red=4eade5
+red(bold)=689757
+green=6a8759
+green(bold)=323232
+yellow=bbb529
+yellow(bold)=323232
+blue=9876aa
+blue(bold)=a4a3a3
+magenta=cc7832
+magenta(bold)=ffc66d
+cyan=629755
+cyan(bold)=808080
+white=a9b7c6
+white(bold)=ffffff
+[Names]
+name0=Base16 Darcula
+count=1

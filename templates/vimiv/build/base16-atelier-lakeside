@@ -1,0 +1,31 @@
+; base16-atelier-lakeside
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #161b1d
+base01 = #1f292e
+base02 = #516d7b
+base03 = #5a7b8c
+base04 = #7195a8
+base05 = #7ea2b4
+base06 = #c1e4f6
+base07 = #ebf8ff
+base08 = #d22d72
+base09 = #935c25
+base0a = #8a8a0f
+base0b = #568c3b
+base0c = #2d8f6f
+base0d = #257fad
+base0e = #6b6bb8
+base0f = #b72dd2
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

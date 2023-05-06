@@ -1,0 +1,9 @@
+<!--    Base16 Unikitty Light
+        Scheme author: Josh W Lewis (@joshwlewis)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 Unikitty Light" />
+  </component>
+</application>

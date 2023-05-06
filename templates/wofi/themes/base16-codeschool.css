@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Codeschool scheme by blockloop */
+
+window {
+	background-color: #232c31;
+	color: #9ea7a6;
+}
+
+#entry:nth-child(odd) {
+	background-color: #232c31;
+}
+
+#entry:nth-child(even) {
+	background-color: #1c3657;
+}
+
+#entry:selected {
+	background-color: #2a343a;
+}
+
+#input {
+	background-color: #1c3657;
+	color: #84898c;
+	border-color: #2a343a; 
+}
+
+#input:focus {
+	border-color: #a03b1e; 
+}

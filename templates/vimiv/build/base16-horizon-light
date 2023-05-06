@@ -1,0 +1,31 @@
+; base16-horizon-light
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Michaël Ball (http://github.com/michael-ball/)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #FDF0ED
+base01 = #FADAD1
+base02 = #F9CBBE
+base03 = #BDB3B1
+base04 = #948C8A
+base05 = #403C3D
+base06 = #302C2D
+base07 = #201C1D
+base08 = #F7939B
+base09 = #F6661E
+base0a = #FBE0D9
+base0b = #94E1B0
+base0c = #DC3318
+base0d = #DA103F
+base0e = #1D8991
+base0f = #E58C92
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

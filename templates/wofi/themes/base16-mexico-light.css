@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Mexico Light scheme by Sheldon Johnson */
+
+window {
+	background-color: #f8f8f8;
+	color: #383838;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f8f8f8;
+}
+
+#entry:nth-child(even) {
+	background-color: #e8e8e8;
+}
+
+#entry:selected {
+	background-color: #d8d8d8;
+}
+
+#input {
+	background-color: #e8e8e8;
+	color: #585858;
+	border-color: #d8d8d8; 
+}
+
+#input:focus {
+	border-color: #f79a0e; 
+}

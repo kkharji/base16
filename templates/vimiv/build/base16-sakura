@@ -1,0 +1,31 @@
+; base16-sakura
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Misterio77 (http://github.com/Misterio77)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #feedf3
+base01 = #f8e2e7
+base02 = #e0ccd1
+base03 = #755f64
+base04 = #665055
+base05 = #564448
+base06 = #42383a
+base07 = #33292b
+base08 = #df2d52
+base09 = #f6661e
+base0a = #c29461
+base0b = #2e916d
+base0c = #1d8991
+base0d = #006e93
+base0e = #5e2180
+base0f = #ba0d35
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

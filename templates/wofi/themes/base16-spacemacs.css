@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Spacemacs scheme by Nasser Alshammari (https://github.com/nashamri/spacemacs-theme) */
+
+window {
+	background-color: #1f2022;
+	color: #a3a3a3;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1f2022;
+}
+
+#entry:nth-child(even) {
+	background-color: #282828;
+}
+
+#entry:selected {
+	background-color: #444155;
+}
+
+#input {
+	background-color: #282828;
+	color: #b8b8b8;
+	border-color: #444155; 
+}
+
+#input:focus {
+	border-color: #b1951d; 
+}

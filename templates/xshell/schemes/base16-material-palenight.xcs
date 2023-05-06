@@ -1,0 +1,23 @@
+[Base16 Material Palenight]
+text=959dcb
+text(bold)=959dcb
+background=292d3e
+black=292d3e
+black(bold)=676e95
+red=f07178
+red(bold)=f78c6c
+green=c3e88d
+green(bold)=444267
+yellow=ffcb6b
+yellow(bold)=32374d
+blue=82aaff
+blue(bold)=8796b0
+magenta=c792ea
+magenta(bold)=959dcb
+cyan=89ddff
+cyan(bold)=ff5370
+white=959dcb
+white(bold)=ffffff
+[Names]
+name0=Base16 Material Palenight
+count=1

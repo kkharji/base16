@@ -1,0 +1,31 @@
+; base16-atelier-plateau
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #1b1818
+base01 = #292424
+base02 = #585050
+base03 = #655d5d
+base04 = #7e7777
+base05 = #8a8585
+base06 = #e7dfdf
+base07 = #f4ecec
+base08 = #ca4949
+base09 = #b45a3c
+base0a = #a06e3b
+base0b = #4b8b8b
+base0c = #5485b6
+base0d = #7272ca
+base0e = #8464c4
+base0f = #bd5187
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

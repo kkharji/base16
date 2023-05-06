@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Equilibrium Gray Light scheme by Carlo Abelli */
+
+window {
+	background-color: #f1f1f1;
+	color: #474747;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f1f1f1;
+}
+
+#entry:nth-child(even) {
+	background-color: #e2e2e2;
+}
+
+#entry:selected {
+	background-color: #d4d4d4;
+}
+
+#input {
+	background-color: #e2e2e2;
+	color: #5e5e5e;
+	border-color: #d4d4d4; 
+}
+
+#input:focus {
+	border-color: #9d6f00; 
+}

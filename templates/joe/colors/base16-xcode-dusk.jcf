@@ -1,0 +1,121 @@
+
+# base16 XCode Dusk by Elsa Gonsiorowski (https://github.com/gonsie)
+
+.colors *
+
+-text		$939599/$282b35
+-status		$7e8086/$53555d
+-cursor		$282b35/$939599
+-selection	/$53555d
+-curlin		/$3d4048
+-linum		$686a71/$3d4048
+-curlinum	$7e8086/$3d4048
+-menusel	$3d4048/$7e8086
+
+-term 0 	$282b35
+-term 1 	$790ead
+-term 2 	$df0002
+-term 3 	$00a0be
+-term 4 	$786dc5
+-term 5 	$b21889
+-term 6 	$438288
+-term 7 	$7e8086
+-term 8 	$686a71
+-term 9 	$790ead
+-term 10	$df0002
+-term 11	$00a0be
+-term 12	$b21889
+-term 13	$c77c48
+-term 14	$438288
+-term 15	$bebfc2
+
+=Constant	$786dc5
+=String		$df0002
+=Escape		$00a0be
+
+=Comment	$686a71
+=StorageClass	+Type
+=Keyword	$b21889
+=Conditional	$b21889
+=Operator	$939599
+=Loop		$438288
+=Statement	$b21889
+=Type		$438288
+
+=DefinedIdent	$b21889
+=Label		$438288
+=DefinedType	$438288
+=Structure	$b21889
+
+=Preproc	$438288
+=Include	$790ead
+=Define		$b21889
+=TODO		$438288/$3d4048
+=Precond	$b21889
+
+=diff.AddLine	$df0002/$3d4048
+=diff.ChgLine	$686a71/$3d4048
+=diff.DelLine	$b21889/$3d4048
+=diff.File	$b21889
+=diff.FileNew	$df0002
+=diff.Hunk	$790ead
+
+.colors 256
+
+-text		246/236
+-status		244/240
+-cursor		236/246
+-selection	/240
+-curlin		/238
+-linum		242/238
+-curlinum	244/238
+-menusel	238/244
+
+-term 0 	236
+-term 1 	91
+-term 2 	160
+-term 3 	38
+-term 4 	98
+-term 5 	126
+-term 6 	66
+-term 7 	244
+-term 8 	242
+-term 9 	91
+-term 10	160
+-term 11	38
+-term 12	126
+-term 13	173
+-term 14	66
+-term 15	250
+
+=Constant	98
+=String		160
+=Escape		38
+
+=Comment	242
+=StorageClass	+Type
+=Keyword	126
+=Conditional	126
+=Operator	246
+=Loop		66
+=Statement	126
+=Type		66
+
+=DefinedIdent	126
+=Label		66
+=DefinedType	66
+=Structure	126
+
+=Preproc	66
+=Include	91
+=Define		126
+=TODO		66/238
+=Precond	126
+
+=diff.AddLine	160/238
+=diff.ChgLine	242/238
+=diff.DelLine	126/238
+=diff.File	126
+=diff.FileNew	160
+=diff.Hunk	91
+

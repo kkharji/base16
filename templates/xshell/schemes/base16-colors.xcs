@@ -1,0 +1,23 @@
+[Base16 Colors]
+text=bbbbbb
+text(bold)=bbbbbb
+background=111111
+black=111111
+black(bold)=777777
+red=ff4136
+red(bold)=ff851b
+green=2ecc40
+green(bold)=333333
+yellow=ffdc00
+yellow(bold)=555555
+blue=0074d9
+blue(bold)=999999
+magenta=b10dc9
+magenta(bold)=dddddd
+cyan=7fdbff
+cyan(bold)=85144b
+white=bbbbbb
+white(bold)=ffffff
+[Names]
+name0=Base16 Colors
+count=1

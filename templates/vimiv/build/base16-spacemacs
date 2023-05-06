@@ -1,0 +1,31 @@
+; base16-spacemacs
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #1f2022
+base01 = #282828
+base02 = #444155
+base03 = #585858
+base04 = #b8b8b8
+base05 = #a3a3a3
+base06 = #e8e8e8
+base07 = #f8f8f8
+base08 = #f2241f
+base09 = #ffa500
+base0a = #b1951d
+base0b = #67b11d
+base0c = #2d9574
+base0d = #4f97d7
+base0e = #a31db1
+base0f = #b03060
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

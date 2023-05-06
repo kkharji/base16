@@ -1,0 +1,31 @@
+; base16-papercolor-light
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #eeeeee
+base01 = #af0000
+base02 = #008700
+base03 = #5f8700
+base04 = #0087af
+base05 = #444444
+base06 = #005f87
+base07 = #878787
+base08 = #bcbcbc
+base09 = #d70000
+base0a = #d70087
+base0b = #8700af
+base0c = #d75f00
+base0d = #d75f00
+base0e = #005faf
+base0f = #005f87
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

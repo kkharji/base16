@@ -1,0 +1,23 @@
+[Base16 Stella]
+text=998bad
+text(bold)=998bad
+background=2b213c
+black=2b213c
+black(bold)=655978
+red=c79987
+red(bold)=8865c6
+green=acc79b
+green(bold)=362b48
+yellow=c7c691
+yellow(bold)=4d4160
+blue=a5aad4
+blue(bold)=7f7192
+magenta=c594ff
+magenta(bold)=b4a5c8
+cyan=9bc7bf
+cyan(bold)=c7ab87
+white=998bad
+white(bold)=ebdcff
+[Names]
+name0=Base16 Stella
+count=1

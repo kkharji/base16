@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Mocha scheme by Chris Kempson (http://chriskempson.com) */
+
+window {
+	background-color: #3B3228;
+	color: #d0c8c6;
+}
+
+#entry:nth-child(odd) {
+	background-color: #3B3228;
+}
+
+#entry:nth-child(even) {
+	background-color: #534636;
+}
+
+#entry:selected {
+	background-color: #645240;
+}
+
+#input {
+	background-color: #534636;
+	color: #b8afad;
+	border-color: #645240; 
+}
+
+#input:focus {
+	border-color: #f4bc87; 
+}

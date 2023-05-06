@@ -1,0 +1,23 @@
+[Base16 ShadeSmear Dark]
+text=dbdbdb
+text(bold)=dbdbdb
+background=232323
+black=232323
+black(bold)=c0c0c0
+red=cc5450
+red(bold)=a64270
+green=71983b
+green(bold)=1c1c1c
+yellow=307878
+yellow(bold)=4e4e4e
+blue=376388
+blue(bold)=e4e4e4
+magenta=d7ab54
+magenta(bold)=e4e4e4
+cyan=c57d42
+cyan(bold)=6d6d6d
+white=dbdbdb
+white(bold)=1c1c1c
+[Names]
+name0=Base16 ShadeSmear Dark
+count=1

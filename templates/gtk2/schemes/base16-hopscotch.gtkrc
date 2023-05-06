@@ -1,0 +1,6 @@
+# Base16 Hopscotch for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Jan T. Sott
+# hopscotch (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#322931\nfg_color:#b9b5b8\nbase_color:#322931\ntext_color:#b9b5b8\nselected_bg_color:#5c545b\nselected_fg_color:#b9b5b8\ntooltip_bg_color:#322931\ntooltip_fg_color:#989498\ntitlebar_bg_color:#322931\ntitlebar_fg_color:#1290bf\nmenubar_bg_color:#322931\nmenubar_fg_color:#1290bf\ntoolbar_bg_color:#322931\ntoolbar_fg_color:#fdcc59\nmenu_bg_color:#322931\nmenu_fg_color:#b9b5b8\npanel_bg_color:#322931\npanel_fg_color:#8fc13e\nlink_color:#fd8b19"
+

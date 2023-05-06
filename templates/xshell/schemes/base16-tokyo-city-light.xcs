@@ -1,0 +1,23 @@
+[Base16 Tokyo City Light]
+text=343b59
+text(bold)=343b59
+background=fbfbfd
+black=fbfbfd
+black(bold)=9699a3
+red=8c4351
+red(bold)=965027
+green=485e30
+green(bold)=f6f6f8
+yellow=4c505e
+yellow(bold)=edeff6
+blue=34548a
+blue(bold)=4c505e
+magenta=5a4a78
+magenta(bold)=1d252c
+cyan=4c505e
+cyan(bold)=5a4a78
+white=343b59
+white(bold)=171d23
+[Names]
+name0=Base16 Tokyo City Light
+count=1

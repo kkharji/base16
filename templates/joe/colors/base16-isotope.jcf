@@ -1,0 +1,121 @@
+
+# base16 Isotope by Jan T. Sott
+
+.colors *
+
+-text		$d0d0d0/$000000
+-status		$c0c0c0/$606060
+-cursor		$000000/$d0d0d0
+-selection	/$606060
+-curlin		/$404040
+-linum		$808080/$404040
+-curlinum	$c0c0c0/$404040
+-menusel	$404040/$c0c0c0
+
+-term 0 	$000000
+-term 1 	$0066ff
+-term 2 	$33ff00
+-term 3 	$00ffff
+-term 4 	$ff9900
+-term 5 	$cc00ff
+-term 6 	$ff0099
+-term 7 	$c0c0c0
+-term 8 	$808080
+-term 9 	$0066ff
+-term 10	$33ff00
+-term 11	$00ffff
+-term 12	$ff0000
+-term 13	$3300ff
+-term 14	$ff0099
+-term 15	$ffffff
+
+=Constant	$ff9900
+=String		$33ff00
+=Escape		$00ffff
+
+=Comment	$808080
+=StorageClass	+Type
+=Keyword	$cc00ff
+=Conditional	$cc00ff
+=Operator	$d0d0d0
+=Loop		$ff0099
+=Statement	$ff0000
+=Type		$ff0099
+
+=DefinedIdent	$ff0000
+=Label		$ff0099
+=DefinedType	$ff0099
+=Structure	$cc00ff
+
+=Preproc	$ff0099
+=Include	$0066ff
+=Define		$cc00ff
+=TODO		$ff0099/$404040
+=Precond	$cc00ff
+
+=diff.AddLine	$33ff00/$404040
+=diff.ChgLine	$808080/$404040
+=diff.DelLine	$ff0000/$404040
+=diff.File	$ff0000
+=diff.FileNew	$33ff00
+=diff.Hunk	$0066ff
+
+.colors 256
+
+-text		252/16
+-status		250/241
+-cursor		16/252
+-selection	/241
+-curlin		/238
+-linum		244/238
+-curlinum	250/238
+-menusel	238/250
+
+-term 0 	16
+-term 1 	27
+-term 2 	46
+-term 3 	51
+-term 4 	208
+-term 5 	165
+-term 6 	198
+-term 7 	250
+-term 8 	244
+-term 9 	27
+-term 10	46
+-term 11	51
+-term 12	196
+-term 13	21
+-term 14	198
+-term 15	231
+
+=Constant	208
+=String		46
+=Escape		51
+
+=Comment	244
+=StorageClass	+Type
+=Keyword	165
+=Conditional	165
+=Operator	252
+=Loop		198
+=Statement	196
+=Type		198
+
+=DefinedIdent	196
+=Label		198
+=DefinedType	198
+=Structure	165
+
+=Preproc	198
+=Include	27
+=Define		165
+=TODO		198/238
+=Precond	165
+
+=diff.AddLine	46/238
+=diff.ChgLine	244/238
+=diff.DelLine	196/238
+=diff.File	196
+=diff.FileNew	46
+=diff.Hunk	27
+

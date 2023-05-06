@@ -1,0 +1,121 @@
+
+# base16 Ashes by Jannik Siebert (https://github.com/janniks)
+
+.colors *
+
+-text		$c7ccd1/$1c2023
+-status		$adb3ba/$565e65
+-cursor		$1c2023/$c7ccd1
+-selection	/$565e65
+-curlin		/$393f45
+-linum		$747c84/$393f45
+-curlinum	$adb3ba/$393f45
+-menusel	$393f45/$adb3ba
+
+-term 0 	$1c2023
+-term 1 	$ae95c7
+-term 2 	$95c7ae
+-term 3 	$95aec7
+-term 4 	$c7c795
+-term 5 	$c795ae
+-term 6 	$aec795
+-term 7 	$adb3ba
+-term 8 	$747c84
+-term 9 	$ae95c7
+-term 10	$95c7ae
+-term 11	$95aec7
+-term 12	$c7ae95
+-term 13	$c79595
+-term 14	$aec795
+-term 15	$f3f4f5
+
+=Constant	$c7c795
+=String		$95c7ae
+=Escape		$95aec7
+
+=Comment	$747c84
+=StorageClass	+Type
+=Keyword	$c795ae
+=Conditional	$c795ae
+=Operator	$c7ccd1
+=Loop		$aec795
+=Statement	$c7ae95
+=Type		$aec795
+
+=DefinedIdent	$c7ae95
+=Label		$aec795
+=DefinedType	$aec795
+=Structure	$c795ae
+
+=Preproc	$aec795
+=Include	$ae95c7
+=Define		$c795ae
+=TODO		$aec795/$393f45
+=Precond	$c795ae
+
+=diff.AddLine	$95c7ae/$393f45
+=diff.ChgLine	$747c84/$393f45
+=diff.DelLine	$c7ae95/$393f45
+=diff.File	$c7ae95
+=diff.FileNew	$95c7ae
+=diff.Hunk	$ae95c7
+
+.colors 256
+
+-text		252/234
+-status		249/59
+-cursor		234/252
+-selection	/59
+-curlin		/237
+-linum		244/237
+-curlinum	249/237
+-menusel	237/249
+
+-term 0 	234
+-term 1 	139
+-term 2 	108
+-term 3 	110
+-term 4 	187
+-term 5 	175
+-term 6 	151
+-term 7 	249
+-term 8 	244
+-term 9 	139
+-term 10	108
+-term 11	110
+-term 12	180
+-term 13	138
+-term 14	151
+-term 15	255
+
+=Constant	187
+=String		108
+=Escape		110
+
+=Comment	244
+=StorageClass	+Type
+=Keyword	175
+=Conditional	175
+=Operator	252
+=Loop		151
+=Statement	180
+=Type		151
+
+=DefinedIdent	180
+=Label		151
+=DefinedType	151
+=Structure	175
+
+=Preproc	151
+=Include	139
+=Define		175
+=TODO		151/237
+=Precond	175
+
+=diff.AddLine	108/237
+=diff.ChgLine	244/237
+=diff.DelLine	180/237
+=diff.File	180
+=diff.FileNew	108
+=diff.Hunk	139
+

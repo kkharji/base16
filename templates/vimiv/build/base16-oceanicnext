@@ -1,0 +1,31 @@
+; base16-oceanicnext
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: https://github.com/voronianski/oceanic-next-color-scheme
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #1B2B34
+base01 = #343D46
+base02 = #4F5B66
+base03 = #65737E
+base04 = #A7ADBA
+base05 = #C0C5CE
+base06 = #CDD3DE
+base07 = #D8DEE9
+base08 = #EC5f67
+base09 = #F99157
+base0a = #FAC863
+base0b = #99C794
+base0c = #5FB3B3
+base0d = #6699CC
+base0e = #C594C5
+base0f = #AB7967
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

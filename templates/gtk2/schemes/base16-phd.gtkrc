@@ -1,0 +1,6 @@
+# Base16 PhD for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Hennig Hasemann (http://leetless.de/vim.html)
+# phd (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#061229\nfg_color:#b8bbc2\nbase_color:#061229\ntext_color:#b8bbc2\nselected_bg_color:#4d5666\nselected_fg_color:#b8bbc2\ntooltip_bg_color:#061229\ntooltip_fg_color:#9a99a3\ntitlebar_bg_color:#061229\ntitlebar_fg_color:#5299bf\nmenubar_bg_color:#061229\nmenubar_fg_color:#5299bf\ntoolbar_bg_color:#061229\ntoolbar_fg_color:#fbd461\nmenu_bg_color:#061229\nmenu_fg_color:#b8bbc2\npanel_bg_color:#061229\npanel_fg_color:#99bf52\nlink_color:#f0a000"
+

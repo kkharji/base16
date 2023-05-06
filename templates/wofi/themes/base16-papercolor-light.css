@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * PaperColor Light scheme by Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme) */
+
+window {
+	background-color: #eeeeee;
+	color: #444444;
+}
+
+#entry:nth-child(odd) {
+	background-color: #eeeeee;
+}
+
+#entry:nth-child(even) {
+	background-color: #af0000;
+}
+
+#entry:selected {
+	background-color: #008700;
+}
+
+#input {
+	background-color: #af0000;
+	color: #0087af;
+	border-color: #008700; 
+}
+
+#input:focus {
+	border-color: #d70087; 
+}

@@ -1,0 +1,6 @@
+# Base16 Pico for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By PICO-8 (http://www.lexaloffle.com/pico-8.php)
+# pico (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#000000\nfg_color:#5f574f\nbase_color:#000000\ntext_color:#5f574f\nselected_bg_color:#7e2553\nselected_fg_color:#5f574f\ntooltip_bg_color:#000000\ntooltip_fg_color:#ab5236\ntitlebar_bg_color:#000000\ntitlebar_fg_color:#83769c\nmenubar_bg_color:#000000\nmenubar_fg_color:#83769c\ntoolbar_bg_color:#000000\ntoolbar_fg_color:#fff024\nmenu_bg_color:#000000\nmenu_fg_color:#5f574f\npanel_bg_color:#000000\npanel_fg_color:#00e756\nlink_color:#ffa300"
+

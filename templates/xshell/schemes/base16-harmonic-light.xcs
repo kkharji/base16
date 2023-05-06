@@ -1,0 +1,23 @@
+[Base16 Harmonic16 Light]
+text=405c79
+text(bold)=405c79
+background=f7f9fb
+black=f7f9fb
+black(bold)=aabcce
+red=bf8b56
+red(bold)=bfbf56
+green=56bf8b
+green(bold)=e5ebf1
+yellow=8bbf56
+yellow(bold)=cbd6e2
+blue=8b56bf
+blue(bold)=627e99
+magenta=bf568b
+magenta(bold)=223b54
+cyan=568bbf
+cyan(bold)=bf5656
+white=405c79
+white(bold)=0b1c2c
+[Names]
+name0=Base16 Harmonic16 Light
+count=1

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * 3024 scheme by Jan T. Sott (http://github.com/idleberg) */
+
+window {
+	background-color: #090300;
+	color: #a5a2a2;
+}
+
+#entry:nth-child(odd) {
+	background-color: #090300;
+}
+
+#entry:nth-child(even) {
+	background-color: #3a3432;
+}
+
+#entry:selected {
+	background-color: #4a4543;
+}
+
+#input {
+	background-color: #3a3432;
+	color: #807d7c;
+	border-color: #4a4543; 
+}
+
+#input:focus {
+	border-color: #fded02; 
+}

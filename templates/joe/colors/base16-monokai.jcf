@@ -1,0 +1,121 @@
+
+# base16 Monokai by Wimer Hazenberg (http://www.monokai.nl)
+
+.colors *
+
+-text		$f8f8f2/$272822
+-status		$a59f85/$49483e
+-cursor		$272822/$f8f8f2
+-selection	/$49483e
+-curlin		/$383830
+-linum		$75715e/$383830
+-curlinum	$a59f85/$383830
+-menusel	$383830/$a59f85
+
+-term 0 	$272822
+-term 1 	$66d9ef
+-term 2 	$a6e22e
+-term 3 	$a1efe4
+-term 4 	$fd971f
+-term 5 	$ae81ff
+-term 6 	$f4bf75
+-term 7 	$a59f85
+-term 8 	$75715e
+-term 9 	$66d9ef
+-term 10	$a6e22e
+-term 11	$a1efe4
+-term 12	$f92672
+-term 13	$cc6633
+-term 14	$f4bf75
+-term 15	$f9f8f5
+
+=Constant	$fd971f
+=String		$a6e22e
+=Escape		$a1efe4
+
+=Comment	$75715e
+=StorageClass	+Type
+=Keyword	$ae81ff
+=Conditional	$ae81ff
+=Operator	$f8f8f2
+=Loop		$f4bf75
+=Statement	$f92672
+=Type		$f4bf75
+
+=DefinedIdent	$f92672
+=Label		$f4bf75
+=DefinedType	$f4bf75
+=Structure	$ae81ff
+
+=Preproc	$f4bf75
+=Include	$66d9ef
+=Define		$ae81ff
+=TODO		$f4bf75/$383830
+=Precond	$ae81ff
+
+=diff.AddLine	$a6e22e/$383830
+=diff.ChgLine	$75715e/$383830
+=diff.DelLine	$f92672/$383830
+=diff.File	$f92672
+=diff.FileNew	$a6e22e
+=diff.Hunk	$66d9ef
+
+.colors 256
+
+-text		231/235
+-status		144/238
+-cursor		235/231
+-selection	/238
+-curlin		/237
+-linum		243/237
+-curlinum	144/237
+-menusel	237/144
+
+-term 0 	235
+-term 1 	81
+-term 2 	148
+-term 3 	159
+-term 4 	208
+-term 5 	141
+-term 6 	179
+-term 7 	144
+-term 8 	243
+-term 9 	81
+-term 10	148
+-term 11	159
+-term 12	197
+-term 13	166
+-term 14	179
+-term 15	231
+
+=Constant	208
+=String		148
+=Escape		159
+
+=Comment	243
+=StorageClass	+Type
+=Keyword	141
+=Conditional	141
+=Operator	231
+=Loop		179
+=Statement	197
+=Type		179
+
+=DefinedIdent	197
+=Label		179
+=DefinedType	179
+=Structure	141
+
+=Preproc	179
+=Include	81
+=Define		141
+=TODO		179/237
+=Precond	141
+
+=diff.AddLine	148/237
+=diff.ChgLine	243/237
+=diff.DelLine	197/237
+=diff.File	197
+=diff.FileNew	148
+=diff.Hunk	81
+

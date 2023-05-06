@@ -1,0 +1,31 @@
+; base16-pinky
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Benjamin (https://github.com/b3nj5m1n)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #171517
+base01 = #1b181b
+base02 = #1d1b1d
+base03 = #383338
+base04 = #e7dbdb
+base05 = #f5f5f5
+base06 = #ffffff
+base07 = #f7f3f7
+base08 = #ffa600
+base09 = #00ff66
+base0a = #20df6c
+base0b = #ff0066
+base0c = #6600ff
+base0d = #00ffff
+base0e = #007fff
+base0f = #df206c
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

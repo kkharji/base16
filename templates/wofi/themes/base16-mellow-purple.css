@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Mellow Purple scheme by gidsi */
+
+window {
+	background-color: #1e0528;
+	color: #ffeeff;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1e0528;
+}
+
+#entry:nth-child(even) {
+	background-color: #1A092D;
+}
+
+#entry:selected {
+	background-color: #331354;
+}
+
+#input {
+	background-color: #1A092D;
+	color: #873582;
+	border-color: #331354; 
+}
+
+#input:focus {
+	border-color: #955ae7; 
+}

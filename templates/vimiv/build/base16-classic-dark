@@ -1,0 +1,31 @@
+; base16-classic-dark
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Jason Heeris (http://heeris.id.au)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #151515
+base01 = #202020
+base02 = #303030
+base03 = #505050
+base04 = #B0B0B0
+base05 = #D0D0D0
+base06 = #E0E0E0
+base07 = #F5F5F5
+base08 = #AC4142
+base09 = #D28445
+base0a = #F4BF75
+base0b = #90A959
+base0c = #75B5AA
+base0d = #6A9FB5
+base0e = #AA759F
+base0f = #8F5536
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

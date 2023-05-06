@@ -1,0 +1,23 @@
+[Base16 Equilibrium Light]
+text=43474e
+text(bold)=43474e
+background=f5f0e7
+black=f5f0e7
+black(bold)=73777f
+red=d02023
+red(bold)=bf3e05
+green=637200
+green(bold)=e7e2d9
+yellow=9d6f00
+yellow(bold)=d8d4cb
+blue=0073b5
+blue(bold)=5a5f66
+magenta=4e66b6
+magenta(bold)=2c3138
+cyan=007a72
+cyan(bold)=c42775
+white=43474e
+white(bold)=181c22
+[Names]
+name0=Base16 Equilibrium Light
+count=1

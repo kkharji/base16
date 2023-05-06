@@ -1,0 +1,23 @@
+[Base16 Windows 10 Light]
+text=767676
+text(bold)=767676
+background=f2f2f2
+black=f2f2f2
+black(bold)=cccccc
+red=c50f1f
+red(bold)=f9f1a5
+green=13a10e
+green(bold)=e5e5e5
+yellow=c19c00
+yellow(bold)=d9d9d9
+blue=0037da
+blue(bold)=ababab
+magenta=881798
+magenta(bold)=414141
+cyan=3a96dd
+cyan(bold)=16c60c
+white=767676
+white(bold)=0c0c0c
+[Names]
+name0=Base16 Windows 10 Light
+count=1

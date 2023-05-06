@@ -1,0 +1,9 @@
+<!--    Base16 Sagelight
+        Scheme author: Carter Veldhuizen
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 Sagelight" />
+  </component>
+</application>

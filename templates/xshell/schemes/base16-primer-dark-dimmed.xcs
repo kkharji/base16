@@ -1,0 +1,23 @@
+[Base16 Primer Dark Dimmed]
+text=909dab
+text(bold)=909dab
+background=1c2128
+black=1c2128
+black(bold)=545d68
+red=f47067
+red(bold)=e0823d
+green=57ab5a
+green(bold)=373e47
+yellow=c69026
+yellow(bold)=444c56
+blue=539bf5
+blue(bold)=768390
+magenta=e275ad
+magenta(bold)=adbac7
+cyan=96d0ff
+cyan(bold)=ae5622
+white=909dab
+white(bold)=cdd9e5
+[Names]
+name0=Base16 Primer Dark Dimmed
+count=1

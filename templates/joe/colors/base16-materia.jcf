@@ -1,0 +1,121 @@
+
+# base16 Materia by Defman21
+
+.colors *
+
+-text		$cdd3de/$263238
+-status		$c9ccd3/$37474f
+-cursor		$263238/$cdd3de
+-selection	/$37474f
+-curlin		/$2c393f
+-linum		$707880/$2c393f
+-curlinum	$c9ccd3/$2c393f
+-menusel	$2c393f/$c9ccd3
+
+-term 0 	$263238
+-term 1 	$89ddff
+-term 2 	$8bd649
+-term 3 	$80cbc4
+-term 4 	$ea9560
+-term 5 	$82aaff
+-term 6 	$ffcc00
+-term 7 	$c9ccd3
+-term 8 	$707880
+-term 9 	$89ddff
+-term 10	$8bd649
+-term 11	$80cbc4
+-term 12	$ec5f67
+-term 13	$ec5f67
+-term 14	$ffcc00
+-term 15	$ffffff
+
+=Constant	$ea9560
+=String		$8bd649
+=Escape		$80cbc4
+
+=Comment	$707880
+=StorageClass	+Type
+=Keyword	$82aaff
+=Conditional	$82aaff
+=Operator	$cdd3de
+=Loop		$ffcc00
+=Statement	$ec5f67
+=Type		$ffcc00
+
+=DefinedIdent	$ec5f67
+=Label		$ffcc00
+=DefinedType	$ffcc00
+=Structure	$82aaff
+
+=Preproc	$ffcc00
+=Include	$89ddff
+=Define		$82aaff
+=TODO		$ffcc00/$2c393f
+=Precond	$82aaff
+
+=diff.AddLine	$8bd649/$2c393f
+=diff.ChgLine	$707880/$2c393f
+=diff.DelLine	$ec5f67/$2c393f
+=diff.File	$ec5f67
+=diff.FileNew	$8bd649
+=diff.Hunk	$89ddff
+
+.colors 256
+
+-text		252/236
+-status		252/238
+-cursor		236/252
+-selection	/238
+-curlin		/237
+-linum		243/237
+-curlinum	252/237
+-menusel	237/252
+
+-term 0 	236
+-term 1 	117
+-term 2 	113
+-term 3 	116
+-term 4 	173
+-term 5 	111
+-term 6 	220
+-term 7 	252
+-term 8 	243
+-term 9 	117
+-term 10	113
+-term 11	116
+-term 12	167
+-term 13	167
+-term 14	220
+-term 15	231
+
+=Constant	173
+=String		113
+=Escape		116
+
+=Comment	243
+=StorageClass	+Type
+=Keyword	111
+=Conditional	111
+=Operator	252
+=Loop		220
+=Statement	167
+=Type		220
+
+=DefinedIdent	167
+=Label		220
+=DefinedType	220
+=Structure	111
+
+=Preproc	220
+=Include	117
+=Define		111
+=TODO		220/237
+=Precond	111
+
+=diff.AddLine	113/237
+=diff.ChgLine	243/237
+=diff.DelLine	167/237
+=diff.File	167
+=diff.FileNew	113
+=diff.Hunk	117
+

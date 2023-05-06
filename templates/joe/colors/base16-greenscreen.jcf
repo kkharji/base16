@@ -1,0 +1,121 @@
+
+# base16 Green Screen by Chris Kempson (http://chriskempson.com)
+
+.colors *
+
+-text		$00bb00/$001100
+-status		$009900/$005500
+-cursor		$001100/$00bb00
+-selection	/$005500
+-curlin		/$003300
+-linum		$007700/$003300
+-curlinum	$009900/$003300
+-menusel	$003300/$009900
+
+-term 0 	$001100
+-term 1 	$009900
+-term 2 	$00bb00
+-term 3 	$005500
+-term 4 	$009900
+-term 5 	$00bb00
+-term 6 	$007700
+-term 7 	$009900
+-term 8 	$007700
+-term 9 	$009900
+-term 10	$00bb00
+-term 11	$005500
+-term 12	$007700
+-term 13	$005500
+-term 14	$007700
+-term 15	$00ff00
+
+=Constant	$009900
+=String		$00bb00
+=Escape		$005500
+
+=Comment	$007700
+=StorageClass	+Type
+=Keyword	$00bb00
+=Conditional	$00bb00
+=Operator	$00bb00
+=Loop		$007700
+=Statement	$007700
+=Type		$007700
+
+=DefinedIdent	$007700
+=Label		$007700
+=DefinedType	$007700
+=Structure	$00bb00
+
+=Preproc	$007700
+=Include	$009900
+=Define		$00bb00
+=TODO		$007700/$003300
+=Precond	$00bb00
+
+=diff.AddLine	$00bb00/$003300
+=diff.ChgLine	$007700/$003300
+=diff.DelLine	$007700/$003300
+=diff.File	$007700
+=diff.FileNew	$00bb00
+=diff.Hunk	$009900
+
+.colors 256
+
+-text		34/232
+-status		28/22
+-cursor		232/34
+-selection	/22
+-curlin		/22
+-linum		28/22
+-curlinum	28/22
+-menusel	22/28
+
+-term 0 	232
+-term 1 	28
+-term 2 	34
+-term 3 	22
+-term 4 	28
+-term 5 	34
+-term 6 	28
+-term 7 	28
+-term 8 	28
+-term 9 	28
+-term 10	34
+-term 11	22
+-term 12	28
+-term 13	22
+-term 14	28
+-term 15	46
+
+=Constant	28
+=String		34
+=Escape		22
+
+=Comment	28
+=StorageClass	+Type
+=Keyword	34
+=Conditional	34
+=Operator	34
+=Loop		28
+=Statement	28
+=Type		28
+
+=DefinedIdent	28
+=Label		28
+=DefinedType	28
+=Structure	34
+
+=Preproc	28
+=Include	28
+=Define		34
+=TODO		28/22
+=Precond	34
+
+=diff.AddLine	34/22
+=diff.ChgLine	28/22
+=diff.DelLine	28/22
+=diff.File	28
+=diff.FileNew	34
+=diff.Hunk	28
+

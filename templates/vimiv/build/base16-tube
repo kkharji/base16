@@ -1,0 +1,31 @@
+; base16-tube
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Jan T. Sott
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #231f20
+base01 = #1c3f95
+base02 = #5a5758
+base03 = #737171
+base04 = #959ca1
+base05 = #d9d8d8
+base06 = #e7e7e8
+base07 = #ffffff
+base08 = #ee2e24
+base09 = #f386a1
+base0a = #ffd204
+base0b = #00853e
+base0c = #85cebc
+base0d = #009ddc
+base0e = #98005d
+base0f = #b06110
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

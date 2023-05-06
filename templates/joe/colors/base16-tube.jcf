@@ -1,0 +1,121 @@
+
+# base16 London Tube by Jan T. Sott
+
+.colors *
+
+-text		$d9d8d8/$231f20
+-status		$959ca1/$5a5758
+-cursor		$231f20/$d9d8d8
+-selection	/$5a5758
+-curlin		/$1c3f95
+-linum		$737171/$1c3f95
+-curlinum	$959ca1/$1c3f95
+-menusel	$1c3f95/$959ca1
+
+-term 0 	$231f20
+-term 1 	$009ddc
+-term 2 	$00853e
+-term 3 	$85cebc
+-term 4 	$f386a1
+-term 5 	$98005d
+-term 6 	$ffd204
+-term 7 	$959ca1
+-term 8 	$737171
+-term 9 	$009ddc
+-term 10	$00853e
+-term 11	$85cebc
+-term 12	$ee2e24
+-term 13	$b06110
+-term 14	$ffd204
+-term 15	$ffffff
+
+=Constant	$f386a1
+=String		$00853e
+=Escape		$85cebc
+
+=Comment	$737171
+=StorageClass	+Type
+=Keyword	$98005d
+=Conditional	$98005d
+=Operator	$d9d8d8
+=Loop		$ffd204
+=Statement	$ee2e24
+=Type		$ffd204
+
+=DefinedIdent	$ee2e24
+=Label		$ffd204
+=DefinedType	$ffd204
+=Structure	$98005d
+
+=Preproc	$ffd204
+=Include	$009ddc
+=Define		$98005d
+=TODO		$ffd204/$1c3f95
+=Precond	$98005d
+
+=diff.AddLine	$00853e/$1c3f95
+=diff.ChgLine	$737171/$1c3f95
+=diff.DelLine	$ee2e24/$1c3f95
+=diff.File	$ee2e24
+=diff.FileNew	$00853e
+=diff.Hunk	$009ddc
+
+.colors 256
+
+-text		253/234
+-status		247/240
+-cursor		234/253
+-selection	/240
+-curlin		/25
+-linum		243/25
+-curlinum	247/25
+-menusel	25/247
+
+-term 0 	234
+-term 1 	39
+-term 2 	29
+-term 3 	116
+-term 4 	211
+-term 5 	89
+-term 6 	220
+-term 7 	247
+-term 8 	243
+-term 9 	39
+-term 10	29
+-term 11	116
+-term 12	196
+-term 13	130
+-term 14	220
+-term 15	231
+
+=Constant	211
+=String		29
+=Escape		116
+
+=Comment	243
+=StorageClass	+Type
+=Keyword	89
+=Conditional	89
+=Operator	253
+=Loop		220
+=Statement	196
+=Type		220
+
+=DefinedIdent	196
+=Label		220
+=DefinedType	220
+=Structure	89
+
+=Preproc	220
+=Include	39
+=Define		89
+=TODO		220/25
+=Precond	89
+
+=diff.AddLine	29/25
+=diff.ChgLine	243/25
+=diff.DelLine	196/25
+=diff.File	196
+=diff.FileNew	29
+=diff.Hunk	39
+

@@ -1,0 +1,23 @@
+[Base16 Flat]
+text=e0e0e0
+text(bold)=e0e0e0
+background=2c3e50
+black=2c3e50
+black(bold)=95a5a6
+red=e74c3c
+red(bold)=e67e22
+green=2ecc71
+green(bold)=34495e
+yellow=f1c40f
+yellow(bold)=7f8c8d
+blue=3498db
+blue(bold)=bdc3c7
+magenta=9b59b6
+magenta(bold)=f5f5f5
+cyan=1abc9c
+cyan(bold)=be643c
+white=e0e0e0
+white(bold)=ecf0f1
+[Names]
+name0=Base16 Flat
+count=1

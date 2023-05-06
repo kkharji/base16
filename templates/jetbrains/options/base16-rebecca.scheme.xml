@@ -1,0 +1,9 @@
+<!--    Base16 Rebecca
+        Scheme author: Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 Rebecca" />
+  </component>
+</application>

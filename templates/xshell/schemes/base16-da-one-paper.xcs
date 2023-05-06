@@ -1,0 +1,23 @@
+[Base16 Da One Paper]
+text=181818
+text(bold)=181818
+background=faf0dc
+black=faf0dc
+black(bold)=585858
+red=de5d6e
+red(bold)=ff9470
+green=76a85d
+green(bold)=c8c8c8
+yellow=b3684f
+yellow(bold)=888888
+blue=5890f8
+blue(bold)=282828
+magenta=c173d1
+magenta(bold)=000000
+cyan=64b5a7
+cyan(bold)=b3684f
+white=181818
+white(bold)=000000
+[Names]
+name0=Base16 Da One Paper
+count=1

@@ -1,0 +1,31 @@
+; base16-mellow-purple
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: gidsi
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #1e0528
+base01 = #1A092D
+base02 = #331354
+base03 = #320f55
+base04 = #873582
+base05 = #ffeeff
+base06 = #ffeeff
+base07 = #f8c0ff
+base08 = #00d9e9
+base09 = #aa00a3
+base0a = #955ae7
+base0b = #05cb0d
+base0c = #b900b1
+base0d = #550068
+base0e = #8991bb
+base0f = #4d6fff
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

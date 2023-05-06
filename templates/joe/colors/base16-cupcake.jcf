@@ -1,0 +1,121 @@
+
+# base16 Cupcake by Chris Kempson (http://chriskempson.com)
+
+.colors *
+
+-text		$8b8198/$fbf1f2
+-status		$a59daf/$d8d5dd
+-cursor		$fbf1f2/$8b8198
+-selection	/$d8d5dd
+-curlin		/$f2f1f4
+-linum		$bfb9c6/$f2f1f4
+-curlinum	$a59daf/$f2f1f4
+-menusel	$f2f1f4/$a59daf
+
+-term 0 	$fbf1f2
+-term 1 	$7297b9
+-term 2 	$a3b367
+-term 3 	$69a9a7
+-term 4 	$ebb790
+-term 5 	$bb99b4
+-term 6 	$dcb16c
+-term 7 	$a59daf
+-term 8 	$bfb9c6
+-term 9 	$7297b9
+-term 10	$a3b367
+-term 11	$69a9a7
+-term 12	$d57e85
+-term 13	$baa58c
+-term 14	$dcb16c
+-term 15	$585062
+
+=Constant	$ebb790
+=String		$a3b367
+=Escape		$69a9a7
+
+=Comment	$bfb9c6
+=StorageClass	+Type
+=Keyword	$bb99b4
+=Conditional	$bb99b4
+=Operator	$8b8198
+=Loop		$dcb16c
+=Statement	$d57e85
+=Type		$dcb16c
+
+=DefinedIdent	$d57e85
+=Label		$dcb16c
+=DefinedType	$dcb16c
+=Structure	$bb99b4
+
+=Preproc	$dcb16c
+=Include	$7297b9
+=Define		$bb99b4
+=TODO		$dcb16c/$f2f1f4
+=Precond	$bb99b4
+
+=diff.AddLine	$a3b367/$f2f1f4
+=diff.ChgLine	$bfb9c6/$f2f1f4
+=diff.DelLine	$d57e85/$f2f1f4
+=diff.File	$d57e85
+=diff.FileNew	$a3b367
+=diff.Hunk	$7297b9
+
+.colors 256
+
+-text		103/255
+-status		247/253
+-cursor		255/103
+-selection	/253
+-curlin		/255
+-linum		250/255
+-curlinum	247/255
+-menusel	255/247
+
+-term 0 	255
+-term 1 	67
+-term 2 	143
+-term 3 	73
+-term 4 	180
+-term 5 	139
+-term 6 	179
+-term 7 	247
+-term 8 	250
+-term 9 	67
+-term 10	143
+-term 11	73
+-term 12	174
+-term 13	180
+-term 14	179
+-term 15	60
+
+=Constant	180
+=String		143
+=Escape		73
+
+=Comment	250
+=StorageClass	+Type
+=Keyword	139
+=Conditional	139
+=Operator	103
+=Loop		179
+=Statement	174
+=Type		179
+
+=DefinedIdent	174
+=Label		179
+=DefinedType	179
+=Structure	139
+
+=Preproc	179
+=Include	67
+=Define		139
+=TODO		179/255
+=Precond	139
+
+=diff.AddLine	143/255
+=diff.ChgLine	250/255
+=diff.DelLine	174/255
+=diff.File	174
+=diff.FileNew	143
+=diff.Hunk	67
+

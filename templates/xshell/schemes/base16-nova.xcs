@@ -1,0 +1,23 @@
+[Base16 Nova]
+text=c5d4dd
+text(bold)=c5d4dd
+background=3c4c55
+black=3c4c55
+black(bold)=899ba6
+red=83afe5
+red(bold)=7fc1ca
+green=7fc1ca
+green(bold)=556873
+yellow=a8ce93
+yellow(bold)=6a7d89
+blue=83afe5
+blue(bold)=899ba6
+magenta=9a93e1
+magenta(bold)=899ba6
+cyan=f2c38f
+cyan(bold)=f2c38f
+white=c5d4dd
+white(bold)=556873
+[Names]
+name0=Base16 Nova
+count=1

@@ -1,0 +1,23 @@
+[Base16 Equilibrium Dark]
+text=afaba2
+text(bold)=afaba2
+background=0c1118
+black=0c1118
+black(bold)=7b776e
+red=f04339
+red(bold)=df5923
+green=7f8b00
+green(bold)=181c22
+yellow=bb8801
+yellow(bold)=22262d
+blue=008dd1
+blue(bold)=949088
+magenta=6a7fd2
+magenta(bold)=cac6bd
+cyan=00948b
+cyan(bold)=e3488e
+white=afaba2
+white(bold)=e7e2d9
+[Names]
+name0=Base16 Equilibrium Dark
+count=1

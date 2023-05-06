@@ -1,0 +1,31 @@
+; base16-equilibrium-dark
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Carlo Abelli
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #0c1118
+base01 = #181c22
+base02 = #22262d
+base03 = #7b776e
+base04 = #949088
+base05 = #afaba2
+base06 = #cac6bd
+base07 = #e7e2d9
+base08 = #f04339
+base09 = #df5923
+base0a = #bb8801
+base0b = #7f8b00
+base0c = #00948b
+base0d = #008dd1
+base0e = #6a7fd2
+base0f = #e3488e
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

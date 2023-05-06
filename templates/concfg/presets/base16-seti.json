@@ -1,0 +1,20 @@
+{
+	"black":        "#151718",
+	"dark_blue":    "#55b5db",
+	"dark_green":   "#9fca56",
+	"dark_cyan":    "#55dbbe",
+	"dark_red":     "#Cd3f45",
+	"dark_magenta": "#a074c4",
+	"dark_yellow":  "#e6cd69",
+	"gray":         "#ffffff",
+	"dark_gray":    "#282a2b",
+	"blue":         "#43a5d5",
+	"green":        "#3B758C",
+	"cyan":         "#d6d6d6",
+	"red":          "#db7b55",
+	"magenta":      "#8a553f",
+	"yellow":       "#41535B",
+	"white":        "#eeeeee",
+	"screen_colors": "white,black",
+	"popup_colors":  "dark_magenta,gray"
+}

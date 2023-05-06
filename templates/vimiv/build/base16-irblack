@@ -1,0 +1,31 @@
+; base16-irblack
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Timothée Poisot (http://timotheepoisot.fr)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #000000
+base01 = #242422
+base02 = #484844
+base03 = #6c6c66
+base04 = #918f88
+base05 = #b5b3aa
+base06 = #d9d7cc
+base07 = #fdfbee
+base08 = #ff6c60
+base09 = #e9c062
+base0a = #ffffb6
+base0b = #a8ff60
+base0c = #c6c5fe
+base0d = #96cbfe
+base0e = #ff73fd
+base0f = #b18a3d
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

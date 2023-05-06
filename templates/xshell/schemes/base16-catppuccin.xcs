@@ -1,0 +1,23 @@
+[Base16 Catppuccin]
+text=d7dae0
+text(bold)=d7dae0
+background=1e1e28
+black=1e1e28
+black(bold)=575268
+red=f28fad
+red(bold)=f8bd96
+green=abe9b3
+green(bold)=1a1826
+yellow=fae3b0
+yellow(bold)=302d41
+blue=96cdfb
+blue(bold)=6e6c7c
+magenta=ddb6f2
+magenta(bold)=f5e0dc
+cyan=b5e8e0
+cyan(bold)=f2cdcd
+white=d7dae0
+white(bold)=c9cbff
+[Names]
+name0=Base16 Catppuccin
+count=1

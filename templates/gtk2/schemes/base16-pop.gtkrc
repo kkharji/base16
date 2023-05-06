@@ -1,0 +1,6 @@
+# Base16 Pop for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Chris Kempson (http://chriskempson.com)
+# pop (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#000000\nfg_color:#d0d0d0\nbase_color:#000000\ntext_color:#d0d0d0\nselected_bg_color:#303030\nselected_fg_color:#d0d0d0\ntooltip_bg_color:#000000\ntooltip_fg_color:#b0b0b0\ntitlebar_bg_color:#000000\ntitlebar_fg_color:#0e5a94\nmenubar_bg_color:#000000\nmenubar_fg_color:#0e5a94\ntoolbar_bg_color:#000000\ntoolbar_fg_color:#f8ca12\nmenu_bg_color:#000000\nmenu_fg_color:#d0d0d0\npanel_bg_color:#000000\npanel_fg_color:#37b349\nlink_color:#f29333"
+

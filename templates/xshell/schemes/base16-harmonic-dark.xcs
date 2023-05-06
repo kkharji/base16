@@ -1,0 +1,23 @@
+[Base16 Harmonic16 Dark]
+text=cbd6e2
+text(bold)=cbd6e2
+background=0b1c2c
+black=0b1c2c
+black(bold)=627e99
+red=bf8b56
+red(bold)=bfbf56
+green=56bf8b
+green(bold)=223b54
+yellow=8bbf56
+yellow(bold)=405c79
+blue=8b56bf
+blue(bold)=aabcce
+magenta=bf568b
+magenta(bold)=e5ebf1
+cyan=568bbf
+cyan(bold)=bf5656
+white=cbd6e2
+white(bold)=f7f9fb
+[Names]
+name0=Base16 Harmonic16 Dark
+count=1

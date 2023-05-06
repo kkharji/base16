@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Macintosh scheme by Rebecca Bettencourt (http://www.kreativekorp.com) */
+
+window {
+	background-color: #000000;
+	color: #c0c0c0;
+}
+
+#entry:nth-child(odd) {
+	background-color: #000000;
+}
+
+#entry:nth-child(even) {
+	background-color: #404040;
+}
+
+#entry:selected {
+	background-color: #404040;
+}
+
+#input {
+	background-color: #404040;
+	color: #808080;
+	border-color: #404040; 
+}
+
+#input:focus {
+	border-color: #fbf305; 
+}

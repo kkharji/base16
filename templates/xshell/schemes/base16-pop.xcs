@@ -1,0 +1,23 @@
+[Base16 Pop]
+text=d0d0d0
+text(bold)=d0d0d0
+background=000000
+black=000000
+black(bold)=505050
+red=eb008a
+red(bold)=f29333
+green=37b349
+green(bold)=202020
+yellow=f8ca12
+yellow(bold)=303030
+blue=0e5a94
+blue(bold)=b0b0b0
+magenta=b31e8d
+magenta(bold)=e0e0e0
+cyan=00aabb
+cyan(bold)=7a2d00
+white=d0d0d0
+white(bold)=ffffff
+[Names]
+name0=Base16 Pop
+count=1

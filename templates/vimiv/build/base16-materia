@@ -1,0 +1,31 @@
+; base16-materia
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Defman21
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #263238
+base01 = #2C393F
+base02 = #37474F
+base03 = #707880
+base04 = #C9CCD3
+base05 = #CDD3DE
+base06 = #D5DBE5
+base07 = #FFFFFF
+base08 = #EC5F67
+base09 = #EA9560
+base0a = #FFCC00
+base0b = #8BD649
+base0c = #80CBC4
+base0d = #89DDFF
+base0e = #82AAFF
+base0f = #EC5F67
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

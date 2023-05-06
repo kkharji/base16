@@ -1,0 +1,31 @@
+; base16-pico
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: PICO-8 (http://www.lexaloffle.com/pico-8.php)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #000000
+base01 = #1d2b53
+base02 = #7e2553
+base03 = #008751
+base04 = #ab5236
+base05 = #5f574f
+base06 = #c2c3c7
+base07 = #fff1e8
+base08 = #ff004d
+base09 = #ffa300
+base0a = #fff024
+base0b = #00e756
+base0c = #29adff
+base0d = #83769c
+base0e = #ff77a8
+base0f = #ffccaa
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

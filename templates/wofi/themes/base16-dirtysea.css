@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * dirtysea scheme by Kahlil (Kal) Hodgson */
+
+window {
+	background-color: #e0e0e0;
+	color: #000000;
+}
+
+#entry:nth-child(odd) {
+	background-color: #e0e0e0;
+}
+
+#entry:nth-child(even) {
+	background-color: #d0d0d0;
+}
+
+#entry:selected {
+	background-color: #c0c0c0;
+}
+
+#input {
+	background-color: #d0d0d0;
+	color: #202020;
+	border-color: #c0c0c0; 
+}
+
+#input:focus {
+	border-color: #006565; 
+}

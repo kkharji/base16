@@ -1,0 +1,23 @@
+[Base16 Humanoid dark]
+text=f8f8f2
+text(bold)=f8f8f2
+background=232629
+black=232629
+black(bold)=60615d
+red=f11235
+red(bold)=ff9505
+green=02d849
+green(bold)=333b3d
+yellow=ffb627
+yellow(bold)=484e54
+blue=00a6fb
+blue(bold)=c0c0bd
+magenta=f15ee3
+magenta(bold)=fcfcf6
+cyan=0dd9d6
+cyan(bold)=b27701
+white=f8f8f2
+white(bold)=fcfcfc
+[Names]
+name0=Base16 Humanoid dark
+count=1

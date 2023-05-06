@@ -1,0 +1,23 @@
+[Base16 Summerfruit Dark]
+text=d0d0d0
+text(bold)=d0d0d0
+background=151515
+black=151515
+black(bold)=505050
+red=ff0086
+red(bold)=fd8900
+green=00c918
+green(bold)=202020
+yellow=aba800
+yellow(bold)=303030
+blue=3777e6
+blue(bold)=b0b0b0
+magenta=ad00a1
+magenta(bold)=e0e0e0
+cyan=1faaaa
+cyan(bold)=cc6633
+white=d0d0d0
+white(bold)=ffffff
+[Names]
+name0=Base16 Summerfruit Dark
+count=1

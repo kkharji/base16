@@ -1,0 +1,23 @@
+[Base16 Silk Dark]
+text=c7dbdd
+text(bold)=c7dbdd
+background=0e3c46
+black=0e3c46
+black(bold)=587073
+red=fb6953
+red(bold)=fcab74
+green=73d8ad
+green(bold)=1d494e
+yellow=fce380
+yellow(bold)=2a5054
+blue=46bddd
+blue(bold)=9dc8cd
+magenta=756b8a
+magenta(bold)=cbf2f7
+cyan=3fb2b9
+cyan(bold)=9b647b
+white=c7dbdd
+white(bold)=d2faff
+[Names]
+name0=Base16 Silk Dark
+count=1

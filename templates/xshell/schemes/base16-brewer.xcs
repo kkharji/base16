@@ -1,0 +1,23 @@
+[Base16 Brewer]
+text=b7b8b9
+text(bold)=b7b8b9
+background=0c0d0e
+black=0c0d0e
+black(bold)=737475
+red=e31a1c
+red(bold)=e6550d
+green=31a354
+green(bold)=2e2f30
+yellow=dca060
+yellow(bold)=515253
+blue=3182bd
+blue(bold)=959697
+magenta=756bb1
+magenta(bold)=dadbdc
+cyan=80b1d3
+cyan(bold)=b15928
+white=b7b8b9
+white(bold)=fcfdfe
+[Names]
+name0=Base16 Brewer
+count=1

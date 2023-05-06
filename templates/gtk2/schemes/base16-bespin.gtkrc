@@ -1,0 +1,6 @@
+# Base16 Bespin for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Jan T. Sott
+# bespin (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#28211c\nfg_color:#8a8986\nbase_color:#28211c\ntext_color:#8a8986\nselected_bg_color:#5e5d5c\nselected_fg_color:#8a8986\ntooltip_bg_color:#28211c\ntooltip_fg_color:#797977\ntitlebar_bg_color:#28211c\ntitlebar_fg_color:#5ea6ea\nmenubar_bg_color:#28211c\nmenubar_fg_color:#5ea6ea\ntoolbar_bg_color:#28211c\ntoolbar_fg_color:#f9ee98\nmenu_bg_color:#28211c\nmenu_fg_color:#8a8986\npanel_bg_color:#28211c\npanel_fg_color:#54be0d\nlink_color:#cf7d34"
+

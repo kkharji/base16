@@ -1,0 +1,23 @@
+[Base16 Spaceduck]
+text=ecf0c1
+text(bold)=ecf0c1
+background=16172d
+black=16172d
+black(bold)=686f9a
+red=e33400
+red(bold)=e39400
+green=5ccc96
+green(bold)=1b1c36
+yellow=f2ce00
+yellow(bold)=30365f
+blue=7a5ccc
+blue(bold)=818596
+magenta=b3a1e6
+magenta(bold)=c1c3cc
+cyan=00a3cc
+cyan(bold)=ce6f8f
+white=ecf0c1
+white(bold)=ffffff
+[Names]
+name0=Base16 Spaceduck
+count=1

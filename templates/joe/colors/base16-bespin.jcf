@@ -1,0 +1,121 @@
+
+# base16 Bespin by Jan T. Sott
+
+.colors *
+
+-text		$8a8986/$28211c
+-status		$797977/$5e5d5c
+-cursor		$28211c/$8a8986
+-selection	/$5e5d5c
+-curlin		/$36312e
+-linum		$666666/$36312e
+-curlinum	$797977/$36312e
+-menusel	$36312e/$797977
+
+-term 0 	$28211c
+-term 1 	$5ea6ea
+-term 2 	$54be0d
+-term 3 	$afc4db
+-term 4 	$cf7d34
+-term 5 	$9b859d
+-term 6 	$f9ee98
+-term 7 	$797977
+-term 8 	$666666
+-term 9 	$5ea6ea
+-term 10	$54be0d
+-term 11	$afc4db
+-term 12	$cf6a4c
+-term 13	$937121
+-term 14	$f9ee98
+-term 15	$baae9e
+
+=Constant	$cf7d34
+=String		$54be0d
+=Escape		$afc4db
+
+=Comment	$666666
+=StorageClass	+Type
+=Keyword	$9b859d
+=Conditional	$9b859d
+=Operator	$8a8986
+=Loop		$f9ee98
+=Statement	$cf6a4c
+=Type		$f9ee98
+
+=DefinedIdent	$cf6a4c
+=Label		$f9ee98
+=DefinedType	$f9ee98
+=Structure	$9b859d
+
+=Preproc	$f9ee98
+=Include	$5ea6ea
+=Define		$9b859d
+=TODO		$f9ee98/$36312e
+=Precond	$9b859d
+
+=diff.AddLine	$54be0d/$36312e
+=diff.ChgLine	$666666/$36312e
+=diff.DelLine	$cf6a4c/$36312e
+=diff.File	$cf6a4c
+=diff.FileNew	$54be0d
+=diff.Hunk	$5ea6ea
+
+.colors 256
+
+-text		245/235
+-status		243/59
+-cursor		235/245
+-selection	/59
+-curlin		/236
+-linum		242/236
+-curlinum	243/236
+-menusel	236/243
+
+-term 0 	235
+-term 1 	75
+-term 2 	70
+-term 3 	153
+-term 4 	172
+-term 5 	139
+-term 6 	229
+-term 7 	243
+-term 8 	242
+-term 9 	75
+-term 10	70
+-term 11	153
+-term 12	173
+-term 13	94
+-term 14	229
+-term 15	145
+
+=Constant	172
+=String		70
+=Escape		153
+
+=Comment	242
+=StorageClass	+Type
+=Keyword	139
+=Conditional	139
+=Operator	245
+=Loop		229
+=Statement	173
+=Type		229
+
+=DefinedIdent	173
+=Label		229
+=DefinedType	229
+=Structure	139
+
+=Preproc	229
+=Include	75
+=Define		139
+=TODO		229/236
+=Precond	139
+
+=diff.AddLine	70/236
+=diff.ChgLine	242/236
+=diff.DelLine	173/236
+=diff.File	173
+=diff.FileNew	70
+=diff.Hunk	75
+

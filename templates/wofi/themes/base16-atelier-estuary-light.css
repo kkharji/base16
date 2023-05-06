@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Atelier Estuary Light scheme by Bram de Haan (http://atelierbramdehaan.nl) */
+
+window {
+	background-color: #f4f3ec;
+	color: #5f5e4e;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f4f3ec;
+}
+
+#entry:nth-child(even) {
+	background-color: #e7e6df;
+}
+
+#entry:selected {
+	background-color: #929181;
+}
+
+#input {
+	background-color: #e7e6df;
+	color: #6c6b5a;
+	border-color: #929181; 
+}
+
+#input:focus {
+	border-color: #a5980d; 
+}

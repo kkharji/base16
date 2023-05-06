@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Helios scheme by Alex Meyer (https://github.com/reyemxela) */
+
+window {
+	background-color: #1d2021;
+	color: #d5d5d5;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1d2021;
+}
+
+#entry:nth-child(even) {
+	background-color: #383c3e;
+}
+
+#entry:selected {
+	background-color: #53585b;
+}
+
+#input {
+	background-color: #383c3e;
+	color: #cdcdcd;
+	border-color: #53585b; 
+}
+
+#input:focus {
+	border-color: #f19d1a; 
+}

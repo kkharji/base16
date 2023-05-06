@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Atelier Savanna scheme by Bram de Haan (http://atelierbramdehaan.nl) */
+
+window {
+	background-color: #171c19;
+	color: #87928a;
+}
+
+#entry:nth-child(odd) {
+	background-color: #171c19;
+}
+
+#entry:nth-child(even) {
+	background-color: #232a25;
+}
+
+#entry:selected {
+	background-color: #526057;
+}
+
+#input {
+	background-color: #232a25;
+	color: #78877d;
+	border-color: #526057; 
+}
+
+#input:focus {
+	border-color: #a07e3b; 
+}

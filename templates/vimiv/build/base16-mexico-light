@@ -1,0 +1,31 @@
+; base16-mexico-light
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Sheldon Johnson
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #f8f8f8
+base01 = #e8e8e8
+base02 = #d8d8d8
+base03 = #b8b8b8
+base04 = #585858
+base05 = #383838
+base06 = #282828
+base07 = #181818
+base08 = #ab4642
+base09 = #dc9656
+base0a = #f79a0e
+base0b = #538947
+base0c = #4b8093
+base0d = #7cafc2
+base0e = #96609e
+base0f = #a16946
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

@@ -1,0 +1,31 @@
+; base16-material-vivid
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: joshyrobot
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #202124
+base01 = #27292c
+base02 = #323639
+base03 = #44464d
+base04 = #676c71
+base05 = #80868b
+base06 = #9e9e9e
+base07 = #ffffff
+base08 = #f44336
+base09 = #ff9800
+base0a = #ffeb3b
+base0b = #00e676
+base0c = #00bcd4
+base0d = #2196f3
+base0e = #673ab7
+base0f = #8d6e63
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

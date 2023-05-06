@@ -1,0 +1,121 @@
+
+# base16 Embers by Jannik Siebert (https://github.com/janniks)
+
+.colors *
+
+-text		$a39a90/$16130f
+-status		$8a8075/$433b32
+-cursor		$16130f/$a39a90
+-selection	/$433b32
+-curlin		/$2c2620
+-linum		$5a5047/$2c2620
+-curlinum	$8a8075/$2c2620
+-menusel	$2c2620/$8a8075
+
+-term 0 	$16130f
+-term 1 	$6d5782
+-term 2 	$57826d
+-term 3 	$576d82
+-term 4 	$828257
+-term 5 	$82576d
+-term 6 	$6d8257
+-term 7 	$8a8075
+-term 8 	$5a5047
+-term 9 	$6d5782
+-term 10	$57826d
+-term 11	$576d82
+-term 12	$826d57
+-term 13	$825757
+-term 14	$6d8257
+-term 15	$dbd6d1
+
+=Constant	$828257
+=String		$57826d
+=Escape		$576d82
+
+=Comment	$5a5047
+=StorageClass	+Type
+=Keyword	$82576d
+=Conditional	$82576d
+=Operator	$a39a90
+=Loop		$6d8257
+=Statement	$826d57
+=Type		$6d8257
+
+=DefinedIdent	$826d57
+=Label		$6d8257
+=DefinedType	$6d8257
+=Structure	$82576d
+
+=Preproc	$6d8257
+=Include	$6d5782
+=Define		$82576d
+=TODO		$6d8257/$2c2620
+=Precond	$82576d
+
+=diff.AddLine	$57826d/$2c2620
+=diff.ChgLine	$5a5047/$2c2620
+=diff.DelLine	$826d57/$2c2620
+=diff.File	$826d57
+=diff.FileNew	$57826d
+=diff.Hunk	$6d5782
+
+.colors 256
+
+-text		247/233
+-status		244/237
+-cursor		233/247
+-selection	/237
+-curlin		/235
+-linum		239/235
+-curlinum	244/235
+-menusel	235/244
+
+-term 0 	233
+-term 1 	60
+-term 2 	65
+-term 3 	61
+-term 4 	101
+-term 5 	96
+-term 6 	65
+-term 7 	244
+-term 8 	239
+-term 9 	60
+-term 10	65
+-term 11	61
+-term 12	243
+-term 13	95
+-term 14	65
+-term 15	253
+
+=Constant	101
+=String		65
+=Escape		61
+
+=Comment	239
+=StorageClass	+Type
+=Keyword	96
+=Conditional	96
+=Operator	247
+=Loop		65
+=Statement	243
+=Type		65
+
+=DefinedIdent	243
+=Label		65
+=DefinedType	65
+=Structure	96
+
+=Preproc	65
+=Include	60
+=Define		96
+=TODO		65/235
+=Precond	96
+
+=diff.AddLine	65/235
+=diff.ChgLine	239/235
+=diff.DelLine	243/235
+=diff.File	243
+=diff.FileNew	65
+=diff.Hunk	60
+

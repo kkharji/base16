@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Green Screen scheme by Chris Kempson (http://chriskempson.com) */
+
+window {
+	background-color: #001100;
+	color: #00bb00;
+}
+
+#entry:nth-child(odd) {
+	background-color: #001100;
+}
+
+#entry:nth-child(even) {
+	background-color: #003300;
+}
+
+#entry:selected {
+	background-color: #005500;
+}
+
+#input {
+	background-color: #003300;
+	color: #009900;
+	border-color: #005500; 
+}
+
+#input:focus {
+	border-color: #007700; 
+}

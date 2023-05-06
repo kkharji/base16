@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<settings>
+	<console>
+		<colors>
+			<color  id="0" r="29" g="32" b="33"/> <!-- black -->
+			<color  id="1" r="13" g="102" b="120"/> <!-- blue -->
+			<color  id="2" r="149" g="192" b="133"/> <!-- green -->
+			<color  id="3" r="139" g="165" b="155"/> <!-- cyan -->
+			<color  id="4" r="251" g="84" b="63"/> <!-- red -->
+			<color  id="5" r="143" g="70" b="115"/> <!-- magenta -->
+			<color  id="6" r="254" g="134" b="37"/> <!-- yellow/brown -->
+			<color  id="7" r="146" g="131" b="116"/> <!-- white -->
+			<color  id="8" r="102" g="92" b="84"/> <!-- brblack -->
+			<color  id="9" r="139" g="165" b="155"/> <!-- brblue -->
+			<color id="10" r="250" g="192" b="59"/> <!-- brgreen -->
+			<color id="11" r="139" g="165" b="155"/> <!-- brcyan -->
+			<color id="12" r="251" g="84" b="63"/> <!-- brred -->
+			<color id="13" r="143" g="70" b="115"/> <!-- brmagenta/violet -->
+			<color id="14" r="250" g="192" b="59"/> <!-- bryellow -->
+			<color id="15" r="253" g="244" b="193"/> <!-- brwhite -->
+		</colors>
+		<cursor style="0" r="146" g="131" b="116"/>
+		<background type="0" r="29" g="32" b="33">
+			<image file="" relative="0" extend="0" position="0">
+				<tint opacity="0" r="0" g="0" b="0"/>
+			</image>
+		</background>
+	</console>
+</settings>

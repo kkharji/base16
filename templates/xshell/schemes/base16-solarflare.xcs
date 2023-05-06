@@ -1,0 +1,23 @@
+[Base16 Solar Flare]
+text=a6afb8
+text(bold)=a6afb8
+background=18262f
+black=18262f
+black(bold)=667581
+red=ef5253
+red(bold)=e66b2b
+green=7cc844
+green(bold)=222e38
+yellow=e4b51c
+yellow(bold)=586875
+blue=33b5e1
+blue(bold)=85939e
+magenta=a363d5
+magenta(bold)=e8e9ed
+cyan=52cbb0
+cyan(bold)=d73c9a
+white=a6afb8
+white(bold)=f5f7fa
+[Names]
+name0=Base16 Solar Flare
+count=1

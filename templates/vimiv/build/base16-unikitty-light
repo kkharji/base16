@@ -1,0 +1,31 @@
+; base16-unikitty-light
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Josh W Lewis (@joshwlewis)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #ffffff
+base01 = #e1e1e2
+base02 = #c4c3c5
+base03 = #a7a5a8
+base04 = #89878b
+base05 = #6c696e
+base06 = #4f4b51
+base07 = #322d34
+base08 = #d8137f
+base09 = #d65407
+base0a = #dc8a0e
+base0b = #17ad98
+base0c = #149bda
+base0d = #775dff
+base0e = #aa17e6
+base0f = #e013d0
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

@@ -1,0 +1,13 @@
+<!--    Base16 OneDark
+        Scheme author: Lalit Magant (http://github.com/tilal6991)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="2.2.0.1" />
+    <option name="selectedTheme" value="CUSTOM" />
+    <option name="highlightColor" value="61afef" />
+    <option name="accentColor" value="61afef" />
+    <option name="darkTitleBar" value="true" />
+  </component>
+</application>

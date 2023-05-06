@@ -1,0 +1,121 @@
+
+# base16 Brewer by Timothée Poisot (http://github.com/tpoisot)
+
+.colors *
+
+-text		$b7b8b9/$0c0d0e
+-status		$959697/$515253
+-cursor		$0c0d0e/$b7b8b9
+-selection	/$515253
+-curlin		/$2e2f30
+-linum		$737475/$2e2f30
+-curlinum	$959697/$2e2f30
+-menusel	$2e2f30/$959697
+
+-term 0 	$0c0d0e
+-term 1 	$3182bd
+-term 2 	$31a354
+-term 3 	$80b1d3
+-term 4 	$e6550d
+-term 5 	$756bb1
+-term 6 	$dca060
+-term 7 	$959697
+-term 8 	$737475
+-term 9 	$3182bd
+-term 10	$31a354
+-term 11	$80b1d3
+-term 12	$e31a1c
+-term 13	$b15928
+-term 14	$dca060
+-term 15	$fcfdfe
+
+=Constant	$e6550d
+=String		$31a354
+=Escape		$80b1d3
+
+=Comment	$737475
+=StorageClass	+Type
+=Keyword	$756bb1
+=Conditional	$756bb1
+=Operator	$b7b8b9
+=Loop		$dca060
+=Statement	$e31a1c
+=Type		$dca060
+
+=DefinedIdent	$e31a1c
+=Label		$dca060
+=DefinedType	$dca060
+=Structure	$756bb1
+
+=Preproc	$dca060
+=Include	$3182bd
+=Define		$756bb1
+=TODO		$dca060/$2e2f30
+=Precond	$756bb1
+
+=diff.AddLine	$31a354/$2e2f30
+=diff.ChgLine	$737475/$2e2f30
+=diff.DelLine	$e31a1c/$2e2f30
+=diff.File	$e31a1c
+=diff.FileNew	$31a354
+=diff.Hunk	$3182bd
+
+.colors 256
+
+-text		250/232
+-status		246/239
+-cursor		232/250
+-selection	/239
+-curlin		/236
+-linum		243/236
+-curlinum	246/236
+-menusel	236/246
+
+-term 0 	232
+-term 1 	32
+-term 2 	35
+-term 3 	74
+-term 4 	166
+-term 5 	61
+-term 6 	179
+-term 7 	246
+-term 8 	243
+-term 9 	32
+-term 10	35
+-term 11	74
+-term 12	160
+-term 13	130
+-term 14	179
+-term 15	231
+
+=Constant	166
+=String		35
+=Escape		74
+
+=Comment	243
+=StorageClass	+Type
+=Keyword	61
+=Conditional	61
+=Operator	250
+=Loop		179
+=Statement	160
+=Type		179
+
+=DefinedIdent	160
+=Label		179
+=DefinedType	179
+=Structure	61
+
+=Preproc	179
+=Include	32
+=Define		61
+=TODO		179/236
+=Precond	61
+
+=diff.AddLine	35/236
+=diff.ChgLine	243/236
+=diff.DelLine	160/236
+=diff.File	160
+=diff.FileNew	35
+=diff.Hunk	32
+

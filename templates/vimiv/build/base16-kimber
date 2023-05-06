@@ -1,0 +1,31 @@
+; base16-kimber
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Mishka Nguyen (https://github.com/akhsiM)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #222222
+base01 = #313131
+base02 = #555D55
+base03 = #644646
+base04 = #5A5A5A
+base05 = #DEDEE7
+base06 = #C3C3B4
+base07 = #FFFFE6
+base08 = #C88C8C
+base09 = #476C88
+base0a = #D8B56D
+base0b = #99C899
+base0c = #78B4B4
+base0d = #537C9C
+base0e = #86CACD
+base0f = #704F4F
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

@@ -1,0 +1,23 @@
+[Base16 lime]
+text=818175
+text(bold)=818175
+background=1a1a2f
+black=1a1a2f
+black(bold)=313140
+red=ff662a
+red(bold)=ff773a
+green=8cd97c
+green(bold)=202030
+yellow=ffd15e
+yellow(bold)=2a2a3f
+blue=2b926f
+blue(bold)=515155
+magenta=1b825f
+magenta(bold)=fff2d1
+cyan=4cad83
+cyan(bold)=b4d97c
+white=818175
+white(bold)=fff8e1
+[Names]
+name0=Base16 lime
+count=1

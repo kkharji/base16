@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Edge Dark scheme by cjayross (https://github.com/cjayross) */
+
+window {
+	background-color: #262729;
+	color: #b7bec9;
+}
+
+#entry:nth-child(odd) {
+	background-color: #262729;
+}
+
+#entry:nth-child(even) {
+	background-color: #88909f;
+}
+
+#entry:selected {
+	background-color: #b7bec9;
+}
+
+#input {
+	background-color: #88909f;
+	color: #73b3e7;
+	border-color: #b7bec9; 
+}
+
+#input:focus {
+	border-color: #dbb774; 
+}

@@ -1,0 +1,23 @@
+[Base16 Synth Midnight Terminal Dark]
+text=c1c3c4
+text(bold)=c1c3c4
+background=050608
+black=050608
+black(bold)=474849
+red=b53b50
+red(bold)=ea770d
+green=06ea61
+green(bold)=1a1b1c
+yellow=c9d364
+yellow(bold)=28292a
+blue=03aeff
+blue(bold)=a3a5a6
+magenta=ea5ce2
+magenta(bold)=cfd1d2
+cyan=42fff9
+cyan(bold)=cd6320
+white=c1c3c4
+white(bold)=dddfe0
+[Names]
+name0=Base16 Synth Midnight Terminal Dark
+count=1

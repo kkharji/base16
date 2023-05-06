@@ -1,0 +1,6 @@
+# Base16 Seti UI for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By 
+# seti (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#151718\nfg_color:#d6d6d6\nbase_color:#151718\ntext_color:#d6d6d6\nselected_bg_color:#3B758C\nselected_fg_color:#d6d6d6\ntooltip_bg_color:#151718\ntooltip_fg_color:#43a5d5\ntitlebar_bg_color:#151718\ntitlebar_fg_color:#55b5db\nmenubar_bg_color:#151718\nmenubar_fg_color:#55b5db\ntoolbar_bg_color:#151718\ntoolbar_fg_color:#e6cd69\nmenu_bg_color:#151718\nmenu_fg_color:#d6d6d6\npanel_bg_color:#151718\npanel_fg_color:#9fca56\nlink_color:#db7b55"
+

@@ -1,0 +1,31 @@
+; base16-atelier-cave
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #19171c
+base01 = #26232a
+base02 = #585260
+base03 = #655f6d
+base04 = #7e7887
+base05 = #8b8792
+base06 = #e2dfe7
+base07 = #efecf4
+base08 = #be4678
+base09 = #aa573c
+base0a = #a06e3b
+base0b = #2a9292
+base0c = #398bc6
+base0d = #576ddb
+base0e = #955ae7
+base0f = #bf40bf
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

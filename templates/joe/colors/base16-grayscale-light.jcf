@@ -1,0 +1,121 @@
+
+# base16 Grayscale Light by Alexandre Gavioli (https://github.com/Alexx2/)
+
+.colors *
+
+-text		$464646/$f7f7f7
+-status		$525252/$b9b9b9
+-cursor		$f7f7f7/$464646
+-selection	/$b9b9b9
+-curlin		/$e3e3e3
+-linum		$ababab/$e3e3e3
+-curlinum	$525252/$e3e3e3
+-menusel	$e3e3e3/$525252
+
+-term 0 	$f7f7f7
+-term 1 	$686868
+-term 2 	$8e8e8e
+-term 3 	$868686
+-term 4 	$999999
+-term 5 	$747474
+-term 6 	$a0a0a0
+-term 7 	$525252
+-term 8 	$ababab
+-term 9 	$686868
+-term 10	$8e8e8e
+-term 11	$868686
+-term 12	$7c7c7c
+-term 13	$5e5e5e
+-term 14	$a0a0a0
+-term 15	$101010
+
+=Constant	$999999
+=String		$8e8e8e
+=Escape		$868686
+
+=Comment	$ababab
+=StorageClass	+Type
+=Keyword	$747474
+=Conditional	$747474
+=Operator	$464646
+=Loop		$a0a0a0
+=Statement	$7c7c7c
+=Type		$a0a0a0
+
+=DefinedIdent	$7c7c7c
+=Label		$a0a0a0
+=DefinedType	$a0a0a0
+=Structure	$747474
+
+=Preproc	$a0a0a0
+=Include	$686868
+=Define		$747474
+=TODO		$a0a0a0/$e3e3e3
+=Precond	$747474
+
+=diff.AddLine	$8e8e8e/$e3e3e3
+=diff.ChgLine	$ababab/$e3e3e3
+=diff.DelLine	$7c7c7c/$e3e3e3
+=diff.File	$7c7c7c
+=diff.FileNew	$8e8e8e
+=diff.Hunk	$686868
+
+.colors 256
+
+-text		238/231
+-status		239/250
+-cursor		231/238
+-selection	/250
+-curlin		/254
+-linum		248/254
+-curlinum	239/254
+-menusel	254/239
+
+-term 0 	231
+-term 1 	242
+-term 2 	245
+-term 3 	102
+-term 4 	247
+-term 5 	243
+-term 6 	247
+-term 7 	239
+-term 8 	248
+-term 9 	242
+-term 10	245
+-term 11	102
+-term 12	244
+-term 13	59
+-term 14	247
+-term 15	233
+
+=Constant	247
+=String		245
+=Escape		102
+
+=Comment	248
+=StorageClass	+Type
+=Keyword	243
+=Conditional	243
+=Operator	238
+=Loop		247
+=Statement	244
+=Type		247
+
+=DefinedIdent	244
+=Label		247
+=DefinedType	247
+=Structure	243
+
+=Preproc	247
+=Include	242
+=Define		243
+=TODO		247/254
+=Precond	243
+
+=diff.AddLine	245/254
+=diff.ChgLine	248/254
+=diff.DelLine	244/254
+=diff.File	244
+=diff.FileNew	245
+=diff.Hunk	242
+

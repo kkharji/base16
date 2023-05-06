@@ -1,0 +1,23 @@
+[Base16 Materia]
+text=cdd3de
+text(bold)=cdd3de
+background=263238
+black=263238
+black(bold)=707880
+red=ec5f67
+red(bold)=ea9560
+green=8bd649
+green(bold)=2c393f
+yellow=ffcc00
+yellow(bold)=37474f
+blue=89ddff
+blue(bold)=c9ccd3
+magenta=82aaff
+magenta(bold)=d5dbe5
+cyan=80cbc4
+cyan(bold)=ec5f67
+white=cdd3de
+white(bold)=ffffff
+[Names]
+name0=Base16 Materia
+count=1

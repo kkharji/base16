@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Tomorrow scheme by Chris Kempson (http://chriskempson.com) */
+
+window {
+	background-color: #ffffff;
+	color: #4d4d4c;
+}
+
+#entry:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+#entry:nth-child(even) {
+	background-color: #e0e0e0;
+}
+
+#entry:selected {
+	background-color: #d6d6d6;
+}
+
+#input {
+	background-color: #e0e0e0;
+	color: #969896;
+	border-color: #d6d6d6; 
+}
+
+#input:focus {
+	border-color: #eab700; 
+}

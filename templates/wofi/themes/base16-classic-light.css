@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Classic Light scheme by Jason Heeris (http://heeris.id.au) */
+
+window {
+	background-color: #F5F5F5;
+	color: #303030;
+}
+
+#entry:nth-child(odd) {
+	background-color: #F5F5F5;
+}
+
+#entry:nth-child(even) {
+	background-color: #E0E0E0;
+}
+
+#entry:selected {
+	background-color: #D0D0D0;
+}
+
+#input {
+	background-color: #E0E0E0;
+	color: #505050;
+	border-color: #D0D0D0; 
+}
+
+#input:focus {
+	border-color: #F4BF75; 
+}

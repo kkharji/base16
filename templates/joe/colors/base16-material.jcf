@@ -1,0 +1,121 @@
+
+# base16 Material by Nate Peterson
+
+.colors *
+
+-text		$eeffff/$263238
+-status		$b2ccd6/$314549
+-cursor		$263238/$eeffff
+-selection	/$314549
+-curlin		/$2e3c43
+-linum		$546e7a/$2e3c43
+-curlinum	$b2ccd6/$2e3c43
+-menusel	$2e3c43/$b2ccd6
+
+-term 0 	$263238
+-term 1 	$82aaff
+-term 2 	$c3e88d
+-term 3 	$89ddff
+-term 4 	$f78c6c
+-term 5 	$c792ea
+-term 6 	$ffcb6b
+-term 7 	$b2ccd6
+-term 8 	$546e7a
+-term 9 	$82aaff
+-term 10	$c3e88d
+-term 11	$89ddff
+-term 12	$f07178
+-term 13	$ff5370
+-term 14	$ffcb6b
+-term 15	$ffffff
+
+=Constant	$f78c6c
+=String		$c3e88d
+=Escape		$89ddff
+
+=Comment	$546e7a
+=StorageClass	+Type
+=Keyword	$c792ea
+=Conditional	$c792ea
+=Operator	$eeffff
+=Loop		$ffcb6b
+=Statement	$f07178
+=Type		$ffcb6b
+
+=DefinedIdent	$f07178
+=Label		$ffcb6b
+=DefinedType	$ffcb6b
+=Structure	$c792ea
+
+=Preproc	$ffcb6b
+=Include	$82aaff
+=Define		$c792ea
+=TODO		$ffcb6b/$2e3c43
+=Precond	$c792ea
+
+=diff.AddLine	$c3e88d/$2e3c43
+=diff.ChgLine	$546e7a/$2e3c43
+=diff.DelLine	$f07178/$2e3c43
+=diff.File	$f07178
+=diff.FileNew	$c3e88d
+=diff.Hunk	$82aaff
+
+.colors 256
+
+-text		195/236
+-status		153/238
+-cursor		236/195
+-selection	/238
+-curlin		/237
+-linum		242/237
+-curlinum	153/237
+-menusel	237/153
+
+-term 0 	236
+-term 1 	111
+-term 2 	150
+-term 3 	117
+-term 4 	209
+-term 5 	140
+-term 6 	222
+-term 7 	153
+-term 8 	242
+-term 9 	111
+-term 10	150
+-term 11	117
+-term 12	210
+-term 13	204
+-term 14	222
+-term 15	231
+
+=Constant	209
+=String		150
+=Escape		117
+
+=Comment	242
+=StorageClass	+Type
+=Keyword	140
+=Conditional	140
+=Operator	195
+=Loop		222
+=Statement	210
+=Type		222
+
+=DefinedIdent	210
+=Label		222
+=DefinedType	222
+=Structure	140
+
+=Preproc	222
+=Include	111
+=Define		140
+=TODO		222/237
+=Precond	140
+
+=diff.AddLine	150/237
+=diff.ChgLine	242/237
+=diff.DelLine	210/237
+=diff.File	210
+=diff.FileNew	150
+=diff.Hunk	111
+

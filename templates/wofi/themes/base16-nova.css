@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Nova scheme by George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com) */
+
+window {
+	background-color: #3C4C55;
+	color: #C5D4DD;
+}
+
+#entry:nth-child(odd) {
+	background-color: #3C4C55;
+}
+
+#entry:nth-child(even) {
+	background-color: #556873;
+}
+
+#entry:selected {
+	background-color: #6A7D89;
+}
+
+#input {
+	background-color: #556873;
+	color: #899BA6;
+	border-color: #6A7D89; 
+}
+
+#input:focus {
+	border-color: #A8CE93; 
+}

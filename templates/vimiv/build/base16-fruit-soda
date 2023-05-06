@@ -1,0 +1,31 @@
+; base16-fruit-soda
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: jozip
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #f1ecf1
+base01 = #e0dee0
+base02 = #d8d5d5
+base03 = #b5b4b6
+base04 = #979598
+base05 = #515151
+base06 = #474545
+base07 = #2d2c2c
+base08 = #fe3e31
+base09 = #fe6d08
+base0a = #f7e203
+base0b = #47f74c
+base0c = #0f9cfd
+base0d = #2931df
+base0e = #611fce
+base0f = #b16f40
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

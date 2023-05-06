@@ -1,0 +1,23 @@
+[Base16 Still Alive]
+text=d80000
+text(bold)=d80000
+background=f0f0f0
+black=f0f0f0
+black(bold)=f01818
+red=487830
+red(bold)=183048
+green=5c5c6a
+green(bold)=f0d848
+yellow=426395
+yellow(bold)=fff018
+blue=001878
+blue(bold)=f00000
+magenta=900000
+magenta(bold)=489000
+cyan=2c3c57
+cyan(bold)=140c0d
+white=d80000
+white(bold)=30a860
+[Names]
+name0=Base16 Still Alive
+count=1

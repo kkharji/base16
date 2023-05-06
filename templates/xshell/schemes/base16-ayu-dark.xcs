@@ -1,0 +1,23 @@
+[Base16 Ayu Dark]
+text=e6e1cf
+text(bold)=e6e1cf
+background=0f1419
+black=0f1419
+black(bold)=3e4b59
+red=f07178
+red(bold)=ff8f40
+green=b8cc52
+green(bold)=131721
+yellow=ffb454
+yellow(bold)=272d38
+blue=59c2ff
+blue(bold)=bfbdb6
+magenta=d2a6ff
+magenta(bold)=e6e1cf
+cyan=95e6cb
+cyan(bold)=e6b673
+white=e6e1cf
+white(bold)=f3f4f5
+[Names]
+name0=Base16 Ayu Dark
+count=1

@@ -1,0 +1,23 @@
+[Base16 pinky]
+text=f5f5f5
+text(bold)=f5f5f5
+background=171517
+black=171517
+black(bold)=383338
+red=ffa600
+red(bold)=00ff66
+green=ff0066
+green(bold)=1b181b
+yellow=20df6c
+yellow(bold)=1d1b1d
+blue=00ffff
+blue(bold)=e7dbdb
+magenta=007fff
+magenta(bold)=ffffff
+cyan=6600ff
+cyan(bold)=df206c
+white=f5f5f5
+white(bold)=f7f3f7
+[Names]
+name0=Base16 pinky
+count=1

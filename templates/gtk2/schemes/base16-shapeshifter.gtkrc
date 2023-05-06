@@ -1,0 +1,6 @@
+# Base16 Shapeshifter for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Tyler Benziger (http://tybenz.com)
+# shapeshifter (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#f9f9f9\nfg_color:#102015\nbase_color:#f9f9f9\ntext_color:#102015\nselected_bg_color:#ababab\nselected_fg_color:#102015\ntooltip_bg_color:#f9f9f9\ntooltip_fg_color:#343434\ntitlebar_bg_color:#f9f9f9\ntitlebar_fg_color:#3b48e3\nmenubar_bg_color:#f9f9f9\nmenubar_fg_color:#3b48e3\ntoolbar_bg_color:#f9f9f9\ntoolbar_fg_color:#dddd13\nmenu_bg_color:#f9f9f9\nmenu_fg_color:#102015\npanel_bg_color:#f9f9f9\npanel_fg_color:#0ed839\nlink_color:#e09448"
+

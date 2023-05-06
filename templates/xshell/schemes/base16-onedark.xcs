@@ -1,0 +1,23 @@
+[Base16 OneDark]
+text=abb2bf
+text(bold)=abb2bf
+background=282c34
+black=282c34
+black(bold)=545862
+red=e06c75
+red(bold)=d19a66
+green=98c379
+green(bold)=353b45
+yellow=e5c07b
+yellow(bold)=3e4451
+blue=61afef
+blue(bold)=565c64
+magenta=c678dd
+magenta(bold)=b6bdca
+cyan=56b6c2
+cyan(bold)=be5046
+white=abb2bf
+white(bold)=c8ccd4
+[Names]
+name0=Base16 OneDark
+count=1

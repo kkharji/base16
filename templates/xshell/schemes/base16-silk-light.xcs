@@ -1,0 +1,23 @@
+[Base16 Silk Light]
+text=385156
+text(bold)=385156
+background=e9f1ef
+black=e9f1ef
+black(bold)=5c787b
+red=cf432e
+red(bold)=d27f46
+green=6ca38c
+green(bold)=ccd4d3
+yellow=cfad25
+yellow(bold)=90b7b6
+blue=39aac9
+blue(bold)=4b5b5f
+magenta=6e6582
+magenta(bold)=0e3c46
+cyan=329ca2
+cyan(bold)=865369
+white=385156
+white(bold)=d2faff
+[Names]
+name0=Base16 Silk Light
+count=1

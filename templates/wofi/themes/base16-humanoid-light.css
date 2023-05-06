@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Humanoid light scheme by Thomas (tasmo) Friese */
+
+window {
+	background-color: #f8f8f2;
+	color: #232629;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f8f8f2;
+}
+
+#entry:nth-child(even) {
+	background-color: #efefe9;
+}
+
+#entry:selected {
+	background-color: #deded8;
+}
+
+#input {
+	background-color: #efefe9;
+	color: #60615d;
+	border-color: #deded8; 
+}
+
+#input:focus {
+	border-color: #ffb627; 
+}

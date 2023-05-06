@@ -1,0 +1,23 @@
+[Base16 Sagelight]
+text=383838
+text(bold)=383838
+background=f8f8f8
+black=f8f8f8
+black(bold)=b8b8b8
+red=fa8480
+red(bold)=ffaa61
+green=a0d2c8
+green(bold)=e8e8e8
+yellow=ffdc61
+yellow(bold)=d8d8d8
+blue=a0a7d2
+blue(bold)=585858
+magenta=c8a0d2
+magenta(bold)=282828
+cyan=a2d6f5
+cyan(bold)=d2b2a0
+white=383838
+white(bold)=181818
+[Names]
+name0=Base16 Sagelight
+count=1

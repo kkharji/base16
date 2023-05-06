@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Gruvbox light, hard scheme by Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox) */
+
+window {
+	background-color: #f9f5d7;
+	color: #504945;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f9f5d7;
+}
+
+#entry:nth-child(even) {
+	background-color: #ebdbb2;
+}
+
+#entry:selected {
+	background-color: #d5c4a1;
+}
+
+#input {
+	background-color: #ebdbb2;
+	color: #665c54;
+	border-color: #d5c4a1; 
+}
+
+#input:focus {
+	border-color: #b57614; 
+}

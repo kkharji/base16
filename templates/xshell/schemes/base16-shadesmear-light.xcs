@@ -1,0 +1,23 @@
+[Base16 ShadeSmear Light]
+text=232323
+text(bold)=232323
+background=dbdbdb
+black=dbdbdb
+black(bold)=4e4e4e
+red=cc5450
+red(bold)=a64270
+green=71983b
+green(bold)=e4e4e4
+yellow=307878
+yellow(bold)=c0c0c0
+blue=376388
+blue(bold)=1c1c1c
+magenta=d7ab54
+magenta(bold)=1c1c1c
+cyan=c57d42
+cyan(bold)=6d6d6d
+white=232323
+white(bold)=e4e4e4
+[Names]
+name0=Base16 ShadeSmear Light
+count=1

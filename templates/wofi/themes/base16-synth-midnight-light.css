@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Synth Midnight Terminal Light scheme by Michaël Ball (http://github.com/michael-ball/) */
+
+window {
+	background-color: #dddfe0;
+	color: #28292a;
+}
+
+#entry:nth-child(odd) {
+	background-color: #dddfe0;
+}
+
+#entry:nth-child(even) {
+	background-color: #cfd1d2;
+}
+
+#entry:selected {
+	background-color: #c1c3c4;
+}
+
+#input {
+	background-color: #cfd1d2;
+	color: #474849;
+	border-color: #c1c3c4; 
+}
+
+#input:focus {
+	border-color: #c9d364; 
+}

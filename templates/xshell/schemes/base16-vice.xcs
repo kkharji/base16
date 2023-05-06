@@ -1,0 +1,23 @@
+[Base16 vice]
+text=8b9cbe
+text(bold)=8b9cbe
+background=17191e
+black=17191e
+black(bold)=383a47
+red=ff29a8
+red(bold)=85ffe0
+green=0badff
+green(bold)=22262d
+yellow=f0ffaa
+yellow(bold)=3c3f4c
+blue=00eaff
+blue(bold)=555e70
+magenta=00f6d9
+magenta(bold)=b2bfd9
+cyan=8265ff
+cyan(bold)=ff3d81
+white=8b9cbe
+white(bold)=f4f4f7
+[Names]
+name0=Base16 vice
+count=1

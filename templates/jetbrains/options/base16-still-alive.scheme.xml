@@ -1,0 +1,9 @@
+<!--    Base16 Still Alive
+        Scheme author: Derrick McKee (derrick.mckee@gmail.com)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 Still Alive" />
+  </component>
+</application>

@@ -1,0 +1,23 @@
+[Base16 Gruvbox Material Light, Soft]
+text=654735
+text(bold)=654735
+background=f2e5bc
+black=f2e5bc
+black(bold)=a89984
+red=c14a4a
+red(bold)=c35e0a
+green=6c782e
+green(bold)=ebdbb2
+yellow=b47109
+yellow(bold)=c9b99a
+blue=45707a
+blue(bold)=665c54
+magenta=945e80
+magenta(bold)=3c3836
+cyan=4c7a5d
+cyan(bold)=e78a4e
+white=654735
+white(bold)=282828
+[Names]
+name0=Base16 Gruvbox Material Light, Soft
+count=1

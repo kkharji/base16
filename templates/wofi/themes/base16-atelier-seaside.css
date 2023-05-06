@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Atelier Seaside scheme by Bram de Haan (http://atelierbramdehaan.nl) */
+
+window {
+	background-color: #131513;
+	color: #8ca68c;
+}
+
+#entry:nth-child(odd) {
+	background-color: #131513;
+}
+
+#entry:nth-child(even) {
+	background-color: #242924;
+}
+
+#entry:selected {
+	background-color: #5e6e5e;
+}
+
+#input {
+	background-color: #242924;
+	color: #809980;
+	border-color: #5e6e5e; 
+}
+
+#input:focus {
+	border-color: #98981b; 
+}

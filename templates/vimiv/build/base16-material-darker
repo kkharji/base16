@@ -1,0 +1,31 @@
+; base16-material-darker
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Nate Peterson
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #212121
+base01 = #303030
+base02 = #353535
+base03 = #4A4A4A
+base04 = #B2CCD6
+base05 = #EEFFFF
+base06 = #EEFFFF
+base07 = #FFFFFF
+base08 = #F07178
+base09 = #F78C6C
+base0a = #FFCB6B
+base0b = #C3E88D
+base0c = #89DDFF
+base0d = #82AAFF
+base0e = #C792EA
+base0f = #FF5370
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

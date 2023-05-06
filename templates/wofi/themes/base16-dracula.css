@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Dracula scheme by Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula) */
+
+window {
+	background-color: #282936;
+	color: #e9e9f4;
+}
+
+#entry:nth-child(odd) {
+	background-color: #282936;
+}
+
+#entry:nth-child(even) {
+	background-color: #3a3c4e;
+}
+
+#entry:selected {
+	background-color: #4d4f68;
+}
+
+#input {
+	background-color: #3a3c4e;
+	color: #62d6e8;
+	border-color: #4d4f68; 
+}
+
+#input:focus {
+	border-color: #00f769; 
+}

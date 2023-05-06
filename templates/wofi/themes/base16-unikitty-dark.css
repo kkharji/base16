@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Unikitty Dark scheme by Josh W Lewis (@joshwlewis) */
+
+window {
+	background-color: #2e2a31;
+	color: #bcbabe;
+}
+
+#entry:nth-child(odd) {
+	background-color: #2e2a31;
+}
+
+#entry:nth-child(even) {
+	background-color: #4a464d;
+}
+
+#entry:selected {
+	background-color: #666369;
+}
+
+#input {
+	background-color: #4a464d;
+	color: #9f9da2;
+	border-color: #666369; 
+}
+
+#input:focus {
+	border-color: #dc8a0e; 
+}

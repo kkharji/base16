@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Cupertino scheme by Defman21 */
+
+window {
+	background-color: #ffffff;
+	color: #404040;
+}
+
+#entry:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+#entry:nth-child(even) {
+	background-color: #c0c0c0;
+}
+
+#entry:selected {
+	background-color: #c0c0c0;
+}
+
+#input {
+	background-color: #c0c0c0;
+	color: #808080;
+	border-color: #c0c0c0; 
+}
+
+#input:focus {
+	border-color: #826b28; 
+}

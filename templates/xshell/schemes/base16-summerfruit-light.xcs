@@ -1,0 +1,23 @@
+[Base16 Summerfruit Light]
+text=101010
+text(bold)=101010
+background=ffffff
+black=ffffff
+black(bold)=b0b0b0
+red=ff0086
+red(bold)=fd8900
+green=00c918
+green(bold)=e0e0e0
+yellow=aba800
+yellow(bold)=d0d0d0
+blue=3777e6
+blue(bold)=000000
+magenta=ad00a1
+magenta(bold)=151515
+cyan=1faaaa
+cyan(bold)=cc6633
+white=101010
+white(bold)=202020
+[Names]
+name0=Base16 Summerfruit Light
+count=1

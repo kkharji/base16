@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Default Dark scheme by Chris Kempson (http://chriskempson.com) */
+
+window {
+	background-color: #181818;
+	color: #d8d8d8;
+}
+
+#entry:nth-child(odd) {
+	background-color: #181818;
+}
+
+#entry:nth-child(even) {
+	background-color: #282828;
+}
+
+#entry:selected {
+	background-color: #383838;
+}
+
+#input {
+	background-color: #282828;
+	color: #b8b8b8;
+	border-color: #383838; 
+}
+
+#input:focus {
+	border-color: #f7ca88; 
+}

@@ -1,0 +1,23 @@
+[Base16 EverForest]
+text=d3c6aa
+text(bold)=d3c6aa
+background=2b3339
+black=2b3339
+black(bold)=868d80
+red=e67e80
+red(bold)=e69875
+green=a7c080
+green(bold)=323c41
+yellow=dbbc7f
+yellow(bold)=3a4248
+blue=7fbbb3
+blue(bold)=a59572
+magenta=d699b6
+magenta(bold)=e9e8d2
+cyan=83c092
+cyan(bold)=d699b6
+white=d3c6aa
+white(bold)=fff9e8
+[Names]
+name0=Base16 EverForest
+count=1

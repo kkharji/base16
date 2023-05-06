@@ -1,0 +1,6 @@
+# Base16 IR Black for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Timothée Poisot (http://timotheepoisot.fr)
+# irblack (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#000000\nfg_color:#b5b3aa\nbase_color:#000000\ntext_color:#b5b3aa\nselected_bg_color:#484844\nselected_fg_color:#b5b3aa\ntooltip_bg_color:#000000\ntooltip_fg_color:#918f88\ntitlebar_bg_color:#000000\ntitlebar_fg_color:#96cbfe\nmenubar_bg_color:#000000\nmenubar_fg_color:#96cbfe\ntoolbar_bg_color:#000000\ntoolbar_fg_color:#ffffb6\nmenu_bg_color:#000000\nmenu_fg_color:#b5b3aa\npanel_bg_color:#000000\npanel_fg_color:#a8ff60\nlink_color:#e9c062"
+

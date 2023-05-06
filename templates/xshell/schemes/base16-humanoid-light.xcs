@@ -1,0 +1,23 @@
+[Base16 Humanoid light]
+text=232629
+text(bold)=232629
+background=f8f8f2
+black=f8f8f2
+black(bold)=c0c0bd
+red=b0151a
+red(bold)=ff3d00
+green=388e3c
+green(bold)=efefe9
+yellow=ffb627
+yellow(bold)=deded8
+blue=0082c9
+blue(bold)=60615d
+magenta=700f98
+magenta(bold)=2f3337
+cyan=008e8e
+cyan(bold)=b27701
+white=232629
+white(bold)=070708
+[Names]
+name0=Base16 Humanoid light
+count=1

@@ -1,0 +1,121 @@
+
+# base16 Brush Trees Dark by Abraham White &lt;abelincoln.white@gmail.com&gt;
+
+.colors *
+
+-text		$b0c5c8/$485867
+-status		$98afb5/$6d828e
+-cursor		$485867/$b0c5c8
+-selection	/$6d828e
+-curlin		/$5a6d7a
+-linum		$8299a1/$5a6d7a
+-curlinum	$98afb5/$5a6d7a
+-menusel	$5a6d7a/$98afb5
+
+-term 0 	$485867
+-term 1 	$868cb3
+-term 2 	$87b386
+-term 3 	$86b3b3
+-term 4 	$d8bba2
+-term 5 	$b386b2
+-term 6 	$aab386
+-term 7 	$98afb5
+-term 8 	$8299a1
+-term 9 	$868cb3
+-term 10	$87b386
+-term 11	$86b3b3
+-term 12	$b38686
+-term 13	$b39f9f
+-term 14	$aab386
+-term 15	$e3efef
+
+=Constant	$d8bba2
+=String		$87b386
+=Escape		$86b3b3
+
+=Comment	$8299a1
+=StorageClass	+Type
+=Keyword	$b386b2
+=Conditional	$b386b2
+=Operator	$b0c5c8
+=Loop		$aab386
+=Statement	$b38686
+=Type		$aab386
+
+=DefinedIdent	$b38686
+=Label		$aab386
+=DefinedType	$aab386
+=Structure	$b386b2
+
+=Preproc	$aab386
+=Include	$868cb3
+=Define		$b386b2
+=TODO		$aab386/$5a6d7a
+=Precond	$b386b2
+
+=diff.AddLine	$87b386/$5a6d7a
+=diff.ChgLine	$8299a1/$5a6d7a
+=diff.DelLine	$b38686/$5a6d7a
+=diff.File	$b38686
+=diff.FileNew	$87b386
+=diff.Hunk	$868cb3
+
+.colors 256
+
+-text		251/240
+-status		109/244
+-cursor		240/251
+-selection	/244
+-curlin		/242
+-linum		109/242
+-curlinum	109/242
+-menusel	242/109
+
+-term 0 	240
+-term 1 	103
+-term 2 	108
+-term 3 	109
+-term 4 	180
+-term 5 	139
+-term 6 	144
+-term 7 	109
+-term 8 	109
+-term 9 	103
+-term 10	108
+-term 11	109
+-term 12	138
+-term 13	138
+-term 14	144
+-term 15	255
+
+=Constant	180
+=String		108
+=Escape		109
+
+=Comment	109
+=StorageClass	+Type
+=Keyword	139
+=Conditional	139
+=Operator	251
+=Loop		144
+=Statement	138
+=Type		144
+
+=DefinedIdent	138
+=Label		144
+=DefinedType	144
+=Structure	139
+
+=Preproc	144
+=Include	103
+=Define		139
+=TODO		144/242
+=Precond	139
+
+=diff.AddLine	108/242
+=diff.ChgLine	109/242
+=diff.DelLine	138/242
+=diff.File	138
+=diff.FileNew	108
+=diff.Hunk	103
+

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Black Metal (Immortal) scheme by metalelf0 (https://github.com/metalelf0) */
+
+window {
+	background-color: #000000;
+	color: #c1c1c1;
+}
+
+#entry:nth-child(odd) {
+	background-color: #000000;
+}
+
+#entry:nth-child(even) {
+	background-color: #121212;
+}
+
+#entry:selected {
+	background-color: #222222;
+}
+
+#input {
+	background-color: #121212;
+	color: #999999;
+	border-color: #222222; 
+}
+
+#input:focus {
+	border-color: #556677; 
+}

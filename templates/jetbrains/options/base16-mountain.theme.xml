@@ -1,0 +1,22 @@
+<!--    Base16 Mountain
+        Scheme author: gnsfujiwara (https://github.com/gnsfujiwara)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="MaterialCustomThemeConfig">
+    <option name="notificationsColor" value="0f0f0f" />
+    <option name="treeSelectionColor" value="8f8aac" />
+    <option name="highlightColor" value="262626" />
+    <option name="secondBorderColor" value="0f0f0f" />
+    <option name="tableSelectedColor" value="8f8aac" />
+    <option name="contrastColor" value="191919" />
+    <option name="disabledColor" value="ac8a8c" />
+    <option name="secondaryBackgroundColor" value="191919" />
+    <option name="buttonColor" value="0f0f0f" />
+    <option name="selectionForegroundColor" value="e7e7e7" />
+    <option name="selectionBackgroundColor" value="8f8aac" />
+    <option name="textColor" value="e7e7e7" />
+    <option name="foregroundColor" value="cacaca" />
+    <option name="backgroundColor" value="0f0f0f" />
+  </component>
+</application> 

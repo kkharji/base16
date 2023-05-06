@@ -1,0 +1,23 @@
+[Base16 Windows 10]
+text=cccccc
+text(bold)=cccccc
+background=0c0c0c
+black=0c0c0c
+black(bold)=767676
+red=e74856
+red(bold)=c19c00
+green=16c60c
+green(bold)=2f2f2f
+yellow=f9f1a5
+yellow(bold)=535353
+blue=3b78ff
+blue(bold)=b9b9b9
+magenta=b4009e
+magenta(bold)=dfdfdf
+cyan=61d6d6
+cyan(bold)=13a10e
+white=cccccc
+white(bold)=f2f2f2
+[Names]
+name0=Base16 Windows 10
+count=1

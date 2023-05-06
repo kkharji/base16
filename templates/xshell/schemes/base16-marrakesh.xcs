@@ -1,0 +1,23 @@
+[Base16 Marrakesh]
+text=948e48
+text(bold)=948e48
+background=201602
+black=201602
+black(bold)=6c6823
+red=c35359
+red(bold)=b36144
+green=18974e
+green(bold)=302e00
+yellow=a88339
+yellow(bold)=5f5b17
+blue=477ca1
+blue(bold)=86813b
+magenta=8868b3
+magenta(bold)=ccc37a
+cyan=75a738
+cyan(bold)=b3588e
+white=948e48
+white(bold)=faf0a5
+[Names]
+name0=Base16 Marrakesh
+count=1

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Outrun Dark scheme by Hugo Delahousse (http://github.com/hugodelahousse/) */
+
+window {
+	background-color: #00002A;
+	color: #D0D0FA;
+}
+
+#entry:nth-child(odd) {
+	background-color: #00002A;
+}
+
+#entry:nth-child(even) {
+	background-color: #20204A;
+}
+
+#entry:selected {
+	background-color: #30305A;
+}
+
+#input {
+	background-color: #20204A;
+	color: #B0B0DA;
+	border-color: #30305A; 
+}
+
+#input:focus {
+	border-color: #F3E877; 
+}

@@ -1,0 +1,23 @@
+[Base16 Darktooth]
+text=a89984
+text(bold)=a89984
+background=1d2021
+black=1d2021
+black(bold)=665c54
+red=fb543f
+red(bold)=fe8625
+green=95c085
+green(bold)=32302f
+yellow=fac03b
+yellow(bold)=504945
+blue=0d6678
+blue(bold)=928374
+magenta=8f4673
+magenta(bold)=d5c4a1
+cyan=8ba59b
+cyan(bold)=a87322
+white=a89984
+white(bold)=fdf4c1
+[Names]
+name0=Base16 Darktooth
+count=1

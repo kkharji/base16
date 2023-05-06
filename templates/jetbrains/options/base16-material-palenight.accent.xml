@@ -1,0 +1,13 @@
+<!--    Base16 Material Palenight
+        Scheme author: Nate Peterson
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="2.2.0.1" />
+    <option name="selectedTheme" value="CUSTOM" />
+    <option name="highlightColor" value="82aaff" />
+    <option name="accentColor" value="82aaff" />
+    <option name="darkTitleBar" value="true" />
+  </component>
+</application>

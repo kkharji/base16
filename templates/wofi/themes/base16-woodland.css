@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Woodland scheme by Jay Cornwall (https://jcornwall.com) */
+
+window {
+	background-color: #231e18;
+	color: #cabcb1;
+}
+
+#entry:nth-child(odd) {
+	background-color: #231e18;
+}
+
+#entry:nth-child(even) {
+	background-color: #302b25;
+}
+
+#entry:selected {
+	background-color: #48413a;
+}
+
+#input {
+	background-color: #302b25;
+	color: #b4a490;
+	border-color: #48413a; 
+}
+
+#input:focus {
+	border-color: #e0ac16; 
+}

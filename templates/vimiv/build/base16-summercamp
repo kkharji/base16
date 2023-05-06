@@ -1,0 +1,31 @@
+; base16-summercamp
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: zoe firi (zoefiri.github.io)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #1c1810
+base01 = #2a261c
+base02 = #3a3527
+base03 = #504b38
+base04 = #5f5b45
+base05 = #736e55
+base06 = #bab696
+base07 = #f8f5de
+base08 = #e35142
+base09 = #fba11b
+base0a = #f2ff27
+base0b = #5ceb5a
+base0c = #5aebbc
+base0d = #489bf0
+base0e = #FF8080
+base0f = #F69BE7
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

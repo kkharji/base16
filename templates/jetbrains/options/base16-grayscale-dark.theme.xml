@@ -1,0 +1,22 @@
+<!--    Base16 Grayscale Dark
+        Scheme author: Alexandre Gavioli (https://github.com/Alexx2/)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="MaterialCustomThemeConfig">
+    <option name="notificationsColor" value="101010" />
+    <option name="treeSelectionColor" value="686868" />
+    <option name="highlightColor" value="464646" />
+    <option name="secondBorderColor" value="101010" />
+    <option name="tableSelectedColor" value="686868" />
+    <option name="contrastColor" value="252525" />
+    <option name="disabledColor" value="ababab" />
+    <option name="secondaryBackgroundColor" value="252525" />
+    <option name="buttonColor" value="101010" />
+    <option name="selectionForegroundColor" value="e3e3e3" />
+    <option name="selectionBackgroundColor" value="686868" />
+    <option name="textColor" value="e3e3e3" />
+    <option name="foregroundColor" value="b9b9b9" />
+    <option name="backgroundColor" value="101010" />
+  </component>
+</application> 

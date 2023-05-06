@@ -1,0 +1,9 @@
+<!--    Base16 pinky
+        Scheme author: Benjamin (https://github.com/b3nj5m1n)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 pinky" />
+  </component>
+</application>

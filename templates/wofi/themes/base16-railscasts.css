@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Railscasts scheme by Ryan Bates (http://railscasts.com) */
+
+window {
+	background-color: #2b2b2b;
+	color: #e6e1dc;
+}
+
+#entry:nth-child(odd) {
+	background-color: #2b2b2b;
+}
+
+#entry:nth-child(even) {
+	background-color: #272935;
+}
+
+#entry:selected {
+	background-color: #3a4055;
+}
+
+#input {
+	background-color: #272935;
+	color: #d4cfc9;
+	border-color: #3a4055; 
+}
+
+#input:focus {
+	border-color: #ffc66d; 
+}

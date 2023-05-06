@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Atelier Dune scheme by Bram de Haan (http://atelierbramdehaan.nl) */
+
+window {
+	background-color: #20201d;
+	color: #a6a28c;
+}
+
+#entry:nth-child(odd) {
+	background-color: #20201d;
+}
+
+#entry:nth-child(even) {
+	background-color: #292824;
+}
+
+#entry:selected {
+	background-color: #6e6b5e;
+}
+
+#input {
+	background-color: #292824;
+	color: #999580;
+	border-color: #6e6b5e; 
+}
+
+#input:focus {
+	border-color: #ae9513; 
+}

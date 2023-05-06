@@ -1,0 +1,23 @@
+[Base16 Gruvbox Material Dark, Medium]
+text=ddc7a1
+text(bold)=ddc7a1
+background=292828
+black=292828
+black(bold)=665c54
+red=ea6962
+red(bold)=e78a4e
+green=a9b665
+green(bold)=32302f
+yellow=d8a657
+yellow(bold)=504945
+blue=7daea3
+blue(bold)=bdae93
+magenta=d3869b
+magenta(bold)=ebdbb2
+cyan=89b482
+cyan(bold)=bd6f3e
+white=ddc7a1
+white(bold)=fbf1c7
+[Names]
+name0=Base16 Gruvbox Material Dark, Medium
+count=1

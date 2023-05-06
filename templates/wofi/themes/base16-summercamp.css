@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * summercamp scheme by zoe firi (zoefiri.github.io) */
+
+window {
+	background-color: #1c1810;
+	color: #736e55;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1c1810;
+}
+
+#entry:nth-child(even) {
+	background-color: #2a261c;
+}
+
+#entry:selected {
+	background-color: #3a3527;
+}
+
+#input {
+	background-color: #2a261c;
+	color: #5f5b45;
+	border-color: #3a3527; 
+}
+
+#input:focus {
+	border-color: #f2ff27; 
+}

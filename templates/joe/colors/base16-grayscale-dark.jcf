@@ -1,0 +1,121 @@
+
+# base16 Grayscale Dark by Alexandre Gavioli (https://github.com/Alexx2/)
+
+.colors *
+
+-text		$b9b9b9/$101010
+-status		$ababab/$464646
+-cursor		$101010/$b9b9b9
+-selection	/$464646
+-curlin		/$252525
+-linum		$525252/$252525
+-curlinum	$ababab/$252525
+-menusel	$252525/$ababab
+
+-term 0 	$101010
+-term 1 	$686868
+-term 2 	$8e8e8e
+-term 3 	$868686
+-term 4 	$999999
+-term 5 	$747474
+-term 6 	$a0a0a0
+-term 7 	$ababab
+-term 8 	$525252
+-term 9 	$686868
+-term 10	$8e8e8e
+-term 11	$868686
+-term 12	$7c7c7c
+-term 13	$5e5e5e
+-term 14	$a0a0a0
+-term 15	$f7f7f7
+
+=Constant	$999999
+=String		$8e8e8e
+=Escape		$868686
+
+=Comment	$525252
+=StorageClass	+Type
+=Keyword	$747474
+=Conditional	$747474
+=Operator	$b9b9b9
+=Loop		$a0a0a0
+=Statement	$7c7c7c
+=Type		$a0a0a0
+
+=DefinedIdent	$7c7c7c
+=Label		$a0a0a0
+=DefinedType	$a0a0a0
+=Structure	$747474
+
+=Preproc	$a0a0a0
+=Include	$686868
+=Define		$747474
+=TODO		$a0a0a0/$252525
+=Precond	$747474
+
+=diff.AddLine	$8e8e8e/$252525
+=diff.ChgLine	$525252/$252525
+=diff.DelLine	$7c7c7c/$252525
+=diff.File	$7c7c7c
+=diff.FileNew	$8e8e8e
+=diff.Hunk	$686868
+
+.colors 256
+
+-text		250/233
+-status		248/238
+-cursor		233/250
+-selection	/238
+-curlin		/235
+-linum		239/235
+-curlinum	248/235
+-menusel	235/248
+
+-term 0 	233
+-term 1 	242
+-term 2 	245
+-term 3 	102
+-term 4 	247
+-term 5 	243
+-term 6 	247
+-term 7 	248
+-term 8 	239
+-term 9 	242
+-term 10	245
+-term 11	102
+-term 12	244
+-term 13	59
+-term 14	247
+-term 15	231
+
+=Constant	247
+=String		245
+=Escape		102
+
+=Comment	239
+=StorageClass	+Type
+=Keyword	243
+=Conditional	243
+=Operator	250
+=Loop		247
+=Statement	244
+=Type		247
+
+=DefinedIdent	244
+=Label		247
+=DefinedType	247
+=Structure	243
+
+=Preproc	247
+=Include	242
+=Define		243
+=TODO		247/235
+=Precond	243
+
+=diff.AddLine	245/235
+=diff.ChgLine	239/235
+=diff.DelLine	244/235
+=diff.File	244
+=diff.FileNew	245
+=diff.Hunk	242
+

@@ -1,0 +1,23 @@
+[Base16 Primer Light]
+text=2f363d
+text(bold)=2f363d
+background=fafbfc
+black=fafbfc
+black(bold)=959da5
+red=d73a49
+red(bold)=f66a0a
+green=28a745
+green(bold)=e1e4e8
+yellow=ffd33d
+yellow(bold)=d1d5da
+blue=0366d6
+blue(bold)=444d56
+magenta=ea4aaa
+magenta(bold)=24292e
+cyan=79b8ff
+cyan(bold)=a04100
+white=2f363d
+white(bold)=1b1f23
+[Names]
+name0=Base16 Primer Light
+count=1

@@ -1,0 +1,31 @@
+; base16-windows-highcontrast
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Fergus Collins (https://github.com/C-Fergus)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #000000
+base01 = #1C1C1C
+base02 = #383838
+base03 = #545454
+base04 = #a2a2a2
+base05 = #c0c0c0
+base06 = #dedede
+base07 = #fcfcfc
+base08 = #fc5454
+base09 = #808000
+base0a = #fcfc54
+base0b = #54fc54
+base0c = #54fcfc
+base0d = #5454fc
+base0e = #fc54fc
+base0f = #008000
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

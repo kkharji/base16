@@ -1,0 +1,31 @@
+; base16-ia-dark
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: iA Inc. (modified by aramisgithub)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #1a1a1a
+base01 = #222222
+base02 = #1d414d
+base03 = #767676
+base04 = #b8b8b8
+base05 = #cccccc
+base06 = #e8e8e8
+base07 = #f8f8f8
+base08 = #d88568
+base09 = #d86868
+base0a = #b99353
+base0b = #83a471
+base0c = #7c9cae
+base0d = #8eccdd
+base0e = #b98eb2
+base0f = #8b6c37
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

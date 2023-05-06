@@ -8,10 +8,10 @@
       with (import nixpkgs { inherit system; });
       let
         pybase16 = with python39Packages;
-          let sha256 = "sha256-lC3KkIxHrTS4IO7tMGo8wGqoOeZrvm1Zu/dYygBVbTs=";
+          let sha256 = "sha256-EuFQz7wVA4NcpO2zH0U8ABaRw2EfHzo4dutTgYylZh4=";
           in buildPythonApplication rec {
             pname = "pybase16-builder";
-            version = "0.2.7";
+            version = "0.2.8";
             src = fetchPypi { inherit pname version sha256; };
             propagatedBuildInputs = [ pystache pyyaml aiofiles setuptools ];
           };
@@ -22,19 +22,15 @@
             name = "base16";
             version = "master";
             src = ./.;
-            buildInputs = [ pybase16 git cacert installShellFiles ];
+            buildInputs = [ installShellFiles ];
             buildPhase = ''
               runHook preBuild
-              # Because pybase16 does use git to do internal fetching
-              export GIT_SSL_CAINFO=${cacert.out}/etc/ssl/certs/ca-bundle.crt
-              export SSL_CERT_FILE=${cacert.out}/etc/ssl/certs/ca-bundle.crt
-              make all
               runHook postBuild
             '';
             installPhase = ''
               runHook preInstall
               mkdir -p $out/share
-              mv share $out
+              cp -r share $out
               cp -r lua $out/share/nvim/lua
               cp shell/plugin.zsh $out/share/shell/plugin.zsh
               runHook postInstall
@@ -43,6 +39,12 @@
               installShellCompletion --zsh shell/completions/_color
             '';
           };
+        };
+        devShells.default = mkShell {
+          buildInputs = [ nixpkgs-fmt pybase16 ];
+          shellHook = ''
+            which pybase16
+          '';
         };
         modules = import ./default.nix;
         defaultPackage = packages.base16;

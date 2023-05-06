@@ -1,0 +1,31 @@
+; base16-solarflare
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Chuck Harmston (https://chuck.harmston.ch)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #18262F
+base01 = #222E38
+base02 = #586875
+base03 = #667581
+base04 = #85939E
+base05 = #A6AFB8
+base06 = #E8E9ED
+base07 = #F5F7FA
+base08 = #EF5253
+base09 = #E66B2B
+base0a = #E4B51C
+base0b = #7CC844
+base0c = #52CBB0
+base0d = #33B5E1
+base0e = #A363D5
+base0f = #D73C9A
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

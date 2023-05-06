@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Material Vivid scheme by joshyrobot */
+
+window {
+	background-color: #202124;
+	color: #80868b;
+}
+
+#entry:nth-child(odd) {
+	background-color: #202124;
+}
+
+#entry:nth-child(even) {
+	background-color: #27292c;
+}
+
+#entry:selected {
+	background-color: #323639;
+}
+
+#input {
+	background-color: #27292c;
+	color: #676c71;
+	border-color: #323639; 
+}
+
+#input:focus {
+	border-color: #ffeb3b; 
+}

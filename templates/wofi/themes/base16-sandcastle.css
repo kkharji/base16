@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Sandcastle scheme by George Essig (https://github.com/gessig) */
+
+window {
+	background-color: #282c34;
+	color: #a89984;
+}
+
+#entry:nth-child(odd) {
+	background-color: #282c34;
+}
+
+#entry:nth-child(even) {
+	background-color: #2c323b;
+}
+
+#entry:selected {
+	background-color: #3e4451;
+}
+
+#input {
+	background-color: #2c323b;
+	color: #928374;
+	border-color: #3e4451; 
+}
+
+#input:focus {
+	border-color: #a07e3b; 
+}

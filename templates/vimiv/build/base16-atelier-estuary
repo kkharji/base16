@@ -1,0 +1,31 @@
+; base16-atelier-estuary
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #22221b
+base01 = #302f27
+base02 = #5f5e4e
+base03 = #6c6b5a
+base04 = #878573
+base05 = #929181
+base06 = #e7e6df
+base07 = #f4f3ec
+base08 = #ba6236
+base09 = #ae7313
+base0a = #a5980d
+base0b = #7d9726
+base0c = #5b9d48
+base0d = #36a166
+base0e = #5f9182
+base0f = #9d6c7c
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

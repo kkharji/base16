@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * darkmoss scheme by Gabriel Avanzi (https://github.com/avanzzzi) */
+
+window {
+	background-color: #171e1f;
+	color: #c7c7a5;
+}
+
+#entry:nth-child(odd) {
+	background-color: #171e1f;
+}
+
+#entry:nth-child(even) {
+	background-color: #252c2d;
+}
+
+#entry:selected {
+	background-color: #373c3d;
+}
+
+#input {
+	background-color: #252c2d;
+	color: #818f80;
+	border-color: #373c3d; 
+}
+
+#input:focus {
+	border-color: #fdb11f; 
+}

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Materia scheme by Defman21 */
+
+window {
+	background-color: #263238;
+	color: #CDD3DE;
+}
+
+#entry:nth-child(odd) {
+	background-color: #263238;
+}
+
+#entry:nth-child(even) {
+	background-color: #2C393F;
+}
+
+#entry:selected {
+	background-color: #37474F;
+}
+
+#input {
+	background-color: #2C393F;
+	color: #C9CCD3;
+	border-color: #37474F; 
+}
+
+#input:focus {
+	border-color: #FFCC00; 
+}

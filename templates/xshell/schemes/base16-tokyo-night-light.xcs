@@ -1,0 +1,23 @@
+[Base16 Tokyo Night Light]
+text=343b59
+text(bold)=343b59
+background=d5d6db
+black=d5d6db
+black(bold)=9699a3
+red=343b58
+red(bold)=965027
+green=485e30
+green(bold)=cbccd1
+yellow=166775
+yellow(bold)=dfe0e5
+blue=34548a
+blue(bold)=4c505e
+magenta=5a4a78
+magenta(bold)=1a1b26
+cyan=3e6968
+cyan(bold)=8c4351
+white=343b59
+white(bold)=1a1b26
+[Names]
+name0=Base16 Tokyo Night Light
+count=1

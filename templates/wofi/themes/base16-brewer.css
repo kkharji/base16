@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Brewer scheme by Timothée Poisot (http://github.com/tpoisot) */
+
+window {
+	background-color: #0c0d0e;
+	color: #b7b8b9;
+}
+
+#entry:nth-child(odd) {
+	background-color: #0c0d0e;
+}
+
+#entry:nth-child(even) {
+	background-color: #2e2f30;
+}
+
+#entry:selected {
+	background-color: #515253;
+}
+
+#input {
+	background-color: #2e2f30;
+	color: #959697;
+	border-color: #515253; 
+}
+
+#input:focus {
+	border-color: #dca060; 
+}

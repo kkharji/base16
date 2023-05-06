@@ -1,0 +1,23 @@
+[Base16 Seti UI]
+text=d6d6d6
+text(bold)=d6d6d6
+background=151718
+black=151718
+black(bold)=41535b
+red=cd3f45
+red(bold)=db7b55
+green=9fca56
+green(bold)=282a2b
+yellow=e6cd69
+yellow(bold)=3b758c
+blue=55b5db
+blue(bold)=43a5d5
+magenta=a074c4
+magenta(bold)=eeeeee
+cyan=55dbbe
+cyan(bold)=8a553f
+white=d6d6d6
+white(bold)=ffffff
+[Names]
+name0=Base16 Seti UI
+count=1

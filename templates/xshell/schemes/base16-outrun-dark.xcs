@@ -1,0 +1,23 @@
+[Base16 Outrun Dark]
+text=d0d0fa
+text(bold)=d0d0fa
+background=00002a
+black=00002a
+black(bold)=50507a
+red=ff4242
+red(bold)=fc8d28
+green=59f176
+green(bold)=20204a
+yellow=f3e877
+yellow(bold)=30305a
+blue=66b0ff
+blue(bold)=b0b0da
+magenta=f10596
+magenta(bold)=e0e0ff
+cyan=0ef0f0
+cyan(bold)=f003ef
+white=d0d0fa
+white(bold)=f5f5ff
+[Names]
+name0=Base16 Outrun Dark
+count=1

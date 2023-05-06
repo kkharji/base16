@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * IR Black scheme by Timothée Poisot (http://timotheepoisot.fr) */
+
+window {
+	background-color: #000000;
+	color: #b5b3aa;
+}
+
+#entry:nth-child(odd) {
+	background-color: #000000;
+}
+
+#entry:nth-child(even) {
+	background-color: #242422;
+}
+
+#entry:selected {
+	background-color: #484844;
+}
+
+#input {
+	background-color: #242422;
+	color: #918f88;
+	border-color: #484844; 
+}
+
+#input:focus {
+	border-color: #ffffb6; 
+}

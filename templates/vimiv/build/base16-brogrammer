@@ -1,0 +1,31 @@
+; base16-brogrammer
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Vik Ramanujam (http://github.com/piggyslasher)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #1f1f1f
+base01 = #f81118
+base02 = #2dc55e
+base03 = #ecba0f
+base04 = #2a84d2
+base05 = #4e5ab7
+base06 = #1081d6
+base07 = #d6dbe5
+base08 = #d6dbe5
+base09 = #de352e
+base0a = #1dd361
+base0b = #f3bd09
+base0c = #1081d6
+base0d = #5350b9
+base0e = #0f7ddb
+base0f = #ffffff
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

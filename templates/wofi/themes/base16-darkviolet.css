@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Dark Violet scheme by ruler501 (https://github.com/ruler501/base16-darkviolet) */
+
+window {
+	background-color: #000000;
+	color: #b08ae6;
+}
+
+#entry:nth-child(odd) {
+	background-color: #000000;
+}
+
+#entry:nth-child(even) {
+	background-color: #231a40;
+}
+
+#entry:selected {
+	background-color: #432d59;
+}
+
+#input {
+	background-color: #231a40;
+	color: #00ff00;
+	border-color: #432d59; 
+}
+
+#input:focus {
+	border-color: #f29df2; 
+}

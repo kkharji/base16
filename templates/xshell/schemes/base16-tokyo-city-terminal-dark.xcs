@@ -1,0 +1,23 @@
+[Base16 Tokyo City Terminal Dark]
+text=d8e2ec
+text(bold)=d8e2ec
+background=171d23
+black=171d23
+black(bold)=526270
+red=d95468
+red(bold)=ff9e64
+green=8bd49c
+green(bold)=1d252c
+yellow=ebbf83
+yellow(bold)=28323a
+blue=539afc
+blue(bold)=b7c5d3
+magenta=b62d65
+magenta(bold)=f6f6f8
+cyan=70e1e8
+cyan(bold)=dd9d82
+white=d8e2ec
+white(bold)=fbfbfd
+[Names]
+name0=Base16 Tokyo City Terminal Dark
+count=1

@@ -1,0 +1,31 @@
+; base16-silk-light
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Gabriel Fontes (https://github.com/Misterio77)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #E9F1EF
+base01 = #CCD4D3
+base02 = #90B7B6
+base03 = #5C787B
+base04 = #4B5B5F
+base05 = #385156
+base06 = #0e3c46
+base07 = #D2FAFF
+base08 = #CF432E
+base09 = #D27F46
+base0a = #CFAD25
+base0b = #6CA38C
+base0c = #329CA2
+base0d = #39AAC9
+base0e = #6E6582
+base0f = #865369
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

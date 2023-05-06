@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Hardcore scheme by Chris Caller */
+
+window {
+	background-color: #212121;
+	color: #cdcdcd;
+}
+
+#entry:nth-child(odd) {
+	background-color: #212121;
+}
+
+#entry:nth-child(even) {
+	background-color: #303030;
+}
+
+#entry:selected {
+	background-color: #353535;
+}
+
+#input {
+	background-color: #303030;
+	color: #707070;
+	border-color: #353535; 
+}
+
+#input:focus {
+	border-color: #e6db74; 
+}

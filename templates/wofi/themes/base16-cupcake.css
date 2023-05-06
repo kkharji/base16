@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Cupcake scheme by Chris Kempson (http://chriskempson.com) */
+
+window {
+	background-color: #fbf1f2;
+	color: #8b8198;
+}
+
+#entry:nth-child(odd) {
+	background-color: #fbf1f2;
+}
+
+#entry:nth-child(even) {
+	background-color: #f2f1f4;
+}
+
+#entry:selected {
+	background-color: #d8d5dd;
+}
+
+#input {
+	background-color: #f2f1f4;
+	color: #a59daf;
+	border-color: #d8d5dd; 
+}
+
+#input:focus {
+	border-color: #DCB16C; 
+}

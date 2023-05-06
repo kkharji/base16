@@ -1,0 +1,6 @@
+# Base16 London Tube for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Jan T. Sott
+# tube (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#231f20\nfg_color:#d9d8d8\nbase_color:#231f20\ntext_color:#d9d8d8\nselected_bg_color:#5a5758\nselected_fg_color:#d9d8d8\ntooltip_bg_color:#231f20\ntooltip_fg_color:#959ca1\ntitlebar_bg_color:#231f20\ntitlebar_fg_color:#009ddc\nmenubar_bg_color:#231f20\nmenubar_fg_color:#009ddc\ntoolbar_bg_color:#231f20\ntoolbar_fg_color:#ffd204\nmenu_bg_color:#231f20\nmenu_fg_color:#d9d8d8\npanel_bg_color:#231f20\npanel_fg_color:#00853e\nlink_color:#f386a1"
+

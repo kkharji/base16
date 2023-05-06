@@ -1,0 +1,121 @@
+
+# base16 Google Light by Seth Wright (http://sethawright.com)
+
+.colors *
+
+-text		$373b41/$ffffff
+-status		$969896/$c5c8c6
+-cursor		$ffffff/$373b41
+-selection	/$c5c8c6
+-curlin		/$e0e0e0
+-linum		$b4b7b4/$e0e0e0
+-curlinum	$969896/$e0e0e0
+-menusel	$e0e0e0/$969896
+
+-term 0 	$ffffff
+-term 1 	$3971ed
+-term 2 	$198844
+-term 3 	$3971ed
+-term 4 	$f96a38
+-term 5 	$a36ac7
+-term 6 	$fba922
+-term 7 	$969896
+-term 8 	$b4b7b4
+-term 9 	$3971ed
+-term 10	$198844
+-term 11	$3971ed
+-term 12	$cc342b
+-term 13	$3971ed
+-term 14	$fba922
+-term 15	$1d1f21
+
+=Constant	$f96a38
+=String		$198844
+=Escape		$3971ed
+
+=Comment	$b4b7b4
+=StorageClass	+Type
+=Keyword	$a36ac7
+=Conditional	$a36ac7
+=Operator	$373b41
+=Loop		$fba922
+=Statement	$cc342b
+=Type		$fba922
+
+=DefinedIdent	$cc342b
+=Label		$fba922
+=DefinedType	$fba922
+=Structure	$a36ac7
+
+=Preproc	$fba922
+=Include	$3971ed
+=Define		$a36ac7
+=TODO		$fba922/$e0e0e0
+=Precond	$a36ac7
+
+=diff.AddLine	$198844/$e0e0e0
+=diff.ChgLine	$b4b7b4/$e0e0e0
+=diff.DelLine	$cc342b/$e0e0e0
+=diff.File	$cc342b
+=diff.FileNew	$198844
+=diff.Hunk	$3971ed
+
+.colors 256
+
+-text		237/231
+-status		246/251
+-cursor		231/237
+-selection	/251
+-curlin		/188
+-linum		249/188
+-curlinum	246/188
+-menusel	188/246
+
+-term 0 	231
+-term 1 	27
+-term 2 	29
+-term 3 	27
+-term 4 	202
+-term 5 	134
+-term 6 	214
+-term 7 	246
+-term 8 	249
+-term 9 	27
+-term 10	29
+-term 11	27
+-term 12	160
+-term 13	27
+-term 14	214
+-term 15	234
+
+=Constant	202
+=String		29
+=Escape		27
+
+=Comment	249
+=StorageClass	+Type
+=Keyword	134
+=Conditional	134
+=Operator	237
+=Loop		214
+=Statement	160
+=Type		214
+
+=DefinedIdent	160
+=Label		214
+=DefinedType	214
+=Structure	134
+
+=Preproc	214
+=Include	27
+=Define		134
+=TODO		214/188
+=Precond	134
+
+=diff.AddLine	29/188
+=diff.ChgLine	249/188
+=diff.DelLine	160/188
+=diff.File	160
+=diff.FileNew	29
+=diff.Hunk	27
+

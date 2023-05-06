@@ -1,0 +1,121 @@
+
+# base16 OneDark by Lalit Magant (http://github.com/tilal6991)
+
+.colors *
+
+-text		$abb2bf/$282c34
+-status		$565c64/$3e4451
+-cursor		$282c34/$abb2bf
+-selection	/$3e4451
+-curlin		/$353b45
+-linum		$545862/$353b45
+-curlinum	$565c64/$353b45
+-menusel	$353b45/$565c64
+
+-term 0 	$282c34
+-term 1 	$61afef
+-term 2 	$98c379
+-term 3 	$56b6c2
+-term 4 	$d19a66
+-term 5 	$c678dd
+-term 6 	$e5c07b
+-term 7 	$565c64
+-term 8 	$545862
+-term 9 	$61afef
+-term 10	$98c379
+-term 11	$56b6c2
+-term 12	$e06c75
+-term 13	$be5046
+-term 14	$e5c07b
+-term 15	$c8ccd4
+
+=Constant	$d19a66
+=String		$98c379
+=Escape		$56b6c2
+
+=Comment	$545862
+=StorageClass	+Type
+=Keyword	$c678dd
+=Conditional	$c678dd
+=Operator	$abb2bf
+=Loop		$e5c07b
+=Statement	$e06c75
+=Type		$e5c07b
+
+=DefinedIdent	$e06c75
+=Label		$e5c07b
+=DefinedType	$e5c07b
+=Structure	$c678dd
+
+=Preproc	$e5c07b
+=Include	$61afef
+=Define		$c678dd
+=TODO		$e5c07b/$353b45
+=Precond	$c678dd
+
+=diff.AddLine	$98c379/$353b45
+=diff.ChgLine	$545862/$353b45
+=diff.DelLine	$e06c75/$353b45
+=diff.File	$e06c75
+=diff.FileNew	$98c379
+=diff.Hunk	$61afef
+
+.colors 256
+
+-text		249/236
+-status		240/238
+-cursor		236/249
+-selection	/238
+-curlin		/237
+-linum		240/237
+-curlinum	240/237
+-menusel	237/240
+
+-term 0 	236
+-term 1 	75
+-term 2 	107
+-term 3 	73
+-term 4 	180
+-term 5 	170
+-term 6 	179
+-term 7 	240
+-term 8 	240
+-term 9 	75
+-term 10	107
+-term 11	73
+-term 12	167
+-term 13	131
+-term 14	179
+-term 15	252
+
+=Constant	180
+=String		107
+=Escape		73
+
+=Comment	240
+=StorageClass	+Type
+=Keyword	170
+=Conditional	170
+=Operator	249
+=Loop		179
+=Statement	167
+=Type		179
+
+=DefinedIdent	167
+=Label		179
+=DefinedType	179
+=Structure	170
+
+=Preproc	179
+=Include	75
+=Define		170
+=TODO		179/237
+=Precond	170
+
+=diff.AddLine	107/237
+=diff.ChgLine	240/237
+=diff.DelLine	167/237
+=diff.File	167
+=diff.FileNew	107
+=diff.Hunk	75
+

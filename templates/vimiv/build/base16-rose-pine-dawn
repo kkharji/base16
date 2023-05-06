@@ -1,0 +1,31 @@
+; base16-rose-pine-dawn
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #faf4ed
+base01 = #fffaf3
+base02 = #f2e9de
+base03 = #9893a5
+base04 = #6e6a86
+base05 = #575279
+base06 = #555169
+base07 = #26233a
+base08 = #1f1d2e
+base09 = #b4637a
+base0a = #ea9d34
+base0b = #d7827e
+base0c = #286983
+base0d = #56949f
+base0e = #907aa9
+base0f = #c5c3ce
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

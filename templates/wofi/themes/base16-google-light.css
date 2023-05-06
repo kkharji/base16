@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Google Light scheme by Seth Wright (http://sethawright.com) */
+
+window {
+	background-color: #ffffff;
+	color: #373b41;
+}
+
+#entry:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+#entry:nth-child(even) {
+	background-color: #e0e0e0;
+}
+
+#entry:selected {
+	background-color: #c5c8c6;
+}
+
+#input {
+	background-color: #e0e0e0;
+	color: #969896;
+	border-color: #c5c8c6; 
+}
+
+#input:focus {
+	border-color: #FBA922; 
+}

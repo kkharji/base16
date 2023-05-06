@@ -1,0 +1,23 @@
+[Base16 Equilibrium Gray Dark]
+text=ababab
+text(bold)=ababab
+background=111111
+black=111111
+black(bold)=777777
+red=f04339
+red(bold)=df5923
+green=7f8b00
+green(bold)=1b1b1b
+yellow=bb8801
+yellow(bold)=262626
+blue=008dd1
+blue(bold)=919191
+magenta=6a7fd2
+magenta(bold)=c6c6c6
+cyan=00948b
+cyan(bold)=e3488e
+white=ababab
+white(bold)=e2e2e2
+[Names]
+name0=Base16 Equilibrium Gray Dark
+count=1

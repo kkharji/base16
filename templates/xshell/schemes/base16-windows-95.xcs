@@ -1,0 +1,23 @@
+[Base16 Windows 95]
+text=a8a8a8
+text(bold)=a8a8a8
+background=000000
+black=000000
+black(bold)=545454
+red=fc5454
+red(bold)=a85400
+green=54fc54
+green(bold)=1c1c1c
+yellow=fcfc54
+yellow(bold)=383838
+blue=5454fc
+blue(bold)=7e7e7e
+magenta=fc54fc
+magenta(bold)=d2d2d2
+cyan=54fcfc
+cyan(bold)=00a800
+white=a8a8a8
+white(bold)=fcfcfc
+[Names]
+name0=Base16 Windows 95
+count=1

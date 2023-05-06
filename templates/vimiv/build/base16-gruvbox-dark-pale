@@ -1,0 +1,31 @@
+; base16-gruvbox-dark-pale
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #262626
+base01 = #3a3a3a
+base02 = #4e4e4e
+base03 = #8a8a8a
+base04 = #949494
+base05 = #dab997
+base06 = #d5c4a1
+base07 = #ebdbb2
+base08 = #d75f5f
+base09 = #ff8700
+base0a = #ffaf00
+base0b = #afaf00
+base0c = #85ad85
+base0d = #83adad
+base0e = #d485ad
+base0f = #d65d0e
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

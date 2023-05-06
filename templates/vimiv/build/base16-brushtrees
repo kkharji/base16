@@ -1,0 +1,31 @@
+; base16-brushtrees
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Abraham White &lt;abelincoln.white@gmail.com&gt;
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #E3EFEF
+base01 = #C9DBDC
+base02 = #B0C5C8
+base03 = #98AFB5
+base04 = #8299A1
+base05 = #6D828E
+base06 = #5A6D7A
+base07 = #485867
+base08 = #b38686
+base09 = #d8bba2
+base0a = #aab386
+base0b = #87b386
+base0c = #86b3b3
+base0d = #868cb3
+base0e = #b386b2
+base0f = #b39f9f
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

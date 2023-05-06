@@ -1,0 +1,23 @@
+[Base16 Monokai]
+text=f8f8f2
+text(bold)=f8f8f2
+background=272822
+black=272822
+black(bold)=75715e
+red=f92672
+red(bold)=fd971f
+green=a6e22e
+green(bold)=383830
+yellow=f4bf75
+yellow(bold)=49483e
+blue=66d9ef
+blue(bold)=a59f85
+magenta=ae81ff
+magenta(bold)=f5f4f1
+cyan=a1efe4
+cyan(bold)=cc6633
+white=f8f8f2
+white(bold)=f9f8f5
+[Names]
+name0=Base16 Monokai
+count=1

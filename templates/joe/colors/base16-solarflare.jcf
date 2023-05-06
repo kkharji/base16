@@ -1,0 +1,121 @@
+
+# base16 Solar Flare by Chuck Harmston (https://chuck.harmston.ch)
+
+.colors *
+
+-text		$a6afb8/$18262f
+-status		$85939e/$586875
+-cursor		$18262f/$a6afb8
+-selection	/$586875
+-curlin		/$222e38
+-linum		$667581/$222e38
+-curlinum	$85939e/$222e38
+-menusel	$222e38/$85939e
+
+-term 0 	$18262f
+-term 1 	$33b5e1
+-term 2 	$7cc844
+-term 3 	$52cbb0
+-term 4 	$e66b2b
+-term 5 	$a363d5
+-term 6 	$e4b51c
+-term 7 	$85939e
+-term 8 	$667581
+-term 9 	$33b5e1
+-term 10	$7cc844
+-term 11	$52cbb0
+-term 12	$ef5253
+-term 13	$d73c9a
+-term 14	$e4b51c
+-term 15	$f5f7fa
+
+=Constant	$e66b2b
+=String		$7cc844
+=Escape		$52cbb0
+
+=Comment	$667581
+=StorageClass	+Type
+=Keyword	$a363d5
+=Conditional	$a363d5
+=Operator	$a6afb8
+=Loop		$e4b51c
+=Statement	$ef5253
+=Type		$e4b51c
+
+=DefinedIdent	$ef5253
+=Label		$e4b51c
+=DefinedType	$e4b51c
+=Structure	$a363d5
+
+=Preproc	$e4b51c
+=Include	$33b5e1
+=Define		$a363d5
+=TODO		$e4b51c/$222e38
+=Precond	$a363d5
+
+=diff.AddLine	$7cc844/$222e38
+=diff.ChgLine	$667581/$222e38
+=diff.DelLine	$ef5253/$222e38
+=diff.File	$ef5253
+=diff.FileNew	$7cc844
+=diff.Hunk	$33b5e1
+
+.colors 256
+
+-text		145/235
+-status		246/242
+-cursor		235/145
+-selection	/242
+-curlin		/236
+-linum		243/236
+-curlinum	246/236
+-menusel	236/246
+
+-term 0 	235
+-term 1 	38
+-term 2 	113
+-term 3 	43
+-term 4 	166
+-term 5 	134
+-term 6 	178
+-term 7 	246
+-term 8 	243
+-term 9 	38
+-term 10	113
+-term 11	43
+-term 12	167
+-term 13	162
+-term 14	178
+-term 15	231
+
+=Constant	166
+=String		113
+=Escape		43
+
+=Comment	243
+=StorageClass	+Type
+=Keyword	134
+=Conditional	134
+=Operator	145
+=Loop		178
+=Statement	167
+=Type		178
+
+=DefinedIdent	167
+=Label		178
+=DefinedType	178
+=Structure	134
+
+=Preproc	178
+=Include	38
+=Define		134
+=TODO		178/236
+=Precond	134
+
+=diff.AddLine	113/236
+=diff.ChgLine	243/236
+=diff.DelLine	167/236
+=diff.File	167
+=diff.FileNew	113
+=diff.Hunk	38
+

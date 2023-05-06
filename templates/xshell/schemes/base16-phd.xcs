@@ -1,0 +1,23 @@
+[Base16 PhD]
+text=b8bbc2
+text(bold)=b8bbc2
+background=061229
+black=061229
+black(bold)=717885
+red=d07346
+red(bold)=f0a000
+green=99bf52
+green(bold)=2a3448
+yellow=fbd461
+yellow(bold)=4d5666
+blue=5299bf
+blue(bold)=9a99a3
+magenta=9989cc
+magenta(bold)=dbdde0
+cyan=72b9bf
+cyan(bold)=b08060
+white=b8bbc2
+white(bold)=ffffff
+[Names]
+name0=Base16 PhD
+count=1

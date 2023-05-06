@@ -1,0 +1,121 @@
+
+# base16 Rebecca by Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
+
+.colors *
+
+-text		$f1eff8/$292a44
+-status		$a0a0c5/$383a62
+-cursor		$292a44/$f1eff8
+-selection	/$383a62
+-curlin		/$663399
+-linum		$666699/$663399
+-curlinum	$a0a0c5/$663399
+-menusel	$663399/$a0a0c5
+
+-term 0 	$292a44
+-term 1 	$2de0a7
+-term 2 	$6dfedf
+-term 3 	$8eaee0
+-term 4 	$efe4a1
+-term 5 	$7aa5ff
+-term 6 	$ae81ff
+-term 7 	$a0a0c5
+-term 8 	$666699
+-term 9 	$2de0a7
+-term 10	$6dfedf
+-term 11	$8eaee0
+-term 12	$a0a0c5
+-term 13	$ff79c6
+-term 14	$ae81ff
+-term 15	$53495d
+
+=Constant	$efe4a1
+=String		$6dfedf
+=Escape		$8eaee0
+
+=Comment	$666699
+=StorageClass	+Type
+=Keyword	$7aa5ff
+=Conditional	$7aa5ff
+=Operator	$f1eff8
+=Loop		$ae81ff
+=Statement	$a0a0c5
+=Type		$ae81ff
+
+=DefinedIdent	$a0a0c5
+=Label		$ae81ff
+=DefinedType	$ae81ff
+=Structure	$7aa5ff
+
+=Preproc	$ae81ff
+=Include	$2de0a7
+=Define		$7aa5ff
+=TODO		$ae81ff/$663399
+=Precond	$7aa5ff
+
+=diff.AddLine	$6dfedf/$663399
+=diff.ChgLine	$666699/$663399
+=diff.DelLine	$a0a0c5/$663399
+=diff.File	$a0a0c5
+=diff.FileNew	$6dfedf
+=diff.Hunk	$2de0a7
+
+.colors 256
+
+-text		255/236
+-status		146/60
+-cursor		236/255
+-selection	/60
+-curlin		/91
+-linum		60/91
+-curlinum	146/91
+-menusel	91/146
+
+-term 0 	236
+-term 1 	43
+-term 2 	86
+-term 3 	110
+-term 4 	186
+-term 5 	111
+-term 6 	141
+-term 7 	146
+-term 8 	60
+-term 9 	43
+-term 10	86
+-term 11	110
+-term 12	146
+-term 13	212
+-term 14	141
+-term 15	60
+
+=Constant	186
+=String		86
+=Escape		110
+
+=Comment	60
+=StorageClass	+Type
+=Keyword	111
+=Conditional	111
+=Operator	255
+=Loop		141
+=Statement	146
+=Type		141
+
+=DefinedIdent	146
+=Label		141
+=DefinedType	141
+=Structure	111
+
+=Preproc	141
+=Include	43
+=Define		111
+=TODO		141/91
+=Precond	111
+
+=diff.AddLine	86/91
+=diff.ChgLine	60/91
+=diff.DelLine	146/91
+=diff.File	146
+=diff.FileNew	86
+=diff.Hunk	43
+

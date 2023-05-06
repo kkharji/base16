@@ -1,0 +1,9 @@
+<!--    Base16 Helios
+        Scheme author: Alex Meyer (https://github.com/reyemxela)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 Helios" />
+  </component>
+</application>

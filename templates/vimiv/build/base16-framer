@@ -1,0 +1,31 @@
+; base16-framer
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Framer (Maintained by Jesse Hoyos)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #181818
+base01 = #151515
+base02 = #464646
+base03 = #747474
+base04 = #B9B9B9
+base05 = #D0D0D0
+base06 = #E8E8E8
+base07 = #EEEEEE
+base08 = #FD886B
+base09 = #FC4769
+base0a = #FECB6E
+base0b = #32CCDC
+base0c = #ACDDFD
+base0d = #20BCFC
+base0e = #BA8CFC
+base0f = #B15F4A
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

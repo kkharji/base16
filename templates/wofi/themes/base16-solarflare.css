@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Solar Flare scheme by Chuck Harmston (https://chuck.harmston.ch) */
+
+window {
+	background-color: #18262F;
+	color: #A6AFB8;
+}
+
+#entry:nth-child(odd) {
+	background-color: #18262F;
+}
+
+#entry:nth-child(even) {
+	background-color: #222E38;
+}
+
+#entry:selected {
+	background-color: #586875;
+}
+
+#input {
+	background-color: #222E38;
+	color: #85939E;
+	border-color: #586875; 
+}
+
+#input:focus {
+	border-color: #E4B51C; 
+}

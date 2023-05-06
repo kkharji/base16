@@ -1,0 +1,31 @@
+; base16-edge-dark
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: cjayross (https://github.com/cjayross)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #262729
+base01 = #88909f
+base02 = #b7bec9
+base03 = #3e4249
+base04 = #73b3e7
+base05 = #b7bec9
+base06 = #d390e7
+base07 = #3e4249
+base08 = #e77171
+base09 = #e77171
+base0a = #dbb774
+base0b = #a1bf78
+base0c = #5ebaa5
+base0d = #73b3e7
+base0e = #d390e7
+base0f = #5ebaa5
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

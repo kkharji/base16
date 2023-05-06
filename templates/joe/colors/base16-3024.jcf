@@ -1,0 +1,121 @@
+
+# base16 3024 by Jan T. Sott (http://github.com/idleberg)
+
+.colors *
+
+-text		$a5a2a2/$090300
+-status		$807d7c/$4a4543
+-cursor		$090300/$a5a2a2
+-selection	/$4a4543
+-curlin		/$3a3432
+-linum		$5c5855/$3a3432
+-curlinum	$807d7c/$3a3432
+-menusel	$3a3432/$807d7c
+
+-term 0 	$090300
+-term 1 	$01a0e4
+-term 2 	$01a252
+-term 3 	$b5e4f4
+-term 4 	$e8bbd0
+-term 5 	$a16a94
+-term 6 	$fded02
+-term 7 	$807d7c
+-term 8 	$5c5855
+-term 9 	$01a0e4
+-term 10	$01a252
+-term 11	$b5e4f4
+-term 12	$db2d20
+-term 13	$cdab53
+-term 14	$fded02
+-term 15	$f7f7f7
+
+=Constant	$e8bbd0
+=String		$01a252
+=Escape		$b5e4f4
+
+=Comment	$5c5855
+=StorageClass	+Type
+=Keyword	$a16a94
+=Conditional	$a16a94
+=Operator	$a5a2a2
+=Loop		$fded02
+=Statement	$db2d20
+=Type		$fded02
+
+=DefinedIdent	$db2d20
+=Label		$fded02
+=DefinedType	$fded02
+=Structure	$a16a94
+
+=Preproc	$fded02
+=Include	$01a0e4
+=Define		$a16a94
+=TODO		$fded02/$3a3432
+=Precond	$a16a94
+
+=diff.AddLine	$01a252/$3a3432
+=diff.ChgLine	$5c5855/$3a3432
+=diff.DelLine	$db2d20/$3a3432
+=diff.File	$db2d20
+=diff.FileNew	$01a252
+=diff.Hunk	$01a0e4
+
+.colors 256
+
+-text		247/232
+-status		244/238
+-cursor		232/247
+-selection	/238
+-curlin		/237
+-linum		240/237
+-curlinum	244/237
+-menusel	237/244
+
+-term 0 	232
+-term 1 	39
+-term 2 	35
+-term 3 	153
+-term 4 	182
+-term 5 	132
+-term 6 	220
+-term 7 	244
+-term 8 	240
+-term 9 	39
+-term 10	35
+-term 11	153
+-term 12	160
+-term 13	179
+-term 14	220
+-term 15	231
+
+=Constant	182
+=String		35
+=Escape		153
+
+=Comment	240
+=StorageClass	+Type
+=Keyword	132
+=Conditional	132
+=Operator	247
+=Loop		220
+=Statement	160
+=Type		220
+
+=DefinedIdent	160
+=Label		220
+=DefinedType	220
+=Structure	132
+
+=Preproc	220
+=Include	39
+=Define		132
+=TODO		220/237
+=Precond	132
+
+=diff.AddLine	35/237
+=diff.ChgLine	240/237
+=diff.DelLine	160/237
+=diff.File	160
+=diff.FileNew	35
+=diff.Hunk	39
+

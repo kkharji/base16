@@ -1,0 +1,23 @@
+[Base16 Tokyo City Dark]
+text=d8e2ec
+text(bold)=d8e2ec
+background=171d23
+black=171d23
+black(bold)=526270
+red=f7768e
+red(bold)=ff9e64
+green=9ece6a
+green(bold)=1d252c
+yellow=b7c5d3
+yellow(bold)=28323a
+blue=7aa2f7
+blue(bold)=b7c5d3
+magenta=bb9af7
+magenta(bold)=f6f6f8
+cyan=89ddff
+cyan(bold)=bb9af7
+white=d8e2ec
+white(bold)=fbfbfd
+[Names]
+name0=Base16 Tokyo City Dark
+count=1

@@ -1,0 +1,121 @@
+
+# base16 Seti UI by 
+
+.colors *
+
+-text		$d6d6d6/$151718
+-status		$43a5d5/$3b758c
+-cursor		$151718/$d6d6d6
+-selection	/$3b758c
+-curlin		/$282a2b
+-linum		$41535b/$282a2b
+-curlinum	$43a5d5/$282a2b
+-menusel	$282a2b/$43a5d5
+
+-term 0 	$151718
+-term 1 	$55b5db
+-term 2 	$9fca56
+-term 3 	$55dbbe
+-term 4 	$db7b55
+-term 5 	$a074c4
+-term 6 	$e6cd69
+-term 7 	$43a5d5
+-term 8 	$41535b
+-term 9 	$55b5db
+-term 10	$9fca56
+-term 11	$55dbbe
+-term 12	$cd3f45
+-term 13	$8a553f
+-term 14	$e6cd69
+-term 15	$ffffff
+
+=Constant	$db7b55
+=String		$9fca56
+=Escape		$55dbbe
+
+=Comment	$41535b
+=StorageClass	+Type
+=Keyword	$a074c4
+=Conditional	$a074c4
+=Operator	$d6d6d6
+=Loop		$e6cd69
+=Statement	$cd3f45
+=Type		$e6cd69
+
+=DefinedIdent	$cd3f45
+=Label		$e6cd69
+=DefinedType	$e6cd69
+=Structure	$a074c4
+
+=Preproc	$e6cd69
+=Include	$55b5db
+=Define		$a074c4
+=TODO		$e6cd69/$282a2b
+=Precond	$a074c4
+
+=diff.AddLine	$9fca56/$282a2b
+=diff.ChgLine	$41535b/$282a2b
+=diff.DelLine	$cd3f45/$282a2b
+=diff.File	$cd3f45
+=diff.FileNew	$9fca56
+=diff.Hunk	$55b5db
+
+.colors 256
+
+-text		253/233
+-status		74/31
+-cursor		233/253
+-selection	/31
+-curlin		/235
+-linum		239/235
+-curlinum	74/235
+-menusel	235/74
+
+-term 0 	233
+-term 1 	38
+-term 2 	149
+-term 3 	43
+-term 4 	173
+-term 5 	140
+-term 6 	222
+-term 7 	74
+-term 8 	239
+-term 9 	38
+-term 10	149
+-term 11	43
+-term 12	167
+-term 13	95
+-term 14	222
+-term 15	231
+
+=Constant	173
+=String		149
+=Escape		43
+
+=Comment	239
+=StorageClass	+Type
+=Keyword	140
+=Conditional	140
+=Operator	253
+=Loop		222
+=Statement	167
+=Type		222
+
+=DefinedIdent	167
+=Label		222
+=DefinedType	222
+=Structure	140
+
+=Preproc	222
+=Include	38
+=Define		140
+=TODO		222/235
+=Precond	140
+
+=diff.AddLine	149/235
+=diff.ChgLine	239/235
+=diff.DelLine	167/235
+=diff.File	167
+=diff.FileNew	149
+=diff.Hunk	38
+

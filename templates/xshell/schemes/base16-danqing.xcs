@@ -1,0 +1,23 @@
+[Base16 DanQing]
+text=e0f0ef
+text(bold)=e0f0ef
+background=2d302f
+black=2d302f
+black(bold)=9da8a3
+red=f9906f
+red(bold)=b38a61
+green=8ab361
+green(bold)=434846
+yellow=f0c239
+yellow(bold)=5a605d
+blue=b0a4e3
+blue(bold)=cad8d2
+magenta=cca4e3
+magenta(bold)=ecf6f2
+cyan=30dff3
+cyan(bold)=ca6924
+white=e0f0ef
+white(bold)=fcfefd
+[Names]
+name0=Base16 DanQing
+count=1

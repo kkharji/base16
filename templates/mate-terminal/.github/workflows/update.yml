@@ -1,0 +1,44 @@
+name: Update color scripts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "50 1 * * *"
+
+jobs:
+  update:
+    name: Color scripts update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout template
+        uses: actions/checkout@v3
+      - name: Checkout builder
+        uses: actions/checkout@v3
+        with:
+          repository: InspectorMustache/base16-builder-python
+          path: builder
+      - name: Update builder
+        run: |
+          cd builder
+          sudo apt-get install python3-aiofiles python3-pystache
+          python3 pybase16.py update
+          # workaround Thomashighbaugh/base16-vice-scheme#7
+          sed -ri 's/"#([0-9a-f]+)"/"\1"/g' schemes/vice/vice.yaml
+      - name: Build
+        run: |
+          cd builder
+          ln -s ../.. templates/mate-terminal-current
+          ls -l templates/mate-terminal-current
+          python3 pybase16.py build -t mate-terminal-current
+          chmod +x output/mate-terminal-current/color-scripts/base16-*.sh
+          mkdir -p templates/mate-terminal-current/color-scripts
+          cp output/mate-terminal-current/color-scripts/base16-*.sh templates/mate-terminal-current/color-scripts
+      - name: Commit color scripts
+        run: |
+          git add color-scripts
+          if ! git diff --staged --exit-code >/dev/null; then
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git commit -m "Updated color scripts"
+            git push
+          fi

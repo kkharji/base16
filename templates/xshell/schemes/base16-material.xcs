@@ -1,0 +1,23 @@
+[Base16 Material]
+text=eeffff
+text(bold)=eeffff
+background=263238
+black=263238
+black(bold)=546e7a
+red=f07178
+red(bold)=f78c6c
+green=c3e88d
+green(bold)=2e3c43
+yellow=ffcb6b
+yellow(bold)=314549
+blue=82aaff
+blue(bold)=b2ccd6
+magenta=c792ea
+magenta(bold)=eeffff
+cyan=89ddff
+cyan(bold)=ff5370
+white=eeffff
+white(bold)=ffffff
+[Names]
+name0=Base16 Material
+count=1

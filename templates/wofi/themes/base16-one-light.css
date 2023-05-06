@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * One Light scheme by Daniel Pfeifer (http://github.com/purpleKarrot) */
+
+window {
+	background-color: #fafafa;
+	color: #383a42;
+}
+
+#entry:nth-child(odd) {
+	background-color: #fafafa;
+}
+
+#entry:nth-child(even) {
+	background-color: #f0f0f1;
+}
+
+#entry:selected {
+	background-color: #e5e5e6;
+}
+
+#input {
+	background-color: #f0f0f1;
+	color: #696c77;
+	border-color: #e5e5e6; 
+}
+
+#input:focus {
+	border-color: #c18401; 
+}

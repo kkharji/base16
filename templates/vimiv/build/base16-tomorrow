@@ -1,0 +1,31 @@
+; base16-tomorrow
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Chris Kempson (http://chriskempson.com)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #ffffff
+base01 = #e0e0e0
+base02 = #d6d6d6
+base03 = #8e908c
+base04 = #969896
+base05 = #4d4d4c
+base06 = #282a2e
+base07 = #1d1f21
+base08 = #c82829
+base09 = #f5871f
+base0a = #eab700
+base0b = #718c00
+base0c = #3e999f
+base0d = #4271ae
+base0e = #8959a8
+base0f = #a3685a
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

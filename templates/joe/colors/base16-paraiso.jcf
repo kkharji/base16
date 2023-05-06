@@ -1,0 +1,121 @@
+
+# base16 Paraiso by Jan T. Sott
+
+.colors *
+
+-text		$a39e9b/$2f1e2e
+-status		$8d8687/$4f424c
+-cursor		$2f1e2e/$a39e9b
+-selection	/$4f424c
+-curlin		/$41323f
+-linum		$776e71/$41323f
+-curlinum	$8d8687/$41323f
+-menusel	$41323f/$8d8687
+
+-term 0 	$2f1e2e
+-term 1 	$06b6ef
+-term 2 	$48b685
+-term 3 	$5bc4bf
+-term 4 	$f99b15
+-term 5 	$815ba4
+-term 6 	$fec418
+-term 7 	$8d8687
+-term 8 	$776e71
+-term 9 	$06b6ef
+-term 10	$48b685
+-term 11	$5bc4bf
+-term 12	$ef6155
+-term 13	$e96ba8
+-term 14	$fec418
+-term 15	$e7e9db
+
+=Constant	$f99b15
+=String		$48b685
+=Escape		$5bc4bf
+
+=Comment	$776e71
+=StorageClass	+Type
+=Keyword	$815ba4
+=Conditional	$815ba4
+=Operator	$a39e9b
+=Loop		$fec418
+=Statement	$ef6155
+=Type		$fec418
+
+=DefinedIdent	$ef6155
+=Label		$fec418
+=DefinedType	$fec418
+=Structure	$815ba4
+
+=Preproc	$fec418
+=Include	$06b6ef
+=Define		$815ba4
+=TODO		$fec418/$41323f
+=Precond	$815ba4
+
+=diff.AddLine	$48b685/$41323f
+=diff.ChgLine	$776e71/$41323f
+=diff.DelLine	$ef6155/$41323f
+=diff.File	$ef6155
+=diff.FileNew	$48b685
+=diff.Hunk	$06b6ef
+
+.colors 256
+
+-text		247/235
+-status		102/238
+-cursor		235/247
+-selection	/238
+-curlin		/237
+-linum		243/237
+-curlinum	102/237
+-menusel	237/102
+
+-term 0 	235
+-term 1 	38
+-term 2 	72
+-term 3 	73
+-term 4 	172
+-term 5 	97
+-term 6 	178
+-term 7 	102
+-term 8 	243
+-term 9 	38
+-term 10	72
+-term 11	73
+-term 12	203
+-term 13	205
+-term 14	178
+-term 15	254
+
+=Constant	172
+=String		72
+=Escape		73
+
+=Comment	243
+=StorageClass	+Type
+=Keyword	97
+=Conditional	97
+=Operator	247
+=Loop		178
+=Statement	203
+=Type		178
+
+=DefinedIdent	203
+=Label		178
+=DefinedType	178
+=Structure	97
+
+=Preproc	178
+=Include	38
+=Define		97
+=TODO		178/237
+=Precond	97
+
+=diff.AddLine	72/237
+=diff.ChgLine	243/237
+=diff.DelLine	203/237
+=diff.File	203
+=diff.FileNew	72
+=diff.Hunk	38
+

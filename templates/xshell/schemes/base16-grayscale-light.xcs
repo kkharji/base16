@@ -1,0 +1,23 @@
+[Base16 Grayscale Light]
+text=464646
+text(bold)=464646
+background=f7f7f7
+black=f7f7f7
+black(bold)=ababab
+red=7c7c7c
+red(bold)=999999
+green=8e8e8e
+green(bold)=e3e3e3
+yellow=a0a0a0
+yellow(bold)=b9b9b9
+blue=686868
+blue(bold)=525252
+magenta=747474
+magenta(bold)=252525
+cyan=868686
+cyan(bold)=5e5e5e
+white=464646
+white(bold)=101010
+[Names]
+name0=Base16 Grayscale Light
+count=1

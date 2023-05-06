@@ -1,0 +1,23 @@
+[Base16 Macintosh]
+text=c0c0c0
+text(bold)=c0c0c0
+background=000000
+black=000000
+black(bold)=808080
+red=dd0907
+red(bold)=ff6403
+green=1fb714
+green(bold)=404040
+yellow=fbf305
+yellow(bold)=404040
+blue=0000d3
+blue(bold)=808080
+magenta=4700a5
+magenta(bold)=c0c0c0
+cyan=02abea
+cyan(bold)=90713a
+white=c0c0c0
+white(bold)=ffffff
+[Names]
+name0=Base16 Macintosh
+count=1

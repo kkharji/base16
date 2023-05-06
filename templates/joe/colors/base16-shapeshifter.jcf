@@ -1,0 +1,121 @@
+
+# base16 Shapeshifter by Tyler Benziger (http://tybenz.com)
+
+.colors *
+
+-text		$102015/$f9f9f9
+-status		$343434/$ababab
+-cursor		$f9f9f9/$102015
+-selection	/$ababab
+-curlin		/$e0e0e0
+-linum		$555555/$e0e0e0
+-curlinum	$343434/$e0e0e0
+-menusel	$e0e0e0/$343434
+
+-term 0 	$f9f9f9
+-term 1 	$3b48e3
+-term 2 	$0ed839
+-term 3 	$23edda
+-term 4 	$e09448
+-term 5 	$f996e2
+-term 6 	$dddd13
+-term 7 	$343434
+-term 8 	$555555
+-term 9 	$3b48e3
+-term 10	$0ed839
+-term 11	$23edda
+-term 12	$e92f2f
+-term 13	$69542d
+-term 14	$dddd13
+-term 15	$000000
+
+=Constant	$e09448
+=String		$0ed839
+=Escape		$23edda
+
+=Comment	$555555
+=StorageClass	+Type
+=Keyword	$f996e2
+=Conditional	$f996e2
+=Operator	$102015
+=Loop		$dddd13
+=Statement	$e92f2f
+=Type		$dddd13
+
+=DefinedIdent	$e92f2f
+=Label		$dddd13
+=DefinedType	$dddd13
+=Structure	$f996e2
+
+=Preproc	$dddd13
+=Include	$3b48e3
+=Define		$f996e2
+=TODO		$dddd13/$e0e0e0
+=Precond	$f996e2
+
+=diff.AddLine	$0ed839/$e0e0e0
+=diff.ChgLine	$555555/$e0e0e0
+=diff.DelLine	$e92f2f/$e0e0e0
+=diff.File	$e92f2f
+=diff.FileNew	$0ed839
+=diff.Hunk	$3b48e3
+
+.colors 256
+
+-text		234/231
+-status		236/248
+-cursor		231/234
+-selection	/248
+-curlin		/188
+-linum		240/188
+-curlinum	236/188
+-menusel	188/236
+
+-term 0 	231
+-term 1 	62
+-term 2 	40
+-term 3 	50
+-term 4 	172
+-term 5 	212
+-term 6 	184
+-term 7 	236
+-term 8 	240
+-term 9 	62
+-term 10	40
+-term 11	50
+-term 12	196
+-term 13	94
+-term 14	184
+-term 15	16
+
+=Constant	172
+=String		40
+=Escape		50
+
+=Comment	240
+=StorageClass	+Type
+=Keyword	212
+=Conditional	212
+=Operator	234
+=Loop		184
+=Statement	196
+=Type		184
+
+=DefinedIdent	196
+=Label		184
+=DefinedType	184
+=Structure	212
+
+=Preproc	184
+=Include	62
+=Define		212
+=TODO		184/188
+=Precond	212
+
+=diff.AddLine	40/188
+=diff.ChgLine	240/188
+=diff.DelLine	196/188
+=diff.File	196
+=diff.FileNew	40
+=diff.Hunk	62
+

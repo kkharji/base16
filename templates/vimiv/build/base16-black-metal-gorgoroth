@@ -1,0 +1,31 @@
+; base16-black-metal-gorgoroth
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: metalelf0 (https://github.com/metalelf0)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #000000
+base01 = #121212
+base02 = #222222
+base03 = #333333
+base04 = #999999
+base05 = #c1c1c1
+base06 = #999999
+base07 = #c1c1c1
+base08 = #5f8787
+base09 = #aaaaaa
+base0a = #8c7f70
+base0b = #9b8d7f
+base0c = #aaaaaa
+base0d = #888888
+base0e = #999999
+base0f = #444444
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

@@ -1,0 +1,13 @@
+<!--    Base16 Da One White
+        Scheme author: NNB (https://github.com/NNBnh)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="2.2.0.1" />
+    <option name="selectedTheme" value="CUSTOM" />
+    <option name="highlightColor" value="5890f8" />
+    <option name="accentColor" value="5890f8" />
+    <option name="darkTitleBar" value="true" />
+  </component>
+</application>

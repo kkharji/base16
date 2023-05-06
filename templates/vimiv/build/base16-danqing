@@ -1,0 +1,31 @@
+; base16-danqing
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #2d302f
+base01 = #434846
+base02 = #5a605d
+base03 = #9da8a3
+base04 = #cad8d2
+base05 = #e0f0eF
+base06 = #ecf6f2
+base07 = #fcfefd
+base08 = #F9906F
+base09 = #B38A61
+base0a = #F0C239
+base0b = #8AB361
+base0c = #30DFF3
+base0d = #B0A4E3
+base0e = #CCA4E3
+base0f = #CA6924
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

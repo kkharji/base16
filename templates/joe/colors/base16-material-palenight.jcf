@@ -1,0 +1,121 @@
+
+# base16 Material Palenight by Nate Peterson
+
+.colors *
+
+-text		$959dcb/$292d3e
+-status		$8796b0/$32374d
+-cursor		$292d3e/$959dcb
+-selection	/$32374d
+-curlin		/$444267
+-linum		$676e95/$444267
+-curlinum	$8796b0/$444267
+-menusel	$444267/$8796b0
+
+-term 0 	$292d3e
+-term 1 	$82aaff
+-term 2 	$c3e88d
+-term 3 	$89ddff
+-term 4 	$f78c6c
+-term 5 	$c792ea
+-term 6 	$ffcb6b
+-term 7 	$8796b0
+-term 8 	$676e95
+-term 9 	$82aaff
+-term 10	$c3e88d
+-term 11	$89ddff
+-term 12	$f07178
+-term 13	$ff5370
+-term 14	$ffcb6b
+-term 15	$ffffff
+
+=Constant	$f78c6c
+=String		$c3e88d
+=Escape		$89ddff
+
+=Comment	$676e95
+=StorageClass	+Type
+=Keyword	$c792ea
+=Conditional	$c792ea
+=Operator	$959dcb
+=Loop		$ffcb6b
+=Statement	$f07178
+=Type		$ffcb6b
+
+=DefinedIdent	$f07178
+=Label		$ffcb6b
+=DefinedType	$ffcb6b
+=Structure	$c792ea
+
+=Preproc	$ffcb6b
+=Include	$82aaff
+=Define		$c792ea
+=TODO		$ffcb6b/$444267
+=Precond	$c792ea
+
+=diff.AddLine	$c3e88d/$444267
+=diff.ChgLine	$676e95/$444267
+=diff.DelLine	$f07178/$444267
+=diff.File	$f07178
+=diff.FileNew	$c3e88d
+=diff.Hunk	$82aaff
+
+.colors 256
+
+-text		146/236
+-status		103/237
+-cursor		236/146
+-selection	/237
+-curlin		/60
+-linum		60/60
+-curlinum	103/60
+-menusel	60/103
+
+-term 0 	236
+-term 1 	111
+-term 2 	150
+-term 3 	117
+-term 4 	209
+-term 5 	140
+-term 6 	222
+-term 7 	103
+-term 8 	60
+-term 9 	111
+-term 10	150
+-term 11	117
+-term 12	210
+-term 13	204
+-term 14	222
+-term 15	231
+
+=Constant	209
+=String		150
+=Escape		117
+
+=Comment	60
+=StorageClass	+Type
+=Keyword	140
+=Conditional	140
+=Operator	146
+=Loop		222
+=Statement	210
+=Type		222
+
+=DefinedIdent	210
+=Label		222
+=DefinedType	222
+=Structure	140
+
+=Preproc	222
+=Include	111
+=Define		140
+=TODO		222/60
+=Precond	140
+
+=diff.AddLine	150/60
+=diff.ChgLine	60/60
+=diff.DelLine	210/60
+=diff.File	210
+=diff.FileNew	150
+=diff.Hunk	111
+

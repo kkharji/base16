@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Grayscale Light scheme by Alexandre Gavioli (https://github.com/Alexx2/) */
+
+window {
+	background-color: #f7f7f7;
+	color: #464646;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f7f7f7;
+}
+
+#entry:nth-child(even) {
+	background-color: #e3e3e3;
+}
+
+#entry:selected {
+	background-color: #b9b9b9;
+}
+
+#input {
+	background-color: #e3e3e3;
+	color: #525252;
+	border-color: #b9b9b9; 
+}
+
+#input:focus {
+	border-color: #a0a0a0; 
+}

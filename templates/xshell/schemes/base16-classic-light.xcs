@@ -1,0 +1,23 @@
+[Base16 Classic Light]
+text=303030
+text(bold)=303030
+background=f5f5f5
+black=f5f5f5
+black(bold)=b0b0b0
+red=ac4142
+red(bold)=d28445
+green=90a959
+green(bold)=e0e0e0
+yellow=f4bf75
+yellow(bold)=d0d0d0
+blue=6a9fb5
+blue(bold)=505050
+magenta=aa759f
+magenta(bold)=202020
+cyan=75b5aa
+cyan(bold)=8f5536
+white=303030
+white(bold)=151515
+[Names]
+name0=Base16 Classic Light
+count=1

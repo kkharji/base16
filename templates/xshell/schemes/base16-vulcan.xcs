@@ -1,0 +1,23 @@
+[Base16 vulcan]
+text=5b778c
+text(bold)=5b778c
+background=041523
+black=041523
+black(bold)=7a5759
+red=818591
+red(bold)=9198a3
+green=977d7c
+green(bold)=122339
+yellow=adb4b9
+yellow(bold)=003552
+blue=977d7c
+blue(bold)=6b6977
+magenta=9198a3
+magenta(bold)=333238
+cyan=977d7c
+cyan(bold)=977d7c
+white=5b778c
+white(bold)=214d68
+[Names]
+name0=Base16 vulcan
+count=1

@@ -1,0 +1,6 @@
+# Base16 Monokai for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Wimer Hazenberg (http://www.monokai.nl)
+# monokai (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#272822\nfg_color:#f8f8f2\nbase_color:#272822\ntext_color:#f8f8f2\nselected_bg_color:#49483e\nselected_fg_color:#f8f8f2\ntooltip_bg_color:#272822\ntooltip_fg_color:#a59f85\ntitlebar_bg_color:#272822\ntitlebar_fg_color:#66d9ef\nmenubar_bg_color:#272822\nmenubar_fg_color:#66d9ef\ntoolbar_bg_color:#272822\ntoolbar_fg_color:#f4bf75\nmenu_bg_color:#272822\nmenu_fg_color:#f8f8f2\npanel_bg_color:#272822\npanel_fg_color:#a6e22e\nlink_color:#fd971f"
+

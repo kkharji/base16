@@ -1,0 +1,22 @@
+<!--    Base16 Catppuccin Mocha
+        Scheme author: https://github.com/catppuccin/catppuccin
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="MaterialCustomThemeConfig">
+    <option name="notificationsColor" value="1e1e2e" />
+    <option name="treeSelectionColor" value="89b4fa" />
+    <option name="highlightColor" value="313244" />
+    <option name="secondBorderColor" value="1e1e2e" />
+    <option name="tableSelectedColor" value="89b4fa" />
+    <option name="contrastColor" value="181825" />
+    <option name="disabledColor" value="585b70" />
+    <option name="secondaryBackgroundColor" value="181825" />
+    <option name="buttonColor" value="1e1e2e" />
+    <option name="selectionForegroundColor" value="f5e0dc" />
+    <option name="selectionBackgroundColor" value="89b4fa" />
+    <option name="textColor" value="f5e0dc" />
+    <option name="foregroundColor" value="cdd6f4" />
+    <option name="backgroundColor" value="1e1e2e" />
+  </component>
+</application> 

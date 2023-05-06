@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * London Tube scheme by Jan T. Sott */
+
+window {
+	background-color: #231f20;
+	color: #d9d8d8;
+}
+
+#entry:nth-child(odd) {
+	background-color: #231f20;
+}
+
+#entry:nth-child(even) {
+	background-color: #1c3f95;
+}
+
+#entry:selected {
+	background-color: #5a5758;
+}
+
+#input {
+	background-color: #1c3f95;
+	color: #959ca1;
+	border-color: #5a5758; 
+}
+
+#input:focus {
+	border-color: #ffd204; 
+}

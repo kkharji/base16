@@ -1,0 +1,121 @@
+
+# base16 Nord by arcticicestudio
+
+.colors *
+
+-text		$e5e9f0/$2e3440
+-status		$d8dee9/$434c5e
+-cursor		$2e3440/$e5e9f0
+-selection	/$434c5e
+-curlin		/$3b4252
+-linum		$4c566a/$3b4252
+-curlinum	$d8dee9/$3b4252
+-menusel	$3b4252/$d8dee9
+
+-term 0 	$2e3440
+-term 1 	$ebcb8b
+-term 2 	$bf616a
+-term 3 	$d08770
+-term 4 	$81a1c1
+-term 5 	$a3be8c
+-term 6 	$5e81ac
+-term 7 	$d8dee9
+-term 8 	$4c566a
+-term 9 	$ebcb8b
+-term 10	$bf616a
+-term 11	$d08770
+-term 12	$88c0d0
+-term 13	$b48ead
+-term 14	$5e81ac
+-term 15	$8fbcbb
+
+=Constant	$81a1c1
+=String		$bf616a
+=Escape		$d08770
+
+=Comment	$4c566a
+=StorageClass	+Type
+=Keyword	$a3be8c
+=Conditional	$a3be8c
+=Operator	$e5e9f0
+=Loop		$5e81ac
+=Statement	$88c0d0
+=Type		$5e81ac
+
+=DefinedIdent	$88c0d0
+=Label		$5e81ac
+=DefinedType	$5e81ac
+=Structure	$a3be8c
+
+=Preproc	$5e81ac
+=Include	$ebcb8b
+=Define		$a3be8c
+=TODO		$5e81ac/$3b4252
+=Precond	$a3be8c
+
+=diff.AddLine	$bf616a/$3b4252
+=diff.ChgLine	$4c566a/$3b4252
+=diff.DelLine	$88c0d0/$3b4252
+=diff.File	$88c0d0
+=diff.FileNew	$bf616a
+=diff.Hunk	$ebcb8b
+
+.colors 256
+
+-text		254/236
+-status		188/239
+-cursor		236/254
+-selection	/239
+-curlin		/238
+-linum		60/238
+-curlinum	188/238
+-menusel	238/188
+
+-term 0 	236
+-term 1 	223
+-term 2 	131
+-term 3 	173
+-term 4 	110
+-term 5 	108
+-term 6 	67
+-term 7 	188
+-term 8 	60
+-term 9 	223
+-term 10	131
+-term 11	173
+-term 12	109
+-term 13	139
+-term 14	67
+-term 15	109
+
+=Constant	110
+=String		131
+=Escape		173
+
+=Comment	60
+=StorageClass	+Type
+=Keyword	108
+=Conditional	108
+=Operator	254
+=Loop		67
+=Statement	109
+=Type		67
+
+=DefinedIdent	109
+=Label		67
+=DefinedType	67
+=Structure	108
+
+=Preproc	67
+=Include	223
+=Define		108
+=TODO		67/238
+=Precond	108
+
+=diff.AddLine	131/238
+=diff.ChgLine	60/238
+=diff.DelLine	109/238
+=diff.File	109
+=diff.FileNew	131
+=diff.Hunk	223
+

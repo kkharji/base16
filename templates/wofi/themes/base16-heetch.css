@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Heetch Dark scheme by Geoffrey Teale (tealeg@gmail.com) */
+
+window {
+	background-color: #190134;
+	color: #BDB6C5;
+}
+
+#entry:nth-child(odd) {
+	background-color: #190134;
+}
+
+#entry:nth-child(even) {
+	background-color: #392551;
+}
+
+#entry:selected {
+	background-color: #5A496E;
+}
+
+#input {
+	background-color: #392551;
+	color: #9C92A8;
+	border-color: #5A496E; 
+}
+
+#input:focus {
+	border-color: #8F6C97; 
+}

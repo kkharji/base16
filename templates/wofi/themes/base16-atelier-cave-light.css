@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Atelier Cave Light scheme by Bram de Haan (http://atelierbramdehaan.nl) */
+
+window {
+	background-color: #efecf4;
+	color: #585260;
+}
+
+#entry:nth-child(odd) {
+	background-color: #efecf4;
+}
+
+#entry:nth-child(even) {
+	background-color: #e2dfe7;
+}
+
+#entry:selected {
+	background-color: #8b8792;
+}
+
+#input {
+	background-color: #e2dfe7;
+	color: #655f6d;
+	border-color: #8b8792; 
+}
+
+#input:focus {
+	border-color: #a06e3b; 
+}

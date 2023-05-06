@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Brush Trees scheme by Abraham White &lt;abelincoln.white@gmail.com&gt; */
+
+window {
+	background-color: #E3EFEF;
+	color: #6D828E;
+}
+
+#entry:nth-child(odd) {
+	background-color: #E3EFEF;
+}
+
+#entry:nth-child(even) {
+	background-color: #C9DBDC;
+}
+
+#entry:selected {
+	background-color: #B0C5C8;
+}
+
+#input {
+	background-color: #C9DBDC;
+	color: #8299A1;
+	border-color: #B0C5C8; 
+}
+
+#input:focus {
+	border-color: #aab386; 
+}

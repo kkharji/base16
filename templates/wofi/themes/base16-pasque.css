@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Pasque scheme by Gabriel Fontes (https://github.com/Misterio77) */
+
+window {
+	background-color: #271C3A;
+	color: #DEDCDF;
+}
+
+#entry:nth-child(odd) {
+	background-color: #271C3A;
+}
+
+#entry:nth-child(even) {
+	background-color: #100323;
+}
+
+#entry:selected {
+	background-color: #3E2D5C;
+}
+
+#input {
+	background-color: #100323;
+	color: #BEBCBF;
+	border-color: #3E2D5C; 
+}
+
+#input:focus {
+	border-color: #804ead; 
+}

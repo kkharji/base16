@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Atlas scheme by Alex Lende (https://ajlende.com) */
+
+window {
+	background-color: #002635;
+	color: #a1a19a;
+}
+
+#entry:nth-child(odd) {
+	background-color: #002635;
+}
+
+#entry:nth-child(even) {
+	background-color: #00384d;
+}
+
+#entry:selected {
+	background-color: #517F8D;
+}
+
+#input {
+	background-color: #00384d;
+	color: #869696;
+	border-color: #517F8D; 
+}
+
+#input:focus {
+	border-color: #ffcc1b; 
+}

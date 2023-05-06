@@ -1,0 +1,9 @@
+<!--    Base16 Pop
+        Scheme author: Chris Kempson (http://chriskempson.com)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 Pop" />
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<!--    Base16 Atelier Heath Light
+        Scheme author: Bram de Haan (http://atelierbramdehaan.nl)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 Atelier Heath Light" />
+  </component>
+</application>

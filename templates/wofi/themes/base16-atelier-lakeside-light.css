@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Atelier Lakeside Light scheme by Bram de Haan (http://atelierbramdehaan.nl) */
+
+window {
+	background-color: #ebf8ff;
+	color: #516d7b;
+}
+
+#entry:nth-child(odd) {
+	background-color: #ebf8ff;
+}
+
+#entry:nth-child(even) {
+	background-color: #c1e4f6;
+}
+
+#entry:selected {
+	background-color: #7ea2b4;
+}
+
+#input {
+	background-color: #c1e4f6;
+	color: #5a7b8c;
+	border-color: #7ea2b4; 
+}
+
+#input:focus {
+	border-color: #8a8a0f; 
+}

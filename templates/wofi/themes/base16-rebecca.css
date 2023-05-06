@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Rebecca scheme by Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme) */
+
+window {
+	background-color: #292a44;
+	color: #f1eff8;
+}
+
+#entry:nth-child(odd) {
+	background-color: #292a44;
+}
+
+#entry:nth-child(even) {
+	background-color: #663399;
+}
+
+#entry:selected {
+	background-color: #383a62;
+}
+
+#input {
+	background-color: #663399;
+	color: #a0a0c5;
+	border-color: #383a62; 
+}
+
+#input:focus {
+	border-color: #ae81ff; 
+}

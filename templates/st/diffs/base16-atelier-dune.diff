@@ -1,0 +1,71 @@
+diff --git a/config.def.h b/config.def.h
+index 0e01717..c288227 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -82,33 +82,35 @@ char *termname = "st-256color";
+  */
+ unsigned int tabspaces = 8;
+ 
+-/* Terminal colors (16 first used in escape sequence) */
++/*
++ * Terminal colors (16 first used in escape sequence)
++ * Base16 st template by Daniel Mulford
++ * Atelier Dune scheme by Bram de Haan (http://atelierbramdehaan.nl)
++ */
+ static const char *colorname[] = {
+-	/* 8 normal colors */
+-	"black",
+-	"red3",
+-	"green3",
+-	"yellow3",
+-	"blue2",
+-	"magenta3",
+-	"cyan3",
+-	"gray90",
++    /* 8 normal colors */
++	[0] = "#20201d", /* black   */
++	[1] = "#d73737", /* red     */
++	[2] = "#60ac39", /* green   */
++	[3] = "#ae9513", /* yellow  */
++	[4] = "#6684e1", /* blue    */
++	[5] = "#b854d4", /* magenta */
++	[6] = "#1fad83", /* cyan    */
++	[7] = "#a6a28c", /* white   */
+ 
+ 	/* 8 bright colors */
+-	"gray50",
+-	"red",
+-	"green",
+-	"yellow",
+-	"#5c5cff",
+-	"magenta",
+-	"cyan",
+-	"white",
++	[8]  = "#7d7a68", /* black   */
++	[9]  = "#d73737", /* red     */
++	[10] = "#60ac39", /* green   */
++	[11] = "#ae9513", /* yellow  */
++	[12] = "#6684e1", /* blue    */
++	[13] = "#b854d4", /* magenta */
++	[14] = "#1fad83", /* cyan    */
++	[15] = "#fefbec", /* white   */
+ 
+ 	[255] = 0,
+ 
+ 	/* more colors can be added after 255 to use with DefaultXX */
+-	"#cccccc",
+-	"#555555",
+ };
+ 
+ 
+@@ -118,8 +120,8 @@ static const char *colorname[] = {
+  */
+ unsigned int defaultfg = 7;
+ unsigned int defaultbg = 0;
+-static unsigned int defaultcs = 256;
+-static unsigned int defaultrcs = 257;
++static unsigned int defaultcs = 7;
++static unsigned int defaultrcs = 0;
+ 
+ /*
+  * Default shape of cursor

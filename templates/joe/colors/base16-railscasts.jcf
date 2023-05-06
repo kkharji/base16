@@ -1,0 +1,121 @@
+
+# base16 Railscasts by Ryan Bates (http://railscasts.com)
+
+.colors *
+
+-text		$e6e1dc/$2b2b2b
+-status		$d4cfc9/$3a4055
+-cursor		$2b2b2b/$e6e1dc
+-selection	/$3a4055
+-curlin		/$272935
+-linum		$5a647e/$272935
+-curlinum	$d4cfc9/$272935
+-menusel	$272935/$d4cfc9
+
+-term 0 	$2b2b2b
+-term 1 	$6d9cbe
+-term 2 	$a5c261
+-term 3 	$519f50
+-term 4 	$cc7833
+-term 5 	$b6b3eb
+-term 6 	$ffc66d
+-term 7 	$d4cfc9
+-term 8 	$5a647e
+-term 9 	$6d9cbe
+-term 10	$a5c261
+-term 11	$519f50
+-term 12	$da4939
+-term 13	$bc9458
+-term 14	$ffc66d
+-term 15	$f9f7f3
+
+=Constant	$cc7833
+=String		$a5c261
+=Escape		$519f50
+
+=Comment	$5a647e
+=StorageClass	+Type
+=Keyword	$b6b3eb
+=Conditional	$b6b3eb
+=Operator	$e6e1dc
+=Loop		$ffc66d
+=Statement	$da4939
+=Type		$ffc66d
+
+=DefinedIdent	$da4939
+=Label		$ffc66d
+=DefinedType	$ffc66d
+=Structure	$b6b3eb
+
+=Preproc	$ffc66d
+=Include	$6d9cbe
+=Define		$b6b3eb
+=TODO		$ffc66d/$272935
+=Precond	$b6b3eb
+
+=diff.AddLine	$a5c261/$272935
+=diff.ChgLine	$5a647e/$272935
+=diff.DelLine	$da4939/$272935
+=diff.File	$da4939
+=diff.FileNew	$a5c261
+=diff.Hunk	$6d9cbe
+
+.colors 256
+
+-text		254/235
+-status		252/238
+-cursor		235/254
+-selection	/238
+-curlin		/235
+-linum		60/235
+-curlinum	252/235
+-menusel	235/252
+
+-term 0 	235
+-term 1 	74
+-term 2 	107
+-term 3 	71
+-term 4 	166
+-term 5 	146
+-term 6 	179
+-term 7 	252
+-term 8 	60
+-term 9 	74
+-term 10	107
+-term 11	71
+-term 12	196
+-term 13	137
+-term 14	179
+-term 15	231
+
+=Constant	166
+=String		107
+=Escape		71
+
+=Comment	60
+=StorageClass	+Type
+=Keyword	146
+=Conditional	146
+=Operator	254
+=Loop		179
+=Statement	196
+=Type		179
+
+=DefinedIdent	196
+=Label		179
+=DefinedType	179
+=Structure	146
+
+=Preproc	179
+=Include	74
+=Define		146
+=TODO		179/235
+=Precond	146
+
+=diff.AddLine	107/235
+=diff.ChgLine	60/235
+=diff.DelLine	196/235
+=diff.File	196
+=diff.FileNew	107
+=diff.Hunk	74
+

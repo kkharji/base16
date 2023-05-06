@@ -1,0 +1,23 @@
+[Base16 Ashes]
+text=c7ccd1
+text(bold)=c7ccd1
+background=1c2023
+black=1c2023
+black(bold)=747c84
+red=c7ae95
+red(bold)=c7c795
+green=95c7ae
+green(bold)=393f45
+yellow=aec795
+yellow(bold)=565e65
+blue=ae95c7
+blue(bold)=adb3ba
+magenta=c795ae
+magenta(bold)=dfe2e5
+cyan=95aec7
+cyan(bold)=c79595
+white=c7ccd1
+white(bold)=f3f4f5
+[Names]
+name0=Base16 Ashes
+count=1

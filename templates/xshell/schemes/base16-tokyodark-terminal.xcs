@@ -1,0 +1,23 @@
+[Base16 Tokyodark Terminal]
+text=a0a8cd
+text(bold)=a0a8cd
+background=11121d
+black=11121d
+black(bold)=282c34
+red=ee6d85
+red(bold)=f6955b
+green=95c561
+green(bold)=1a1b2a
+yellow=d7a65f
+yellow(bold)=212234
+blue=7199ee
+blue(bold)=4a5057
+magenta=a485dd
+magenta(bold)=a0a8cd
+cyan=38a89d
+cyan(bold)=773440
+white=a0a8cd
+white(bold)=a0a8cd
+[Names]
+name0=Base16 Tokyodark Terminal
+count=1

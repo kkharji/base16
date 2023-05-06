@@ -1,0 +1,31 @@
+; base16-windows-10
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Fergus Collins (https://github.com/C-Fergus)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #0c0c0c
+base01 = #2f2f2f
+base02 = #535353
+base03 = #767676
+base04 = #b9b9b9
+base05 = #cccccc
+base06 = #dfdfdf
+base07 = #f2f2f2
+base08 = #e74856
+base09 = #c19c00
+base0a = #f9f1a5
+base0b = #16c60c
+base0c = #61d6d6
+base0d = #3b78ff
+base0e = #b4009e
+base0f = #13a10e
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

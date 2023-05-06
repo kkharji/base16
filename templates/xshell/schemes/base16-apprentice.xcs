@@ -1,0 +1,23 @@
+[Base16 Apprentice]
+text=bcbcbc
+text(bold)=bcbcbc
+background=262626
+black=262626
+black(bold)=6c6c6c
+red=5f8787
+red(bold)=ff8700
+green=87af87
+green(bold)=303030
+yellow=5f8787
+yellow(bold)=333333
+blue=ffffaf
+blue(bold)=787878
+magenta=87afd7
+magenta(bold)=c9c9c9
+cyan=5f875f
+cyan(bold)=5f87af
+white=bcbcbc
+white(bold)=ffffff
+[Names]
+name0=Base16 Apprentice
+count=1

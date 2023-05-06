@@ -1,0 +1,121 @@
+
+# base16 Classic Light by Jason Heeris (http://heeris.id.au)
+
+.colors *
+
+-text		$303030/$f5f5f5
+-status		$505050/$d0d0d0
+-cursor		$f5f5f5/$303030
+-selection	/$d0d0d0
+-curlin		/$e0e0e0
+-linum		$b0b0b0/$e0e0e0
+-curlinum	$505050/$e0e0e0
+-menusel	$e0e0e0/$505050
+
+-term 0 	$f5f5f5
+-term 1 	$6a9fb5
+-term 2 	$90a959
+-term 3 	$75b5aa
+-term 4 	$d28445
+-term 5 	$aa759f
+-term 6 	$f4bf75
+-term 7 	$505050
+-term 8 	$b0b0b0
+-term 9 	$6a9fb5
+-term 10	$90a959
+-term 11	$75b5aa
+-term 12	$ac4142
+-term 13	$8f5536
+-term 14	$f4bf75
+-term 15	$151515
+
+=Constant	$d28445
+=String		$90a959
+=Escape		$75b5aa
+
+=Comment	$b0b0b0
+=StorageClass	+Type
+=Keyword	$aa759f
+=Conditional	$aa759f
+=Operator	$303030
+=Loop		$f4bf75
+=Statement	$ac4142
+=Type		$f4bf75
+
+=DefinedIdent	$ac4142
+=Label		$f4bf75
+=DefinedType	$f4bf75
+=Structure	$aa759f
+
+=Preproc	$f4bf75
+=Include	$6a9fb5
+=Define		$aa759f
+=TODO		$f4bf75/$e0e0e0
+=Precond	$aa759f
+
+=diff.AddLine	$90a959/$e0e0e0
+=diff.ChgLine	$b0b0b0/$e0e0e0
+=diff.DelLine	$ac4142/$e0e0e0
+=diff.File	$ac4142
+=diff.FileNew	$90a959
+=diff.Hunk	$6a9fb5
+
+.colors 256
+
+-text		236/255
+-status		239/252
+-cursor		255/236
+-selection	/252
+-curlin		/188
+-linum		145/188
+-curlinum	239/188
+-menusel	188/239
+
+-term 0 	255
+-term 1 	74
+-term 2 	107
+-term 3 	73
+-term 4 	173
+-term 5 	139
+-term 6 	179
+-term 7 	239
+-term 8 	145
+-term 9 	74
+-term 10	107
+-term 11	73
+-term 12	131
+-term 13	130
+-term 14	179
+-term 15	233
+
+=Constant	173
+=String		107
+=Escape		73
+
+=Comment	145
+=StorageClass	+Type
+=Keyword	139
+=Conditional	139
+=Operator	236
+=Loop		179
+=Statement	131
+=Type		179
+
+=DefinedIdent	131
+=Label		179
+=DefinedType	179
+=Structure	139
+
+=Preproc	179
+=Include	74
+=Define		139
+=TODO		179/188
+=Precond	139
+
+=diff.AddLine	107/188
+=diff.ChgLine	145/188
+=diff.DelLine	131/188
+=diff.File	131
+=diff.FileNew	107
+=diff.Hunk	74
+

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Fruit Soda scheme by jozip */
+
+window {
+	background-color: #f1ecf1;
+	color: #515151;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f1ecf1;
+}
+
+#entry:nth-child(even) {
+	background-color: #e0dee0;
+}
+
+#entry:selected {
+	background-color: #d8d5d5;
+}
+
+#input {
+	background-color: #e0dee0;
+	color: #979598;
+	border-color: #d8d5d5; 
+}
+
+#input:focus {
+	border-color: #f7e203; 
+}

@@ -1,0 +1,23 @@
+[Base16 Tokyo Night Terminal Light]
+text=4c505e
+text(bold)=4c505e
+background=d5d6db
+black=d5d6db
+black(bold)=9699a3
+red=8c4351
+red(bold)=965027
+green=33635c
+green(bold)=cbccd1
+yellow=8f5e15
+yellow(bold)=dfe0e5
+blue=34548a
+blue(bold)=4c505e
+magenta=5a4a78
+magenta(bold)=1a1b26
+cyan=0f4b6e
+cyan(bold)=655259
+white=4c505e
+white(bold)=1a1b26
+[Names]
+name0=Base16 Tokyo Night Terminal Light
+count=1

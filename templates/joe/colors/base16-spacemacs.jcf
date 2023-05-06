@@ -1,0 +1,121 @@
+
+# base16 Spacemacs by Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+
+.colors *
+
+-text		$a3a3a3/$1f2022
+-status		$b8b8b8/$444155
+-cursor		$1f2022/$a3a3a3
+-selection	/$444155
+-curlin		/$282828
+-linum		$585858/$282828
+-curlinum	$b8b8b8/$282828
+-menusel	$282828/$b8b8b8
+
+-term 0 	$1f2022
+-term 1 	$4f97d7
+-term 2 	$67b11d
+-term 3 	$2d9574
+-term 4 	$ffa500
+-term 5 	$a31db1
+-term 6 	$b1951d
+-term 7 	$b8b8b8
+-term 8 	$585858
+-term 9 	$4f97d7
+-term 10	$67b11d
+-term 11	$2d9574
+-term 12	$f2241f
+-term 13	$b03060
+-term 14	$b1951d
+-term 15	$f8f8f8
+
+=Constant	$ffa500
+=String		$67b11d
+=Escape		$2d9574
+
+=Comment	$585858
+=StorageClass	+Type
+=Keyword	$a31db1
+=Conditional	$a31db1
+=Operator	$a3a3a3
+=Loop		$b1951d
+=Statement	$f2241f
+=Type		$b1951d
+
+=DefinedIdent	$f2241f
+=Label		$b1951d
+=DefinedType	$b1951d
+=Structure	$a31db1
+
+=Preproc	$b1951d
+=Include	$4f97d7
+=Define		$a31db1
+=TODO		$b1951d/$282828
+=Precond	$a31db1
+
+=diff.AddLine	$67b11d/$282828
+=diff.ChgLine	$585858/$282828
+=diff.DelLine	$f2241f/$282828
+=diff.File	$f2241f
+=diff.FileNew	$67b11d
+=diff.Hunk	$4f97d7
+
+.colors 256
+
+-text		248/234
+-status		250/238
+-cursor		234/248
+-selection	/238
+-curlin		/235
+-linum		240/235
+-curlinum	250/235
+-menusel	235/250
+
+-term 0 	234
+-term 1 	32
+-term 2 	70
+-term 3 	29
+-term 4 	214
+-term 5 	127
+-term 6 	136
+-term 7 	250
+-term 8 	240
+-term 9 	32
+-term 10	70
+-term 11	29
+-term 12	196
+-term 13	125
+-term 14	136
+-term 15	231
+
+=Constant	214
+=String		70
+=Escape		29
+
+=Comment	240
+=StorageClass	+Type
+=Keyword	127
+=Conditional	127
+=Operator	248
+=Loop		136
+=Statement	196
+=Type		136
+
+=DefinedIdent	196
+=Label		136
+=DefinedType	136
+=Structure	127
+
+=Preproc	136
+=Include	32
+=Define		127
+=TODO		136/235
+=Precond	127
+
+=diff.AddLine	70/235
+=diff.ChgLine	240/235
+=diff.DelLine	196/235
+=diff.File	196
+=diff.FileNew	70
+=diff.Hunk	32
+

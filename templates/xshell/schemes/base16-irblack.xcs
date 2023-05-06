@@ -1,0 +1,23 @@
+[Base16 IR Black]
+text=b5b3aa
+text(bold)=b5b3aa
+background=000000
+black=000000
+black(bold)=6c6c66
+red=ff6c60
+red(bold)=e9c062
+green=a8ff60
+green(bold)=242422
+yellow=ffffb6
+yellow(bold)=484844
+blue=96cbfe
+blue(bold)=918f88
+magenta=ff73fd
+magenta(bold)=d9d7cc
+cyan=c6c5fe
+cyan(bold)=b18a3d
+white=b5b3aa
+white(bold)=fdfbee
+[Names]
+name0=Base16 IR Black
+count=1

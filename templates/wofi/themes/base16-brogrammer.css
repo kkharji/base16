@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Brogrammer scheme by Vik Ramanujam (http://github.com/piggyslasher) */
+
+window {
+	background-color: #1f1f1f;
+	color: #4e5ab7;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1f1f1f;
+}
+
+#entry:nth-child(even) {
+	background-color: #f81118;
+}
+
+#entry:selected {
+	background-color: #2dc55e;
+}
+
+#input {
+	background-color: #f81118;
+	color: #2a84d2;
+	border-color: #2dc55e; 
+}
+
+#input:focus {
+	border-color: #1dd361; 
+}

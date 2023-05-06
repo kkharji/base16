@@ -1,0 +1,121 @@
+
+# base16 Flat by Chris Kempson (http://chriskempson.com)
+
+.colors *
+
+-text		$e0e0e0/$2c3e50
+-status		$bdc3c7/$7f8c8d
+-cursor		$2c3e50/$e0e0e0
+-selection	/$7f8c8d
+-curlin		/$34495e
+-linum		$95a5a6/$34495e
+-curlinum	$bdc3c7/$34495e
+-menusel	$34495e/$bdc3c7
+
+-term 0 	$2c3e50
+-term 1 	$3498db
+-term 2 	$2ecc71
+-term 3 	$1abc9c
+-term 4 	$e67e22
+-term 5 	$9b59b6
+-term 6 	$f1c40f
+-term 7 	$bdc3c7
+-term 8 	$95a5a6
+-term 9 	$3498db
+-term 10	$2ecc71
+-term 11	$1abc9c
+-term 12	$e74c3c
+-term 13	$be643c
+-term 14	$f1c40f
+-term 15	$ecf0f1
+
+=Constant	$e67e22
+=String		$2ecc71
+=Escape		$1abc9c
+
+=Comment	$95a5a6
+=StorageClass	+Type
+=Keyword	$9b59b6
+=Conditional	$9b59b6
+=Operator	$e0e0e0
+=Loop		$f1c40f
+=Statement	$e74c3c
+=Type		$f1c40f
+
+=DefinedIdent	$e74c3c
+=Label		$f1c40f
+=DefinedType	$f1c40f
+=Structure	$9b59b6
+
+=Preproc	$f1c40f
+=Include	$3498db
+=Define		$9b59b6
+=TODO		$f1c40f/$34495e
+=Precond	$9b59b6
+
+=diff.AddLine	$2ecc71/$34495e
+=diff.ChgLine	$95a5a6/$34495e
+=diff.DelLine	$e74c3c/$34495e
+=diff.File	$e74c3c
+=diff.FileNew	$2ecc71
+=diff.Hunk	$3498db
+
+.colors 256
+
+-text		188/237
+-status		251/245
+-cursor		237/188
+-selection	/245
+-curlin		/24
+-linum		247/24
+-curlinum	251/24
+-menusel	24/251
+
+-term 0 	237
+-term 1 	32
+-term 2 	42
+-term 3 	36
+-term 4 	208
+-term 5 	97
+-term 6 	178
+-term 7 	251
+-term 8 	247
+-term 9 	32
+-term 10	42
+-term 11	36
+-term 12	196
+-term 13	166
+-term 14	178
+-term 15	255
+
+=Constant	208
+=String		42
+=Escape		36
+
+=Comment	247
+=StorageClass	+Type
+=Keyword	97
+=Conditional	97
+=Operator	188
+=Loop		178
+=Statement	196
+=Type		178
+
+=DefinedIdent	196
+=Label		178
+=DefinedType	178
+=Structure	97
+
+=Preproc	178
+=Include	32
+=Define		97
+=TODO		178/24
+=Precond	97
+
+=diff.AddLine	42/24
+=diff.ChgLine	247/24
+=diff.DelLine	196/24
+=diff.File	196
+=diff.FileNew	42
+=diff.Hunk	32
+

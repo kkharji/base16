@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * vulcan scheme by Andrey Varfolomeev */
+
+window {
+	background-color: #041523;
+	color: #5b778c;
+}
+
+#entry:nth-child(odd) {
+	background-color: #041523;
+}
+
+#entry:nth-child(even) {
+	background-color: #122339;
+}
+
+#entry:selected {
+	background-color: #003552;
+}
+
+#input {
+	background-color: #122339;
+	color: #6b6977;
+	border-color: #003552; 
+}
+
+#input:focus {
+	border-color: #adb4b9; 
+}

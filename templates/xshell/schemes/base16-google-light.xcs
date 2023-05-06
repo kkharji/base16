@@ -1,0 +1,23 @@
+[Base16 Google Light]
+text=373b41
+text(bold)=373b41
+background=ffffff
+black=ffffff
+black(bold)=b4b7b4
+red=cc342b
+red(bold)=f96a38
+green=198844
+green(bold)=e0e0e0
+yellow=fba922
+yellow(bold)=c5c8c6
+blue=3971ed
+blue(bold)=969896
+magenta=a36ac7
+magenta(bold)=282a2e
+cyan=3971ed
+cyan(bold)=3971ed
+white=373b41
+white(bold)=1d1f21
+[Names]
+name0=Base16 Google Light
+count=1

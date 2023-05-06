@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Bespin scheme by Jan T. Sott */
+
+window {
+	background-color: #28211c;
+	color: #8a8986;
+}
+
+#entry:nth-child(odd) {
+	background-color: #28211c;
+}
+
+#entry:nth-child(even) {
+	background-color: #36312e;
+}
+
+#entry:selected {
+	background-color: #5e5d5c;
+}
+
+#input {
+	background-color: #36312e;
+	color: #797977;
+	border-color: #5e5d5c; 
+}
+
+#input:focus {
+	border-color: #f9ee98; 
+}

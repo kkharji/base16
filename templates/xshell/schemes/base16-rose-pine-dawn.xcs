@@ -1,0 +1,23 @@
+[Base16 Rosé Pine Dawn]
+text=575279
+text(bold)=575279
+background=faf4ed
+black=faf4ed
+black(bold)=9893a5
+red=1f1d2e
+red(bold)=b4637a
+green=d7827e
+green(bold)=fffaf3
+yellow=ea9d34
+yellow(bold)=f2e9de
+blue=56949f
+blue(bold)=6e6a86
+magenta=907aa9
+magenta(bold)=555169
+cyan=286983
+cyan(bold)=c5c3ce
+white=575279
+white(bold)=26233a
+[Names]
+name0=Base16 Rosé Pine Dawn
+count=1

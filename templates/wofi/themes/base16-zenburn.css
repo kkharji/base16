@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Zenburn scheme by elnawe */
+
+window {
+	background-color: #383838;
+	color: #dcdccc;
+}
+
+#entry:nth-child(odd) {
+	background-color: #383838;
+}
+
+#entry:nth-child(even) {
+	background-color: #404040;
+}
+
+#entry:selected {
+	background-color: #606060;
+}
+
+#input {
+	background-color: #404040;
+	color: #808080;
+	border-color: #606060; 
+}
+
+#input:focus {
+	border-color: #e0cf9f; 
+}

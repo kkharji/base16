@@ -1,0 +1,9 @@
+<!--    Base16 Solarized Light
+        Scheme author: Ethan Schoonover (modified by aramisgithub)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 Solarized Light" />
+  </component>
+</application>

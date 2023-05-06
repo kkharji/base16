@@ -1,0 +1,23 @@
+[Base16 Grayscale Dark]
+text=b9b9b9
+text(bold)=b9b9b9
+background=101010
+black=101010
+black(bold)=525252
+red=7c7c7c
+red(bold)=999999
+green=8e8e8e
+green(bold)=252525
+yellow=a0a0a0
+yellow(bold)=464646
+blue=686868
+blue(bold)=ababab
+magenta=747474
+magenta(bold)=e3e3e3
+cyan=868686
+cyan(bold)=5e5e5e
+white=b9b9b9
+white(bold)=f7f7f7
+[Names]
+name0=Base16 Grayscale Dark
+count=1

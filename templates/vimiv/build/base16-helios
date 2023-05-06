@@ -1,0 +1,31 @@
+; base16-helios
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Alex Meyer (https://github.com/reyemxela)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #1d2021
+base01 = #383c3e
+base02 = #53585b
+base03 = #6f7579
+base04 = #cdcdcd
+base05 = #d5d5d5
+base06 = #dddddd
+base07 = #e5e5e5
+base08 = #d72638
+base09 = #eb8413
+base0a = #f19d1a
+base0b = #88b92d
+base0c = #1ba595
+base0d = #1e8bac
+base0e = #be4264
+base0f = #c85e0d
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Flat scheme by Chris Kempson (http://chriskempson.com) */
+
+window {
+	background-color: #2C3E50;
+	color: #e0e0e0;
+}
+
+#entry:nth-child(odd) {
+	background-color: #2C3E50;
+}
+
+#entry:nth-child(even) {
+	background-color: #34495E;
+}
+
+#entry:selected {
+	background-color: #7F8C8D;
+}
+
+#input {
+	background-color: #34495E;
+	color: #BDC3C7;
+	border-color: #7F8C8D; 
+}
+
+#input:focus {
+	border-color: #F1C40F; 
+}

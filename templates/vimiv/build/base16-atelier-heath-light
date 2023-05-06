@@ -1,0 +1,31 @@
+; base16-atelier-heath-light
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #f7f3f7
+base01 = #d8cad8
+base02 = #ab9bab
+base03 = #9e8f9e
+base04 = #776977
+base05 = #695d69
+base06 = #292329
+base07 = #1b181b
+base08 = #ca402b
+base09 = #a65926
+base0a = #bb8a35
+base0b = #918b3b
+base0c = #159393
+base0d = #516aec
+base0e = #7b59c0
+base0f = #cc33cc
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

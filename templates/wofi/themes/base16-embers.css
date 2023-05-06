@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Embers scheme by Jannik Siebert (https://github.com/janniks) */
+
+window {
+	background-color: #16130F;
+	color: #A39A90;
+}
+
+#entry:nth-child(odd) {
+	background-color: #16130F;
+}
+
+#entry:nth-child(even) {
+	background-color: #2C2620;
+}
+
+#entry:selected {
+	background-color: #433B32;
+}
+
+#input {
+	background-color: #2C2620;
+	color: #8A8075;
+	border-color: #433B32; 
+}
+
+#input:focus {
+	border-color: #6D8257; 
+}

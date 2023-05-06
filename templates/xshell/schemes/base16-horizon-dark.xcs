@@ -1,0 +1,23 @@
+[Base16 Horizon Dark]
+text=cbced0
+text(bold)=cbced0
+background=1c1e26
+black=1c1e26
+black(bold)=6f6f70
+red=e93c58
+red(bold)=e58d7d
+green=efaf8e
+green(bold)=232530
+yellow=efb993
+yellow(bold)=2e303e
+blue=df5273
+blue(bold)=9da0a2
+magenta=b072d1
+magenta(bold)=dcdfe4
+cyan=24a8b4
+cyan(bold)=e4a382
+white=cbced0
+white(bold)=e3e6ee
+[Names]
+name0=Base16 Horizon Dark
+count=1

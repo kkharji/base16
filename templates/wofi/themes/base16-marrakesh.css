@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Marrakesh scheme by Alexandre Gavioli (http://github.com/Alexx2/) */
+
+window {
+	background-color: #201602;
+	color: #948e48;
+}
+
+#entry:nth-child(odd) {
+	background-color: #201602;
+}
+
+#entry:nth-child(even) {
+	background-color: #302e00;
+}
+
+#entry:selected {
+	background-color: #5f5b17;
+}
+
+#input {
+	background-color: #302e00;
+	color: #86813b;
+	border-color: #5f5b17; 
+}
+
+#input:focus {
+	border-color: #a88339; 
+}

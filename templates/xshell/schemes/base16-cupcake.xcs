@@ -1,0 +1,23 @@
+[Base16 Cupcake]
+text=8b8198
+text(bold)=8b8198
+background=fbf1f2
+black=fbf1f2
+black(bold)=bfb9c6
+red=d57e85
+red(bold)=ebb790
+green=a3b367
+green(bold)=f2f1f4
+yellow=dcb16c
+yellow(bold)=d8d5dd
+blue=7297b9
+blue(bold)=a59daf
+magenta=bb99b4
+magenta(bold)=72677e
+cyan=69a9a7
+cyan(bold)=baa58c
+white=8b8198
+white(bold)=585062
+[Names]
+name0=Base16 Cupcake
+count=1

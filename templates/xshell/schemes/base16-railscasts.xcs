@@ -1,0 +1,23 @@
+[Base16 Railscasts]
+text=e6e1dc
+text(bold)=e6e1dc
+background=2b2b2b
+black=2b2b2b
+black(bold)=5a647e
+red=da4939
+red(bold)=cc7833
+green=a5c261
+green(bold)=272935
+yellow=ffc66d
+yellow(bold)=3a4055
+blue=6d9cbe
+blue(bold)=d4cfc9
+magenta=b6b3eb
+magenta(bold)=f4f1ed
+cyan=519f50
+cyan(bold)=bc9458
+white=e6e1dc
+white(bold)=f9f7f3
+[Names]
+name0=Base16 Railscasts
+count=1

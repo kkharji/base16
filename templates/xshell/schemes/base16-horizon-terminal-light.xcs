@@ -1,0 +1,23 @@
+[Base16 Horizon Light]
+text=403c3d
+text(bold)=403c3d
+background=fdf0ed
+black=fdf0ed
+black(bold)=bdb3b1
+red=e95678
+red(bold)=f9cec3
+green=29d398
+green(bold)=fadad1
+yellow=fadad1
+yellow(bold)=f9cbbe
+blue=26bbd9
+blue(bold)=948c8a
+magenta=ee64ac
+magenta(bold)=302c2d
+cyan=59e1e3
+cyan(bold)=f9cbbe
+white=403c3d
+white(bold)=201c1d
+[Names]
+name0=Base16 Horizon Light
+count=1

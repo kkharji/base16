@@ -1,0 +1,121 @@
+
+# base16 Cupertino by Defman21
+
+.colors *
+
+-text		$404040/$ffffff
+-status		$808080/$c0c0c0
+-cursor		$ffffff/$404040
+-selection	/$c0c0c0
+-curlin		/$c0c0c0
+-linum		$808080/$c0c0c0
+-curlinum	$808080/$c0c0c0
+-menusel	$c0c0c0/$808080
+
+-term 0 	$ffffff
+-term 1 	$0000ff
+-term 2 	$007400
+-term 3 	$318495
+-term 4 	$eb8500
+-term 5 	$a90d91
+-term 6 	$826b28
+-term 7 	$808080
+-term 8 	$808080
+-term 9 	$0000ff
+-term 10	$007400
+-term 11	$318495
+-term 12	$c41a15
+-term 13	$826b28
+-term 14	$826b28
+-term 15	$5e5e5e
+
+=Constant	$eb8500
+=String		$007400
+=Escape		$318495
+
+=Comment	$808080
+=StorageClass	+Type
+=Keyword	$a90d91
+=Conditional	$a90d91
+=Operator	$404040
+=Loop		$826b28
+=Statement	$c41a15
+=Type		$826b28
+
+=DefinedIdent	$c41a15
+=Label		$826b28
+=DefinedType	$826b28
+=Structure	$a90d91
+
+=Preproc	$826b28
+=Include	$0000ff
+=Define		$a90d91
+=TODO		$826b28/$c0c0c0
+=Precond	$a90d91
+
+=diff.AddLine	$007400/$c0c0c0
+=diff.ChgLine	$808080/$c0c0c0
+=diff.DelLine	$c41a15/$c0c0c0
+=diff.File	$c41a15
+=diff.FileNew	$007400
+=diff.Hunk	$0000ff
+
+.colors 256
+
+-text		238/231
+-status		244/250
+-cursor		231/238
+-selection	/250
+-curlin		/250
+-linum		244/250
+-curlinum	244/250
+-menusel	250/244
+
+-term 0 	231
+-term 1 	21
+-term 2 	28
+-term 3 	31
+-term 4 	172
+-term 5 	126
+-term 6 	94
+-term 7 	244
+-term 8 	244
+-term 9 	21
+-term 10	28
+-term 11	31
+-term 12	124
+-term 13	94
+-term 14	94
+-term 15	59
+
+=Constant	172
+=String		28
+=Escape		31
+
+=Comment	244
+=StorageClass	+Type
+=Keyword	126
+=Conditional	126
+=Operator	238
+=Loop		94
+=Statement	124
+=Type		94
+
+=DefinedIdent	124
+=Label		94
+=DefinedType	94
+=Structure	126
+
+=Preproc	94
+=Include	21
+=Define		126
+=TODO		94/250
+=Precond	126
+
+=diff.AddLine	28/250
+=diff.ChgLine	244/250
+=diff.DelLine	124/250
+=diff.File	124
+=diff.FileNew	28
+=diff.Hunk	21
+

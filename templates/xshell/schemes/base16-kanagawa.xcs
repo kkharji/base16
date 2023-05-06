@@ -1,0 +1,23 @@
+[Base16 Kanagawa]
+text=dcd7ba
+text(bold)=dcd7ba
+background=1f1f28
+black=1f1f28
+black(bold)=54546d
+red=c34043
+red(bold)=ffa066
+green=76946a
+green(bold)=16161d
+yellow=c0a36e
+yellow(bold)=223249
+blue=7e9cd8
+blue(bold)=727169
+magenta=957fb8
+magenta(bold)=c8c093
+cyan=6a9589
+cyan(bold)=d27e99
+white=dcd7ba
+white(bold)=717c7c
+[Names]
+name0=Base16 Kanagawa
+count=1

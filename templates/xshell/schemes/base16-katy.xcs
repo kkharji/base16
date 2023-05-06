@@ -1,0 +1,23 @@
+[Base16 Katy]
+text=959dcb
+text(bold)=959dcb
+background=292d3e
+black=292d3e
+black(bold)=676e95
+red=6e98e1
+red(bold)=f78c6c
+green=78c06e
+green(bold)=444267
+yellow=e0a557
+yellow(bold)=5c598b
+blue=82aaff
+blue(bold)=8796b0
+magenta=c792ea
+magenta(bold)=959dcb
+cyan=83b7e5
+cyan(bold)=ff5370
+white=959dcb
+white(bold)=ffffff
+[Names]
+name0=Base16 Katy
+count=1

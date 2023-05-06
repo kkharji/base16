@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Twilight scheme by David Hart (https://github.com/hartbit) */
+
+window {
+	background-color: #1e1e1e;
+	color: #a7a7a7;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1e1e1e;
+}
+
+#entry:nth-child(even) {
+	background-color: #323537;
+}
+
+#entry:selected {
+	background-color: #464b50;
+}
+
+#input {
+	background-color: #323537;
+	color: #838184;
+	border-color: #464b50; 
+}
+
+#input:focus {
+	border-color: #f9ee98; 
+}

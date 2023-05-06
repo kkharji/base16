@@ -1,0 +1,22 @@
+<!--    Base16 standardized-light
+        Scheme author: ali (https://github.com/ali-githb/base16-standardized-scheme)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="MaterialCustomThemeConfig">
+    <option name="notificationsColor" value="ffffff" />
+    <option name="treeSelectionColor" value="3173c5" />
+    <option name="highlightColor" value="cccccc" />
+    <option name="secondBorderColor" value="ffffff" />
+    <option name="tableSelectedColor" value="3173c5" />
+    <option name="contrastColor" value="eeeeee" />
+    <option name="disabledColor" value="767676" />
+    <option name="secondaryBackgroundColor" value="eeeeee" />
+    <option name="buttonColor" value="ffffff" />
+    <option name="selectionForegroundColor" value="333333" />
+    <option name="selectionBackgroundColor" value="3173c5" />
+    <option name="textColor" value="333333" />
+    <option name="foregroundColor" value="444444" />
+    <option name="backgroundColor" value="ffffff" />
+  </component>
+</application> 

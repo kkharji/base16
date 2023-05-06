@@ -1,0 +1,23 @@
+[Base16 tender]
+text=eeeeee
+text(bold)=eeeeee
+background=282828
+black=282828
+black(bold)=4c4c4c
+red=f43753
+red(bold)=dc9656
+green=c9d05c
+green(bold)=383838
+yellow=ffc24b
+yellow(bold)=484848
+blue=b3deef
+blue(bold)=b8b8b8
+magenta=d3b987
+magenta(bold)=e8e8e8
+cyan=73cef4
+cyan(bold)=a16946
+white=eeeeee
+white(bold)=feffff
+[Names]
+name0=Base16 tender
+count=1

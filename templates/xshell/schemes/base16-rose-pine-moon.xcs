@@ -1,0 +1,23 @@
+[Base16 Rosé Pine Moon]
+text=e0def4
+text(bold)=e0def4
+background=232136
+black=232136
+black(bold)=59546d
+red=ecebf0
+red(bold)=eb6f92
+green=ea9a97
+green(bold)=2a273f
+yellow=f6c177
+yellow(bold)=393552
+blue=9ccfd8
+blue(bold)=817c9c
+magenta=c4a7e7
+magenta(bold)=f5f5f7
+cyan=3e8fb0
+cyan(bold)=b9b9bc
+white=e0def4
+white(bold)=d9d7e1
+[Names]
+name0=Base16 Rosé Pine Moon
+count=1

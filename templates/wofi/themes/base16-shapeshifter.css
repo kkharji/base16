@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Shapeshifter scheme by Tyler Benziger (http://tybenz.com) */
+
+window {
+	background-color: #f9f9f9;
+	color: #102015;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f9f9f9;
+}
+
+#entry:nth-child(even) {
+	background-color: #e0e0e0;
+}
+
+#entry:selected {
+	background-color: #ababab;
+}
+
+#input {
+	background-color: #e0e0e0;
+	color: #343434;
+	border-color: #ababab; 
+}
+
+#input:focus {
+	border-color: #dddd13; 
+}

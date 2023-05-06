@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Atelier Forest Light scheme by Bram de Haan (http://atelierbramdehaan.nl) */
+
+window {
+	background-color: #f1efee;
+	color: #68615e;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f1efee;
+}
+
+#entry:nth-child(even) {
+	background-color: #e6e2e0;
+}
+
+#entry:selected {
+	background-color: #a8a19f;
+}
+
+#input {
+	background-color: #e6e2e0;
+	color: #766e6b;
+	border-color: #a8a19f; 
+}
+
+#input:focus {
+	border-color: #c38418; 
+}

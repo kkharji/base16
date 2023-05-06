@@ -1,0 +1,23 @@
+[Base16 Material Lighter]
+text=80cbc4
+text(bold)=80cbc4
+background=fafafa
+black=fafafa
+black(bold)=ccd7da
+red=ff5370
+red(bold)=f76d47
+green=91b859
+green(bold)=e7eaec
+yellow=ffb62c
+yellow(bold)=cceae7
+blue=6182b8
+blue(bold)=8796b0
+magenta=7c4dff
+magenta(bold)=80cbc4
+cyan=39adb5
+cyan(bold)=e53935
+white=80cbc4
+white(bold)=ffffff
+[Names]
+name0=Base16 Material Lighter
+count=1

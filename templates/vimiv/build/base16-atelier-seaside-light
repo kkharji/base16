@@ -1,0 +1,31 @@
+; base16-atelier-seaside-light
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Bram de Haan (http://atelierbramdehaan.nl)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #f4fbf4
+base01 = #cfe8cf
+base02 = #8ca68c
+base03 = #809980
+base04 = #687d68
+base05 = #5e6e5e
+base06 = #242924
+base07 = #131513
+base08 = #e6193c
+base09 = #87711d
+base0a = #98981b
+base0b = #29a329
+base0c = #1999b3
+base0d = #3d62f5
+base0e = #ad2bee
+base0f = #e619c3
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

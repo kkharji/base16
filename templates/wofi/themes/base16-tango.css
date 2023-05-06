@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Tango scheme by @Schnouki, based on the Tango Desktop Project */
+
+window {
+	background-color: #2e3436;
+	color: #d3d7cf;
+}
+
+#entry:nth-child(odd) {
+	background-color: #2e3436;
+}
+
+#entry:nth-child(even) {
+	background-color: #8ae234;
+}
+
+#entry:selected {
+	background-color: #fce94f;
+}
+
+#input {
+	background-color: #8ae234;
+	color: #729fcf;
+	border-color: #fce94f; 
+}
+
+#input:focus {
+	border-color: #c4a000; 
+}

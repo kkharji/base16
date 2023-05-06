@@ -1,0 +1,23 @@
+[Base16 London Tube]
+text=d9d8d8
+text(bold)=d9d8d8
+background=231f20
+black=231f20
+black(bold)=737171
+red=ee2e24
+red(bold)=f386a1
+green=00853e
+green(bold)=1c3f95
+yellow=ffd204
+yellow(bold)=5a5758
+blue=009ddc
+blue(bold)=959ca1
+magenta=98005d
+magenta(bold)=e7e7e8
+cyan=85cebc
+cyan(bold)=b06110
+white=d9d8d8
+white(bold)=ffffff
+[Names]
+name0=Base16 London Tube
+count=1

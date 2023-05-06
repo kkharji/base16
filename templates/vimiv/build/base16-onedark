@@ -1,0 +1,31 @@
+; base16-onedark
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Lalit Magant (http://github.com/tilal6991)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #282c34
+base01 = #353b45
+base02 = #3e4451
+base03 = #545862
+base04 = #565c64
+base05 = #abb2bf
+base06 = #b6bdca
+base07 = #c8ccd4
+base08 = #e06c75
+base09 = #d19a66
+base0a = #e5c07b
+base0b = #98c379
+base0c = #56b6c2
+base0d = #61afef
+base0e = #c678dd
+base0f = #be5046
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

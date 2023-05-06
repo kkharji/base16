@@ -1,0 +1,6 @@
+# Base16 OceanicNext for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By https://github.com/voronianski/oceanic-next-color-scheme
+# oceanicnext (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#1B2B34\nfg_color:#C0C5CE\nbase_color:#1B2B34\ntext_color:#C0C5CE\nselected_bg_color:#4F5B66\nselected_fg_color:#C0C5CE\ntooltip_bg_color:#1B2B34\ntooltip_fg_color:#A7ADBA\ntitlebar_bg_color:#1B2B34\ntitlebar_fg_color:#6699CC\nmenubar_bg_color:#1B2B34\nmenubar_fg_color:#6699CC\ntoolbar_bg_color:#1B2B34\ntoolbar_fg_color:#FAC863\nmenu_bg_color:#1B2B34\nmenu_fg_color:#C0C5CE\npanel_bg_color:#1B2B34\npanel_fg_color:#99C794\nlink_color:#F99157"
+

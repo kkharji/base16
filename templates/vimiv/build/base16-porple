@@ -1,0 +1,31 @@
+; base16-porple
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Niek den Breeje (https://github.com/AuditeMarlow)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #292c36
+base01 = #333344
+base02 = #474160
+base03 = #65568a
+base04 = #b8b8b8
+base05 = #d8d8d8
+base06 = #e8e8e8
+base07 = #f8f8f8
+base08 = #f84547
+base09 = #d28e5d
+base0a = #efa16b
+base0b = #95c76f
+base0c = #64878f
+base0d = #8485ce
+base0e = #b74989
+base0f = #986841
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

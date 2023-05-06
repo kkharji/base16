@@ -1,0 +1,6 @@
+# Base16 Paraiso for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Jan T. Sott
+# paraiso (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#2f1e2e\nfg_color:#a39e9b\nbase_color:#2f1e2e\ntext_color:#a39e9b\nselected_bg_color:#4f424c\nselected_fg_color:#a39e9b\ntooltip_bg_color:#2f1e2e\ntooltip_fg_color:#8d8687\ntitlebar_bg_color:#2f1e2e\ntitlebar_fg_color:#06b6ef\nmenubar_bg_color:#2f1e2e\nmenubar_fg_color:#06b6ef\ntoolbar_bg_color:#2f1e2e\ntoolbar_fg_color:#fec418\nmenu_bg_color:#2f1e2e\nmenu_fg_color:#a39e9b\npanel_bg_color:#2f1e2e\npanel_fg_color:#48b685\nlink_color:#f99b15"
+

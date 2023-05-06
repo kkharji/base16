@@ -1,0 +1,31 @@
+; base16-synth-midnight-light
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Michaël Ball (http://github.com/michael-ball/)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #dddfe0
+base01 = #cfd1d2
+base02 = #c1c3c4
+base03 = #a3a5a6
+base04 = #474849
+base05 = #28292a
+base06 = #1a1b1c
+base07 = #050608
+base08 = #b53b50
+base09 = #ea770d
+base0a = #c9d364
+base0b = #06ea61
+base0c = #42fff9
+base0d = #03aeff
+base0e = #ea5ce2
+base0f = #cd6320
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

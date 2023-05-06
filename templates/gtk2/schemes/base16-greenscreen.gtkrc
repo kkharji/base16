@@ -1,0 +1,6 @@
+# Base16 Green Screen for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Chris Kempson (http://chriskempson.com)
+# greenscreen (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#001100\nfg_color:#00bb00\nbase_color:#001100\ntext_color:#00bb00\nselected_bg_color:#005500\nselected_fg_color:#00bb00\ntooltip_bg_color:#001100\ntooltip_fg_color:#009900\ntitlebar_bg_color:#001100\ntitlebar_fg_color:#009900\nmenubar_bg_color:#001100\nmenubar_fg_color:#009900\ntoolbar_bg_color:#001100\ntoolbar_fg_color:#007700\nmenu_bg_color:#001100\nmenu_fg_color:#00bb00\npanel_bg_color:#001100\npanel_fg_color:#00bb00\nlink_color:#009900"
+

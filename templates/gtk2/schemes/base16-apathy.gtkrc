@@ -1,0 +1,6 @@
+# Base16 Apathy for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Jannik Siebert (https://github.com/janniks)
+# apathy (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#031A16\nfg_color:#81B5AC\nbase_color:#031A16\ntext_color:#81B5AC\nselected_bg_color:#184E45\nselected_fg_color:#81B5AC\ntooltip_bg_color:#031A16\ntooltip_fg_color:#5F9C92\ntitlebar_bg_color:#031A16\ntitlebar_fg_color:#96883E\nmenubar_bg_color:#031A16\nmenubar_fg_color:#96883E\ntoolbar_bg_color:#031A16\ntoolbar_fg_color:#3E4C96\nmenu_bg_color:#031A16\nmenu_fg_color:#81B5AC\npanel_bg_color:#031A16\npanel_fg_color:#883E96\nlink_color:#3E7996"
+

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Atelier Plateau scheme by Bram de Haan (http://atelierbramdehaan.nl) */
+
+window {
+	background-color: #1b1818;
+	color: #8a8585;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1b1818;
+}
+
+#entry:nth-child(even) {
+	background-color: #292424;
+}
+
+#entry:selected {
+	background-color: #585050;
+}
+
+#input {
+	background-color: #292424;
+	color: #7e7777;
+	border-color: #585050; 
+}
+
+#input:focus {
+	border-color: #a06e3b; 
+}

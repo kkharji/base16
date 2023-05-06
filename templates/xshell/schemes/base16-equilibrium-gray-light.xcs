@@ -1,0 +1,23 @@
+[Base16 Equilibrium Gray Light]
+text=474747
+text(bold)=474747
+background=f1f1f1
+black=f1f1f1
+black(bold)=777777
+red=d02023
+red(bold)=bf3e05
+green=637200
+green(bold)=e2e2e2
+yellow=9d6f00
+yellow(bold)=d4d4d4
+blue=0073b5
+blue(bold)=5e5e5e
+magenta=4e66b6
+magenta(bold)=303030
+cyan=007a72
+cyan(bold)=c42775
+white=474747
+white(bold)=1b1b1b
+[Names]
+name0=Base16 Equilibrium Gray Light
+count=1

@@ -1,0 +1,33 @@
+#!/bin/bash
+# Includes paths for: general Unix install, flatpak install and snap install respectively
+possible_paths=("$HOME/.config/hexchat/colors.conf" "$HOME/.var/app/io.github.Hexchat/config/hexchat/colors.conf" "$HOME/snap/hexchat/current/.config/hexchat/colors.conf")
+
+if [ -z "$1" ]; then
+   echo "A theme name is required"
+   exit 1
+fi
+
+if [[ $1 = *" "* ]]; then
+   echo "Theme names should be kebab-case"
+   exit 1
+fi
+
+if [ ! -z "$2" ]; then
+   echo "Only one argument is allowed"
+   exit 1
+fi
+
+for i in "${possible_paths[@]}"
+do
+   if [ -f "$i" ]; then
+      theme_path="./colors/base16-$1.conf"
+
+      if [ -f "$theme_path" ]; then
+         rm "$i"
+         cp "$theme_path" "$i"
+      else
+         echo "Base16Hex theme '$1' does not exist"
+         exit 2
+      fi
+   fi
+done

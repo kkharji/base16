@@ -1,0 +1,23 @@
+[Base16 Primer Dark]
+text=b1bac4
+text(bold)=b1bac4
+background=010409
+black=010409
+black(bold)=484f58
+red=ff7b72
+red(bold)=f0883e
+green=3fb950
+green(bold)=21262d
+yellow=d29922
+yellow(bold)=30363d
+blue=58a6ff
+blue(bold)=8b949e
+magenta=f778ba
+magenta(bold)=c9d1d9
+cyan=a5d6ff
+cyan(bold)=bd561d
+white=b1bac4
+white(bold)=f0f6fc
+[Names]
+name0=Base16 Primer Dark
+count=1

@@ -1,0 +1,31 @@
+; base16-nord
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: arcticicestudio
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #2E3440
+base01 = #3B4252
+base02 = #434C5E
+base03 = #4C566A
+base04 = #D8DEE9
+base05 = #E5E9F0
+base06 = #ECEFF4
+base07 = #8FBCBB
+base08 = #BF616A
+base09 = #D08770
+base0a = #EBCB8B
+base0b = #A3BE8C
+base0c = #88C0D0
+base0d = #81A1C1
+base0e = #B48EAD
+base0f = #5E81AC
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

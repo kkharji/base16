@@ -1,0 +1,31 @@
+; base16-tango
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: @Schnouki, based on the Tango Desktop Project
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #2e3436
+base01 = #8ae234
+base02 = #fce94f
+base03 = #555753
+base04 = #729fcf
+base05 = #d3d7cf
+base06 = #ad7fa8
+base07 = #eeeeec
+base08 = #cc0000
+base09 = #ef2929
+base0a = #c4a000
+base0b = #4e9a06
+base0c = #06989a
+base0d = #3465a4
+base0e = #75507b
+base0f = #34e2e2
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

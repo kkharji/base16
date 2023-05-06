@@ -1,0 +1,6 @@
+# Base16 Chalk for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Chris Kempson (http://chriskempson.com)
+# chalk (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#151515\nfg_color:#d0d0d0\nbase_color:#151515\ntext_color:#d0d0d0\nselected_bg_color:#303030\nselected_fg_color:#d0d0d0\ntooltip_bg_color:#151515\ntooltip_fg_color:#b0b0b0\ntitlebar_bg_color:#151515\ntitlebar_fg_color:#6fc2ef\nmenubar_bg_color:#151515\nmenubar_fg_color:#6fc2ef\ntoolbar_bg_color:#151515\ntoolbar_fg_color:#ddb26f\nmenu_bg_color:#151515\nmenu_fg_color:#d0d0d0\npanel_bg_color:#151515\npanel_fg_color:#acc267\nlink_color:#eda987"
+

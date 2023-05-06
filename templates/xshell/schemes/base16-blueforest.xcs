@@ -1,0 +1,23 @@
+[Base16 Blue Forest]
+text=ffcc33
+text(bold)=ffcc33
+background=141f2e
+black=141f2e
+black(bold)=a0ffa0
+red=fffab1
+red(bold)=ff8080
+green=80ff80
+green(bold)=1e5c1e
+yellow=91ccff
+yellow(bold)=273e5c
+blue=a2cff5
+blue(bold)=1e5c1e
+magenta=0099ff
+magenta(bold)=91ccff
+cyan=80ff80
+cyan(bold)=e7e7e7
+white=ffcc33
+white(bold)=375780
+[Names]
+name0=Base16 Blue Forest
+count=1

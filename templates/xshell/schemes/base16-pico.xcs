@@ -1,0 +1,23 @@
+[Base16 Pico]
+text=5f574f
+text(bold)=5f574f
+background=000000
+black=000000
+black(bold)=008751
+red=ff004d
+red(bold)=ffa300
+green=00e756
+green(bold)=1d2b53
+yellow=fff024
+yellow(bold)=7e2553
+blue=83769c
+blue(bold)=ab5236
+magenta=ff77a8
+magenta(bold)=c2c3c7
+cyan=29adff
+cyan(bold)=ffccaa
+white=5f574f
+white(bold)=fff1e8
+[Names]
+name0=Base16 Pico
+count=1

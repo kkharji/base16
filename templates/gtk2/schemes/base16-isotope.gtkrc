@@ -1,0 +1,6 @@
+# Base16 Isotope for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Jan T. Sott
+# isotope (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#000000\nfg_color:#d0d0d0\nbase_color:#000000\ntext_color:#d0d0d0\nselected_bg_color:#606060\nselected_fg_color:#d0d0d0\ntooltip_bg_color:#000000\ntooltip_fg_color:#c0c0c0\ntitlebar_bg_color:#000000\ntitlebar_fg_color:#0066ff\nmenubar_bg_color:#000000\nmenubar_fg_color:#0066ff\ntoolbar_bg_color:#000000\ntoolbar_fg_color:#ff0099\nmenu_bg_color:#000000\nmenu_fg_color:#d0d0d0\npanel_bg_color:#000000\npanel_fg_color:#33ff00\nlink_color:#ff9900"
+

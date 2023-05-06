@@ -1,0 +1,121 @@
+
+# base16 Material Darker by Nate Peterson
+
+.colors *
+
+-text		$eeffff/$212121
+-status		$b2ccd6/$353535
+-cursor		$212121/$eeffff
+-selection	/$353535
+-curlin		/$303030
+-linum		$4a4a4a/$303030
+-curlinum	$b2ccd6/$303030
+-menusel	$303030/$b2ccd6
+
+-term 0 	$212121
+-term 1 	$82aaff
+-term 2 	$c3e88d
+-term 3 	$89ddff
+-term 4 	$f78c6c
+-term 5 	$c792ea
+-term 6 	$ffcb6b
+-term 7 	$b2ccd6
+-term 8 	$4a4a4a
+-term 9 	$82aaff
+-term 10	$c3e88d
+-term 11	$89ddff
+-term 12	$f07178
+-term 13	$ff5370
+-term 14	$ffcb6b
+-term 15	$ffffff
+
+=Constant	$f78c6c
+=String		$c3e88d
+=Escape		$89ddff
+
+=Comment	$4a4a4a
+=StorageClass	+Type
+=Keyword	$c792ea
+=Conditional	$c792ea
+=Operator	$eeffff
+=Loop		$ffcb6b
+=Statement	$f07178
+=Type		$ffcb6b
+
+=DefinedIdent	$f07178
+=Label		$ffcb6b
+=DefinedType	$ffcb6b
+=Structure	$c792ea
+
+=Preproc	$ffcb6b
+=Include	$82aaff
+=Define		$c792ea
+=TODO		$ffcb6b/$303030
+=Precond	$c792ea
+
+=diff.AddLine	$c3e88d/$303030
+=diff.ChgLine	$4a4a4a/$303030
+=diff.DelLine	$f07178/$303030
+=diff.File	$f07178
+=diff.FileNew	$c3e88d
+=diff.Hunk	$82aaff
+
+.colors 256
+
+-text		195/234
+-status		153/236
+-cursor		234/195
+-selection	/236
+-curlin		/236
+-linum		239/236
+-curlinum	153/236
+-menusel	236/153
+
+-term 0 	234
+-term 1 	111
+-term 2 	150
+-term 3 	117
+-term 4 	209
+-term 5 	140
+-term 6 	222
+-term 7 	153
+-term 8 	239
+-term 9 	111
+-term 10	150
+-term 11	117
+-term 12	210
+-term 13	204
+-term 14	222
+-term 15	231
+
+=Constant	209
+=String		150
+=Escape		117
+
+=Comment	239
+=StorageClass	+Type
+=Keyword	140
+=Conditional	140
+=Operator	195
+=Loop		222
+=Statement	210
+=Type		222
+
+=DefinedIdent	210
+=Label		222
+=DefinedType	222
+=Structure	140
+
+=Preproc	222
+=Include	111
+=Define		140
+=TODO		222/236
+=Precond	140
+
+=diff.AddLine	150/236
+=diff.ChgLine	239/236
+=diff.DelLine	210/236
+=diff.File	210
+=diff.FileNew	150
+=diff.Hunk	111
+

@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Material Palenight scheme by Nate Peterson */
+
+window {
+	background-color: #292D3E;
+	color: #959DCB;
+}
+
+#entry:nth-child(odd) {
+	background-color: #292D3E;
+}
+
+#entry:nth-child(even) {
+	background-color: #444267;
+}
+
+#entry:selected {
+	background-color: #32374D;
+}
+
+#input {
+	background-color: #444267;
+	color: #8796B0;
+	border-color: #32374D; 
+}
+
+#input:focus {
+	border-color: #FFCB6B; 
+}

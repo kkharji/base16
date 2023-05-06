@@ -1,0 +1,23 @@
+[Base16 Nebula]
+text=a4a6a9
+text(bold)=a4a6a9
+background=22273b
+black=22273b
+black(bold)=6e6f72
+red=777abc
+red(bold)=94929e
+green=6562a8
+green(bold)=414f60
+yellow=4f9062
+yellow(bold)=5a8380
+blue=4d6bb6
+blue(bold)=87888b
+magenta=716cae
+magenta(bold)=c7c9cd
+cyan=226f68
+cyan(bold)=8c70a7
+white=a4a6a9
+white(bold)=8dbdaa
+[Names]
+name0=Base16 Nebula
+count=1

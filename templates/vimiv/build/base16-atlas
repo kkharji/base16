@@ -1,0 +1,31 @@
+; base16-atlas
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Alex Lende (https://ajlende.com)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #002635
+base01 = #00384d
+base02 = #517F8D
+base03 = #6C8B91
+base04 = #869696
+base05 = #a1a19a
+base06 = #e6e6dc
+base07 = #fafaf8
+base08 = #ff5a67
+base09 = #f08e48
+base0a = #ffcc1b
+base0b = #7fc06e
+base0c = #14747e
+base0d = #5dd7b9
+base0e = #9a70a4
+base0f = #c43060
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

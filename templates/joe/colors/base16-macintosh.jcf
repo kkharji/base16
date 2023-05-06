@@ -1,0 +1,121 @@
+
+# base16 Macintosh by Rebecca Bettencourt (http://www.kreativekorp.com)
+
+.colors *
+
+-text		$c0c0c0/$000000
+-status		$808080/$404040
+-cursor		$000000/$c0c0c0
+-selection	/$404040
+-curlin		/$404040
+-linum		$808080/$404040
+-curlinum	$808080/$404040
+-menusel	$404040/$808080
+
+-term 0 	$000000
+-term 1 	$0000d3
+-term 2 	$1fb714
+-term 3 	$02abea
+-term 4 	$ff6403
+-term 5 	$4700a5
+-term 6 	$fbf305
+-term 7 	$808080
+-term 8 	$808080
+-term 9 	$0000d3
+-term 10	$1fb714
+-term 11	$02abea
+-term 12	$dd0907
+-term 13	$90713a
+-term 14	$fbf305
+-term 15	$ffffff
+
+=Constant	$ff6403
+=String		$1fb714
+=Escape		$02abea
+
+=Comment	$808080
+=StorageClass	+Type
+=Keyword	$4700a5
+=Conditional	$4700a5
+=Operator	$c0c0c0
+=Loop		$fbf305
+=Statement	$dd0907
+=Type		$fbf305
+
+=DefinedIdent	$dd0907
+=Label		$fbf305
+=DefinedType	$fbf305
+=Structure	$4700a5
+
+=Preproc	$fbf305
+=Include	$0000d3
+=Define		$4700a5
+=TODO		$fbf305/$404040
+=Precond	$4700a5
+
+=diff.AddLine	$1fb714/$404040
+=diff.ChgLine	$808080/$404040
+=diff.DelLine	$dd0907/$404040
+=diff.File	$dd0907
+=diff.FileNew	$1fb714
+=diff.Hunk	$0000d3
+
+.colors 256
+
+-text		250/16
+-status		244/238
+-cursor		16/250
+-selection	/238
+-curlin		/238
+-linum		244/238
+-curlinum	244/238
+-menusel	238/244
+
+-term 0 	16
+-term 1 	20
+-term 2 	34
+-term 3 	39
+-term 4 	202
+-term 5 	55
+-term 6 	226
+-term 7 	244
+-term 8 	244
+-term 9 	20
+-term 10	34
+-term 11	39
+-term 12	160
+-term 13	94
+-term 14	226
+-term 15	231
+
+=Constant	202
+=String		34
+=Escape		39
+
+=Comment	244
+=StorageClass	+Type
+=Keyword	55
+=Conditional	55
+=Operator	250
+=Loop		226
+=Statement	160
+=Type		226
+
+=DefinedIdent	160
+=Label		226
+=DefinedType	226
+=Structure	55
+
+=Preproc	226
+=Include	20
+=Define		55
+=TODO		226/238
+=Precond	55
+
+=diff.AddLine	34/238
+=diff.ChgLine	244/238
+=diff.DelLine	160/238
+=diff.File	160
+=diff.FileNew	34
+=diff.Hunk	20
+

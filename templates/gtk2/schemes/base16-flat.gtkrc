@@ -1,0 +1,6 @@
+# Base16 Flat for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Chris Kempson (http://chriskempson.com)
+# flat (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#2C3E50\nfg_color:#e0e0e0\nbase_color:#2C3E50\ntext_color:#e0e0e0\nselected_bg_color:#7F8C8D\nselected_fg_color:#e0e0e0\ntooltip_bg_color:#2C3E50\ntooltip_fg_color:#BDC3C7\ntitlebar_bg_color:#2C3E50\ntitlebar_fg_color:#3498DB\nmenubar_bg_color:#2C3E50\nmenubar_fg_color:#3498DB\ntoolbar_bg_color:#2C3E50\ntoolbar_fg_color:#F1C40F\nmenu_bg_color:#2C3E50\nmenu_fg_color:#e0e0e0\npanel_bg_color:#2C3E50\npanel_fg_color:#2ECC71\nlink_color:#E67E22"
+

@@ -1,0 +1,23 @@
+[Base16 Nord]
+text=e5e9f0
+text(bold)=e5e9f0
+background=2e3440
+black=2e3440
+black(bold)=4c566a
+red=bf616a
+red(bold)=d08770
+green=a3be8c
+green(bold)=3b4252
+yellow=ebcb8b
+yellow(bold)=434c5e
+blue=81a1c1
+blue(bold)=d8dee9
+magenta=b48ead
+magenta(bold)=eceff4
+cyan=88c0d0
+cyan(bold)=5e81ac
+white=e5e9f0
+white(bold)=8fbcbb
+[Names]
+name0=Base16 Nord
+count=1

@@ -1,0 +1,23 @@
+[Base16 Rosé Pine]
+text=e0def4
+text(bold)=e0def4
+background=191724
+black=191724
+black(bold)=555169
+red=e2e1e7
+red(bold)=eb6f92
+green=ebbcba
+green(bold)=1f1d2e
+yellow=f6c177
+yellow(bold)=26233a
+blue=9ccfd8
+blue(bold)=6e6a86
+magenta=c4a7e7
+magenta(bold)=f0f0f3
+cyan=31748f
+cyan(bold)=e5e5e5
+white=e0def4
+white(bold)=c5c3ce
+[Names]
+name0=Base16 Rosé Pine
+count=1

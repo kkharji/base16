@@ -1,0 +1,23 @@
+[Base16 Dark Violet]
+text=b08ae6
+text(bold)=b08ae6
+background=000000
+black=000000
+black(bold)=593380
+red=a82ee6
+red(bold)=bb66cc
+green=4595e6
+green(bold)=231a40
+yellow=f29df2
+yellow(bold)=432d59
+blue=4136d9
+blue(bold)=00ff00
+magenta=7e5ce6
+magenta(bold)=9045e6
+cyan=40dfff
+cyan(bold)=a886bf
+white=b08ae6
+white(bold)=a366ff
+[Names]
+name0=Base16 Dark Violet
+count=1

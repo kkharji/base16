@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Framer scheme by Framer (Maintained by Jesse Hoyos) */
+
+window {
+	background-color: #181818;
+	color: #D0D0D0;
+}
+
+#entry:nth-child(odd) {
+	background-color: #181818;
+}
+
+#entry:nth-child(even) {
+	background-color: #151515;
+}
+
+#entry:selected {
+	background-color: #464646;
+}
+
+#input {
+	background-color: #151515;
+	color: #B9B9B9;
+	border-color: #464646; 
+}
+
+#input:focus {
+	border-color: #FECB6E; 
+}

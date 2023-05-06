@@ -1,0 +1,31 @@
+; base16-darkmoss
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Gabriel Avanzi (https://github.com/avanzzzi)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #171e1f
+base01 = #252c2d
+base02 = #373c3d
+base03 = #555e5f
+base04 = #818f80
+base05 = #c7c7a5
+base06 = #e3e3c8
+base07 = #e1eaef
+base08 = #ff4658
+base09 = #e6db74
+base0a = #fdb11f
+base0b = #499180
+base0c = #66d9ef
+base0d = #498091
+base0e = #9bc0c8
+base0f = #d27b53
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

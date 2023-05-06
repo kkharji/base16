@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Paraiso scheme by Jan T. Sott */
+
+window {
+	background-color: #2f1e2e;
+	color: #a39e9b;
+}
+
+#entry:nth-child(odd) {
+	background-color: #2f1e2e;
+}
+
+#entry:nth-child(even) {
+	background-color: #41323f;
+}
+
+#entry:selected {
+	background-color: #4f424c;
+}
+
+#input {
+	background-color: #41323f;
+	color: #8d8687;
+	border-color: #4f424c; 
+}
+
+#input:focus {
+	border-color: #fec418; 
+}

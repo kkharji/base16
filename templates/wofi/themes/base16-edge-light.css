@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Edge Light scheme by cjayross (https://github.com/cjayross) */
+
+window {
+	background-color: #fafafa;
+	color: #5e646f;
+}
+
+#entry:nth-child(odd) {
+	background-color: #fafafa;
+}
+
+#entry:nth-child(even) {
+	background-color: #7c9f4b;
+}
+
+#entry:selected {
+	background-color: #d69822;
+}
+
+#input {
+	background-color: #7c9f4b;
+	color: #6587bf;
+	border-color: #d69822; 
+}
+
+#input:focus {
+	border-color: #d69822; 
+}

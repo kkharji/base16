@@ -1,0 +1,23 @@
+[Base16 Tokyo Night Terminal Storm]
+text=787c99
+text(bold)=787c99
+background=24283b
+black=24283b
+black(bold)=444b6a
+red=f7768e
+red(bold)=ff9e64
+green=41a6b5
+green(bold)=1a1b26
+yellow=e0af68
+yellow(bold)=343a52
+blue=7aa2f7
+blue(bold)=787c99
+magenta=bb9af7
+magenta(bold)=cbccd1
+cyan=7dcfff
+cyan(bold)=d18616
+white=787c99
+white(bold)=d5d6db
+[Names]
+name0=Base16 Tokyo Night Terminal Storm
+count=1

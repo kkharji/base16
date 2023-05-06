@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * PhD scheme by Hennig Hasemann (http://leetless.de/vim.html) */
+
+window {
+	background-color: #061229;
+	color: #b8bbc2;
+}
+
+#entry:nth-child(odd) {
+	background-color: #061229;
+}
+
+#entry:nth-child(even) {
+	background-color: #2a3448;
+}
+
+#entry:selected {
+	background-color: #4d5666;
+}
+
+#input {
+	background-color: #2a3448;
+	color: #9a99a3;
+	border-color: #4d5666; 
+}
+
+#input:focus {
+	border-color: #fbd461; 
+}

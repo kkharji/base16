@@ -1,0 +1,31 @@
+; base16-dirtysea
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Kahlil (Kal) Hodgson
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #e0e0e0
+base01 = #d0dad0
+base02 = #d0d0d0
+base03 = #707070
+base04 = #202020
+base05 = #000000
+base06 = #f8f8f8
+base07 = #c4d9c4
+base08 = #840000
+base09 = #006565
+base0a = #755B00
+base0b = #730073
+base0c = #755B00
+base0d = #007300
+base0e = #000090
+base0f = #755B00
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

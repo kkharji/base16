@@ -1,0 +1,121 @@
+
+# base16 Atelier Heath by Bram de Haan (http://atelierbramdehaan.nl)
+
+.colors *
+
+-text		$ab9bab/$1b181b
+-status		$9e8f9e/$695d69
+-cursor		$1b181b/$ab9bab
+-selection	/$695d69
+-curlin		/$292329
+-linum		$776977/$292329
+-curlinum	$9e8f9e/$292329
+-menusel	$292329/$9e8f9e
+
+-term 0 	$1b181b
+-term 1 	$516aec
+-term 2 	$918b3b
+-term 3 	$159393
+-term 4 	$a65926
+-term 5 	$7b59c0
+-term 6 	$bb8a35
+-term 7 	$9e8f9e
+-term 8 	$776977
+-term 9 	$516aec
+-term 10	$918b3b
+-term 11	$159393
+-term 12	$ca402b
+-term 13	$cc33cc
+-term 14	$bb8a35
+-term 15	$f7f3f7
+
+=Constant	$a65926
+=String		$918b3b
+=Escape		$159393
+
+=Comment	$776977
+=StorageClass	+Type
+=Keyword	$7b59c0
+=Conditional	$7b59c0
+=Operator	$ab9bab
+=Loop		$bb8a35
+=Statement	$ca402b
+=Type		$bb8a35
+
+=DefinedIdent	$ca402b
+=Label		$bb8a35
+=DefinedType	$bb8a35
+=Structure	$7b59c0
+
+=Preproc	$bb8a35
+=Include	$516aec
+=Define		$7b59c0
+=TODO		$bb8a35/$292329
+=Precond	$7b59c0
+
+=diff.AddLine	$918b3b/$292329
+=diff.ChgLine	$776977/$292329
+=diff.DelLine	$ca402b/$292329
+=diff.File	$ca402b
+=diff.FileNew	$918b3b
+=diff.Hunk	$516aec
+
+.colors 256
+
+-text		139/234
+-status		139/241
+-cursor		234/139
+-selection	/241
+-curlin		/235
+-linum		242/235
+-curlinum	139/235
+-menusel	235/139
+
+-term 0 	234
+-term 1 	62
+-term 2 	100
+-term 3 	30
+-term 4 	130
+-term 5 	97
+-term 6 	136
+-term 7 	139
+-term 8 	242
+-term 9 	62
+-term 10	100
+-term 11	30
+-term 12	160
+-term 13	164
+-term 14	136
+-term 15	255
+
+=Constant	130
+=String		100
+=Escape		30
+
+=Comment	242
+=StorageClass	+Type
+=Keyword	97
+=Conditional	97
+=Operator	139
+=Loop		136
+=Statement	160
+=Type		136
+
+=DefinedIdent	160
+=Label		136
+=DefinedType	136
+=Structure	97
+
+=Preproc	136
+=Include	62
+=Define		97
+=TODO		136/235
+=Precond	97
+
+=diff.AddLine	100/235
+=diff.ChgLine	242/235
+=diff.DelLine	160/235
+=diff.File	160
+=diff.FileNew	100
+=diff.Hunk	62
+

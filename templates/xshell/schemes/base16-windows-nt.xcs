@@ -1,0 +1,23 @@
+[Base16 Windows NT]
+text=c0c0c0
+text(bold)=c0c0c0
+background=000000
+black=000000
+black(bold)=808080
+red=ff0000
+red(bold)=808000
+green=00ff00
+green(bold)=2a2a2a
+yellow=ffff00
+yellow(bold)=555555
+blue=0000ff
+blue(bold)=a1a1a1
+magenta=ff00ff
+magenta(bold)=e0e0e0
+cyan=00ffff
+cyan(bold)=008000
+white=c0c0c0
+white(bold)=ffffff
+[Names]
+name0=Base16 Windows NT
+count=1

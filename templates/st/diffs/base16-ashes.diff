@@ -1,0 +1,71 @@
+diff --git a/config.def.h b/config.def.h
+index 0e01717..c288227 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -82,33 +82,35 @@ char *termname = "st-256color";
+  */
+ unsigned int tabspaces = 8;
+ 
+-/* Terminal colors (16 first used in escape sequence) */
++/*
++ * Terminal colors (16 first used in escape sequence)
++ * Base16 st template by Daniel Mulford
++ * Ashes scheme by Jannik Siebert (https://github.com/janniks)
++ */
+ static const char *colorname[] = {
+-	/* 8 normal colors */
+-	"black",
+-	"red3",
+-	"green3",
+-	"yellow3",
+-	"blue2",
+-	"magenta3",
+-	"cyan3",
+-	"gray90",
++    /* 8 normal colors */
++	[0] = "#1C2023", /* black   */
++	[1] = "#C7AE95", /* red     */
++	[2] = "#95C7AE", /* green   */
++	[3] = "#AEC795", /* yellow  */
++	[4] = "#AE95C7", /* blue    */
++	[5] = "#C795AE", /* magenta */
++	[6] = "#95AEC7", /* cyan    */
++	[7] = "#C7CCD1", /* white   */
+ 
+ 	/* 8 bright colors */
+-	"gray50",
+-	"red",
+-	"green",
+-	"yellow",
+-	"#5c5cff",
+-	"magenta",
+-	"cyan",
+-	"white",
++	[8]  = "#747C84", /* black   */
++	[9]  = "#C7AE95", /* red     */
++	[10] = "#95C7AE", /* green   */
++	[11] = "#AEC795", /* yellow  */
++	[12] = "#AE95C7", /* blue    */
++	[13] = "#C795AE", /* magenta */
++	[14] = "#95AEC7", /* cyan    */
++	[15] = "#F3F4F5", /* white   */
+ 
+ 	[255] = 0,
+ 
+ 	/* more colors can be added after 255 to use with DefaultXX */
+-	"#cccccc",
+-	"#555555",
+ };
+ 
+ 
+@@ -118,8 +120,8 @@ static const char *colorname[] = {
+  */
+ unsigned int defaultfg = 7;
+ unsigned int defaultbg = 0;
+-static unsigned int defaultcs = 256;
+-static unsigned int defaultrcs = 257;
++static unsigned int defaultcs = 7;
++static unsigned int defaultrcs = 0;
+ 
+ /*
+  * Default shape of cursor

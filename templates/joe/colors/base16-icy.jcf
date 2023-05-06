@@ -1,0 +1,121 @@
+
+# base16 Icy Dark by icyphox (https://icyphox.ga)
+
+.colors *
+
+-text		$bdbdbd/$222222
+-status		$9e9e9e/$616161
+-cursor		$222222/$bdbdbd
+-selection	/$616161
+-curlin		/$424242
+-linum		$757575/$424242
+-curlinum	$9e9e9e/$424242
+-menusel	$424242/$9e9e9e
+
+-term 0 	$222222
+-term 1 	$80deea
+-term 2 	$26c6da
+-term 3 	$4dd0e1
+-term 4 	$00acc1
+-term 5 	$b3ebf2
+-term 6 	$00bcd4
+-term 7 	$9e9e9e
+-term 8 	$757575
+-term 9 	$80deea
+-term 10	$26c6da
+-term 11	$4dd0e1
+-term 12	$0097a7
+-term 13	$e0f7fa
+-term 14	$00bcd4
+-term 15	$eeeeee
+
+=Constant	$00acc1
+=String		$26c6da
+=Escape		$4dd0e1
+
+=Comment	$757575
+=StorageClass	+Type
+=Keyword	$b3ebf2
+=Conditional	$b3ebf2
+=Operator	$bdbdbd
+=Loop		$00bcd4
+=Statement	$0097a7
+=Type		$00bcd4
+
+=DefinedIdent	$0097a7
+=Label		$00bcd4
+=DefinedType	$00bcd4
+=Structure	$b3ebf2
+
+=Preproc	$00bcd4
+=Include	$80deea
+=Define		$b3ebf2
+=TODO		$00bcd4/$424242
+=Precond	$b3ebf2
+
+=diff.AddLine	$26c6da/$424242
+=diff.ChgLine	$757575/$424242
+=diff.DelLine	$0097a7/$424242
+=diff.File	$0097a7
+=diff.FileNew	$26c6da
+=diff.Hunk	$80deea
+
+.colors 256
+
+-text		250/235
+-status		247/241
+-cursor		235/250
+-selection	/241
+-curlin		/238
+-linum		243/238
+-curlinum	247/238
+-menusel	238/247
+
+-term 0 	235
+-term 1 	116
+-term 2 	45
+-term 3 	45
+-term 4 	37
+-term 5 	152
+-term 6 	38
+-term 7 	247
+-term 8 	243
+-term 9 	116
+-term 10	45
+-term 11	45
+-term 12	30
+-term 13	195
+-term 14	38
+-term 15	255
+
+=Constant	37
+=String		45
+=Escape		45
+
+=Comment	243
+=StorageClass	+Type
+=Keyword	152
+=Conditional	152
+=Operator	250
+=Loop		38
+=Statement	30
+=Type		38
+
+=DefinedIdent	30
+=Label		38
+=DefinedType	38
+=Structure	152
+
+=Preproc	38
+=Include	116
+=Define		152
+=TODO		38/238
+=Precond	152
+
+=diff.AddLine	45/238
+=diff.ChgLine	243/238
+=diff.DelLine	30/238
+=diff.File	30
+=diff.FileNew	45
+=diff.Hunk	116
+

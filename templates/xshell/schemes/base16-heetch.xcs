@@ -1,0 +1,23 @@
+[Base16 Heetch Dark]
+text=bdb6c5
+text(bold)=bdb6c5
+background=190134
+black=190134
+black(bold)=7b6d8b
+red=27d9d5
+red(bold)=5ba2b6
+green=c33678
+green(bold)=392551
+yellow=8f6c97
+yellow(bold)=5a496e
+blue=bd0152
+blue(bold)=9c92a8
+magenta=82034c
+magenta(bold)=dedae2
+cyan=f80059
+cyan(bold)=470546
+white=bdb6c5
+white(bold)=feffff
+[Names]
+name0=Base16 Heetch Dark
+count=1

@@ -1,0 +1,31 @@
+; base16-humanoid-dark
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Thomas (tasmo) Friese
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #232629
+base01 = #333b3d
+base02 = #484e54
+base03 = #60615d
+base04 = #c0c0bd
+base05 = #f8f8f2
+base06 = #fcfcf6
+base07 = #fcfcfc
+base08 = #f11235
+base09 = #ff9505
+base0a = #ffb627
+base0b = #02d849
+base0c = #0dd9d6
+base0d = #00a6fb
+base0e = #f15ee3
+base0f = #b27701
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

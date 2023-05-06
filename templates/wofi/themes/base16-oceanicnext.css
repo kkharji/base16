@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * OceanicNext scheme by https://github.com/voronianski/oceanic-next-color-scheme */
+
+window {
+	background-color: #1B2B34;
+	color: #C0C5CE;
+}
+
+#entry:nth-child(odd) {
+	background-color: #1B2B34;
+}
+
+#entry:nth-child(even) {
+	background-color: #343D46;
+}
+
+#entry:selected {
+	background-color: #4F5B66;
+}
+
+#input {
+	background-color: #343D46;
+	color: #A7ADBA;
+	border-color: #4F5B66; 
+}
+
+#input:focus {
+	border-color: #FAC863; 
+}

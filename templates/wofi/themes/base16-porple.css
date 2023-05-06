@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Porple scheme by Niek den Breeje (https://github.com/AuditeMarlow) */
+
+window {
+	background-color: #292c36;
+	color: #d8d8d8;
+}
+
+#entry:nth-child(odd) {
+	background-color: #292c36;
+}
+
+#entry:nth-child(even) {
+	background-color: #333344;
+}
+
+#entry:selected {
+	background-color: #474160;
+}
+
+#input {
+	background-color: #333344;
+	color: #b8b8b8;
+	border-color: #474160; 
+}
+
+#input:focus {
+	border-color: #efa16b; 
+}

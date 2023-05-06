@@ -1,0 +1,23 @@
+[Base16 Da One Ocean]
+text=ffffff
+text(bold)=ffffff
+background=171726
+black=171726
+black(bold)=878d96
+red=fa7883
+red(bold)=ffc387
+green=98c379
+green(bold)=22273d
+yellow=ff9470
+yellow(bold)=525866
+blue=6bb8ff
+blue(bold)=c8c8c8
+magenta=e799ff
+magenta(bold)=ffffff
+cyan=8af5ff
+cyan(bold)=b3684f
+white=ffffff
+white(bold)=ffffff
+[Names]
+name0=Base16 Da One Ocean
+count=1

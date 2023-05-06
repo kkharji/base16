@@ -1,0 +1,9 @@
+<!--    Base16 Kanagawa
+        Scheme author: Tommaso Laurenzi (https://github.com/rebelot)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="EditorColorsManagerImpl">
+    <global_color_scheme name="Base16 Kanagawa" />
+  </component>
+</application>

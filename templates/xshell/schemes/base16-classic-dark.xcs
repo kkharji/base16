@@ -1,0 +1,23 @@
+[Base16 Classic Dark]
+text=d0d0d0
+text(bold)=d0d0d0
+background=151515
+black=151515
+black(bold)=505050
+red=ac4142
+red(bold)=d28445
+green=90a959
+green(bold)=202020
+yellow=f4bf75
+yellow(bold)=303030
+blue=6a9fb5
+blue(bold)=b0b0b0
+magenta=aa759f
+magenta(bold)=e0e0e0
+cyan=75b5aa
+cyan(bold)=8f5536
+white=d0d0d0
+white(bold)=f5f5f5
+[Names]
+name0=Base16 Classic Dark
+count=1

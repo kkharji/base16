@@ -1,0 +1,6 @@
+# Base16 Harmonic16 Light for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Jannik Siebert (https://github.com/janniks)
+# harmonic-light (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#f7f9fb\nfg_color:#405c79\nbase_color:#f7f9fb\ntext_color:#405c79\nselected_bg_color:#cbd6e2\nselected_fg_color:#405c79\ntooltip_bg_color:#f7f9fb\ntooltip_fg_color:#627e99\ntitlebar_bg_color:#f7f9fb\ntitlebar_fg_color:#8b56bf\nmenubar_bg_color:#f7f9fb\nmenubar_fg_color:#8b56bf\ntoolbar_bg_color:#f7f9fb\ntoolbar_fg_color:#8bbf56\nmenu_bg_color:#f7f9fb\nmenu_fg_color:#405c79\npanel_bg_color:#f7f9fb\npanel_fg_color:#56bf8b\nlink_color:#bfbf56"
+

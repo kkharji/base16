@@ -1,0 +1,121 @@
+
+# base16 Default Light by Chris Kempson (http://chriskempson.com)
+
+.colors *
+
+-text		$383838/$f8f8f8
+-status		$585858/$d8d8d8
+-cursor		$f8f8f8/$383838
+-selection	/$d8d8d8
+-curlin		/$e8e8e8
+-linum		$b8b8b8/$e8e8e8
+-curlinum	$585858/$e8e8e8
+-menusel	$e8e8e8/$585858
+
+-term 0 	$f8f8f8
+-term 1 	$7cafc2
+-term 2 	$a1b56c
+-term 3 	$86c1b9
+-term 4 	$dc9656
+-term 5 	$ba8baf
+-term 6 	$f7ca88
+-term 7 	$585858
+-term 8 	$b8b8b8
+-term 9 	$7cafc2
+-term 10	$a1b56c
+-term 11	$86c1b9
+-term 12	$ab4642
+-term 13	$a16946
+-term 14	$f7ca88
+-term 15	$181818
+
+=Constant	$dc9656
+=String		$a1b56c
+=Escape		$86c1b9
+
+=Comment	$b8b8b8
+=StorageClass	+Type
+=Keyword	$ba8baf
+=Conditional	$ba8baf
+=Operator	$383838
+=Loop		$f7ca88
+=Statement	$ab4642
+=Type		$f7ca88
+
+=DefinedIdent	$ab4642
+=Label		$f7ca88
+=DefinedType	$f7ca88
+=Structure	$ba8baf
+
+=Preproc	$f7ca88
+=Include	$7cafc2
+=Define		$ba8baf
+=TODO		$f7ca88/$e8e8e8
+=Precond	$ba8baf
+
+=diff.AddLine	$a1b56c/$e8e8e8
+=diff.ChgLine	$b8b8b8/$e8e8e8
+=diff.DelLine	$ab4642/$e8e8e8
+=diff.File	$ab4642
+=diff.FileNew	$a1b56c
+=diff.Hunk	$7cafc2
+
+.colors 256
+
+-text		237/231
+-status		240/253
+-cursor		231/237
+-selection	/253
+-curlin		/254
+-linum		250/254
+-curlinum	240/254
+-menusel	254/240
+
+-term 0 	231
+-term 1 	109
+-term 2 	107
+-term 3 	109
+-term 4 	215
+-term 5 	139
+-term 6 	223
+-term 7 	240
+-term 8 	250
+-term 9 	109
+-term 10	107
+-term 11	109
+-term 12	131
+-term 13	130
+-term 14	223
+-term 15	234
+
+=Constant	215
+=String		107
+=Escape		109
+
+=Comment	250
+=StorageClass	+Type
+=Keyword	139
+=Conditional	139
+=Operator	237
+=Loop		223
+=Statement	131
+=Type		223
+
+=DefinedIdent	131
+=Label		223
+=DefinedType	223
+=Structure	139
+
+=Preproc	223
+=Include	109
+=Define		139
+=TODO		223/254
+=Precond	139
+
+=diff.AddLine	107/254
+=diff.ChgLine	250/254
+=diff.DelLine	131/254
+=diff.File	131
+=diff.FileNew	107
+=diff.Hunk	109
+

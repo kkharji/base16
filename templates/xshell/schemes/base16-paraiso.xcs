@@ -1,0 +1,23 @@
+[Base16 Paraiso]
+text=a39e9b
+text(bold)=a39e9b
+background=2f1e2e
+black=2f1e2e
+black(bold)=776e71
+red=ef6155
+red(bold)=f99b15
+green=48b685
+green(bold)=41323f
+yellow=fec418
+yellow(bold)=4f424c
+blue=06b6ef
+blue(bold)=8d8687
+magenta=815ba4
+magenta(bold)=b9b6b0
+cyan=5bc4bf
+cyan(bold)=e96ba8
+white=a39e9b
+white(bold)=e7e9db
+[Names]
+name0=Base16 Paraiso
+count=1

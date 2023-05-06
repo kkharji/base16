@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Atelier Sulphurpool Light scheme by Bram de Haan (http://atelierbramdehaan.nl) */
+
+window {
+	background-color: #f5f7ff;
+	color: #5e6687;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f5f7ff;
+}
+
+#entry:nth-child(even) {
+	background-color: #dfe2f1;
+}
+
+#entry:selected {
+	background-color: #979db4;
+}
+
+#input {
+	background-color: #dfe2f1;
+	color: #6b7394;
+	border-color: #979db4; 
+}
+
+#input:focus {
+	border-color: #c08b30; 
+}

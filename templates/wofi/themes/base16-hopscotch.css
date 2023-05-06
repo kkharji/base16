@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Hopscotch scheme by Jan T. Sott */
+
+window {
+	background-color: #322931;
+	color: #b9b5b8;
+}
+
+#entry:nth-child(odd) {
+	background-color: #322931;
+}
+
+#entry:nth-child(even) {
+	background-color: #433b42;
+}
+
+#entry:selected {
+	background-color: #5c545b;
+}
+
+#input {
+	background-color: #433b42;
+	color: #989498;
+	border-color: #5c545b; 
+}
+
+#input:focus {
+	border-color: #fdcc59; 
+}

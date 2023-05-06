@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Gigavolt scheme by Aidan Swope (http://github.com/Whillikers) */
+
+window {
+	background-color: #202126;
+	color: #e9e7e1;
+}
+
+#entry:nth-child(odd) {
+	background-color: #202126;
+}
+
+#entry:nth-child(even) {
+	background-color: #2d303d;
+}
+
+#entry:selected {
+	background-color: #5a576e;
+}
+
+#input {
+	background-color: #2d303d;
+	color: #cad3ff;
+	border-color: #5a576e; 
+}
+
+#input:focus {
+	border-color: #ffdc2d; 
+}

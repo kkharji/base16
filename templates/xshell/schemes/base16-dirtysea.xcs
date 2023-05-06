@@ -1,0 +1,23 @@
+[Base16 dirtysea]
+text=000000
+text(bold)=000000
+background=e0e0e0
+black=e0e0e0
+black(bold)=707070
+red=840000
+red(bold)=006565
+green=730073
+green(bold)=d0dad0
+yellow=755b00
+yellow(bold)=d0d0d0
+blue=007300
+blue(bold)=202020
+magenta=000090
+magenta(bold)=f8f8f8
+cyan=755b00
+cyan(bold)=755b00
+white=000000
+white(bold)=c4d9c4
+[Names]
+name0=Base16 dirtysea
+count=1

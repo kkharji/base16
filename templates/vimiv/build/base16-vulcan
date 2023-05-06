@@ -1,0 +1,31 @@
+; base16-vulcan
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Andrey Varfolomeev
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #041523
+base01 = #122339
+base02 = #003552
+base03 = #7a5759
+base04 = #6b6977
+base05 = #5b778c
+base06 = #333238
+base07 = #214d68
+base08 = #818591
+base09 = #9198a3
+base0a = #adb4b9
+base0b = #977d7c
+base0c = #977d7c
+base0d = #977d7c
+base0e = #9198a3
+base0f = #977d7c
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

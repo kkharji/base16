@@ -1,0 +1,31 @@
+; base16-bespin
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Jan T. Sott
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #28211c
+base01 = #36312e
+base02 = #5e5d5c
+base03 = #666666
+base04 = #797977
+base05 = #8a8986
+base06 = #9d9b97
+base07 = #baae9e
+base08 = #cf6a4c
+base09 = #cf7d34
+base0a = #f9ee98
+base0b = #54be0d
+base0c = #afc4db
+base0d = #5ea6ea
+base0e = #9b859d
+base0f = #937121
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

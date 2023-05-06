@@ -1,0 +1,13 @@
+<!--    Base16 Railscasts
+        Scheme author: Ryan Bates (http://railscasts.com)
+	Template author: Tinted Theming (https://github.com/tinted-theming)   -->
+
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="version" value="2.2.0.1" />
+    <option name="selectedTheme" value="CUSTOM" />
+    <option name="highlightColor" value="6d9cbe" />
+    <option name="accentColor" value="6d9cbe" />
+    <option name="darkTitleBar" value="true" />
+  </component>
+</application>

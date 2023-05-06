@@ -1,0 +1,45 @@
+<frescobaldi-theme name="#Nord">
+  <!--
+  Created by base16-frescobaldi
+  Author: #arcticicestudio
+-->
+  <font fontFamily="monospace" fontSize="10.0" />
+  <baseColors>
+    <text color="#E5E9F0" />
+    <background color="#2E3440" />
+    <selectiontext color="#ECEFF4" />
+    <selectionbackground color="#4C566A" />
+    <current color="#3B4252" />
+    <mark color="#434C5E" />
+    <error color="#3B4252" />
+    <search color="#" />
+    <match color="#D8DEE9" />
+    <paper color="#3B4252" />
+    <musichighlight color="#4C566A" />
+  </baseColors>
+  <defaultStyles>
+    <string textColor="#BF616A" />
+    <escape textColor="#D08770" />
+    <comment italic="True" textColor="#4C566A" />
+    <value textColor="#EBCB8B" />
+    <variable textColor="#A3BE8C" />
+    <keyword bold="True" />
+    <function bold="True" textColor="#81A1C1" />
+    <error textColor="#B48EAD" underline="True" underlineColor="#B48EAD" />
+  </defaultStyles>
+  <allStyles>
+    <lilypond>
+      <duration textColor="#D08770" />
+      <dynamic bold="True" textColor="#81A1C1" />
+      <articulation bold="True" textColor="#D08770" />
+      <fingering textColor="#A3BE8C" />
+      <stringnumber textColor="#D08770" />
+      <slur bold="True" />
+      <markup bold="False" textColor="#EBCB8B" />
+      <lyricmode textColor="#81A1C1" />
+      <lyrictext textColor="#E5E9F0" />
+      <context bold="True" />
+      <grob textColor="#E5E9F0" />
+    </lilypond>
+  </allStyles>
+</frescobaldi-theme>

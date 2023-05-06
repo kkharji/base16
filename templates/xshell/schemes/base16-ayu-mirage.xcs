@@ -1,0 +1,23 @@
+[Base16 Ayu Mirage]
+text=cccac2
+text(bold)=cccac2
+background=171b24
+black=171b24
+black(bold)=707a8c
+red=f28779
+red(bold)=ffad66
+green=d5ff80
+green(bold)=1f2430
+yellow=ffd173
+yellow(bold)=242936
+blue=5ccfe6
+blue(bold)=8a9199
+magenta=d4bfff
+magenta(bold)=d9d7ce
+cyan=95e6cb
+cyan(bold)=f29e74
+white=cccac2
+white(bold)=f3f4f5
+[Names]
+name0=Base16 Ayu Mirage
+count=1

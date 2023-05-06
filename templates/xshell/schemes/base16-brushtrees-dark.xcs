@@ -1,0 +1,23 @@
+[Base16 Brush Trees Dark]
+text=b0c5c8
+text(bold)=b0c5c8
+background=485867
+black=485867
+black(bold)=8299a1
+red=b38686
+red(bold)=d8bba2
+green=87b386
+green(bold)=5a6d7a
+yellow=aab386
+yellow(bold)=6d828e
+blue=868cb3
+blue(bold)=98afb5
+magenta=b386b2
+magenta(bold)=c9dbdc
+cyan=86b3b3
+cyan(bold)=b39f9f
+white=b0c5c8
+white(bold)=e3efef
+[Names]
+name0=Base16 Brush Trees Dark
+count=1

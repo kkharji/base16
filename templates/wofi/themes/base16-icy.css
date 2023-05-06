@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Icy Dark scheme by icyphox (https://icyphox.ga) */
+
+window {
+	background-color: #021012;
+	color: #095b67;
+}
+
+#entry:nth-child(odd) {
+	background-color: #021012;
+}
+
+#entry:nth-child(even) {
+	background-color: #031619;
+}
+
+#entry:selected {
+	background-color: #041f23;
+}
+
+#input {
+	background-color: #031619;
+	color: #064048;
+	border-color: #041f23; 
+}
+
+#input:focus {
+	border-color: #80deea; 
+}

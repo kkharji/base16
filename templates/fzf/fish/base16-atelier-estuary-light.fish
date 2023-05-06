@@ -1,0 +1,33 @@
+# Base16 Atelier Estuary Light
+# Scheme author: Bram de Haan (http://atelierbramdehaan.nl)
+# Template author: Tinted Theming (https://github.com/tinted-theming)
+
+set -l color00 '#f4f3ec'
+set -l color01 '#e7e6df'
+set -l color02 '#929181'
+set -l color03 '#878573'
+set -l color04 '#6c6b5a'
+set -l color05 '#5f5e4e'
+set -l color06 '#302f27'
+set -l color07 '#22221b'
+set -l color08 '#ba6236'
+set -l color09 '#ae7313'
+set -l color0A '#a5980d'
+set -l color0B '#7d9726'
+set -l color0C '#5b9d48'
+set -l color0D '#36a166'
+set -l color0E '#5f9182'
+set -l color0F '#9d6c7c'
+
+set -l FZF_NON_COLOR_OPTS
+
+for arg in (echo $FZF_DEFAULT_OPTS | tr " " "\n")
+    if not string match -q -- "--color*" $arg
+        set -a FZF_NON_COLOR_OPTS $arg
+    end
+end
+
+set -Ux FZF_DEFAULT_OPTS "$FZF_NON_COLOR_OPTS"\
+" --color=bg+:$color01,bg:$color00,spinner:$color0C,hl:$color0D"\
+" --color=fg:$color04,header:$color0D,info:$color0A,pointer:$color0C"\
+" --color=marker:$color0C,fg+:$color06,prompt:$color0A,hl+:$color0D"

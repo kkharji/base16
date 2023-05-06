@@ -1,0 +1,23 @@
+[Base16 Purpledream]
+text=ddd0dd
+text(bold)=ddd0dd
+background=100510
+black=100510
+black(bold)=605060
+red=ff1d0d
+red(bold)=ccae14
+green=14cc64
+green(bold)=302030
+yellow=f000a0
+yellow(bold)=403040
+blue=00a0f0
+blue(bold)=bbb0bb
+magenta=b000d0
+magenta(bold)=eee0ee
+cyan=0075b0
+cyan(bold)=6a2a3c
+white=ddd0dd
+white(bold)=fff0ff
+[Names]
+name0=Base16 Purpledream
+count=1

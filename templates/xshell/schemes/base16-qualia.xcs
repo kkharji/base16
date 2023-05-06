@@ -1,0 +1,23 @@
+[Base16 Qualia]
+text=c0c0c0
+text(bold)=c0c0c0
+background=101010
+black=101010
+black(bold)=454545
+red=efa6a2
+red(bold)=a3b8ef
+green=80c990
+green(bold)=454545
+yellow=e6a3dc
+yellow(bold)=454545
+blue=50cacd
+blue(bold)=808080
+magenta=e0af85
+magenta(bold)=c0c0c0
+cyan=c8c874
+cyan(bold)=808080
+white=c0c0c0
+white(bold)=454545
+[Names]
+name0=Base16 Qualia
+count=1

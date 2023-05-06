@@ -1,0 +1,23 @@
+[Base16 3024]
+text=a5a2a2
+text(bold)=a5a2a2
+background=090300
+black=090300
+black(bold)=5c5855
+red=db2d20
+red(bold)=e8bbd0
+green=01a252
+green(bold)=3a3432
+yellow=fded02
+yellow(bold)=4a4543
+blue=01a0e4
+blue(bold)=807d7c
+magenta=a16a94
+magenta(bold)=d6d5d4
+cyan=b5e4f4
+cyan(bold)=cdab53
+white=a5a2a2
+white(bold)=f7f7f7
+[Names]
+name0=Base16 3024
+count=1

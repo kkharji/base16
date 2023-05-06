@@ -1,0 +1,23 @@
+[Base16 Pasque]
+text=dedcdf
+text(bold)=dedcdf
+background=271c3a
+black=271c3a
+black(bold)=5d5766
+red=a92258
+red(bold)=918889
+green=c6914b
+green(bold)=100323
+yellow=804ead
+yellow(bold)=3e2d5c
+blue=8e7dc6
+blue(bold)=bebcbf
+magenta=953b9d
+magenta(bold)=edeaef
+cyan=7263aa
+cyan(bold)=59325c
+white=dedcdf
+white(bold)=bbaadd
+[Names]
+name0=Base16 Pasque
+count=1

@@ -1,0 +1,31 @@
+; base16-icy
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: icyphox (https://icyphox.ga)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #021012
+base01 = #031619
+base02 = #041f23
+base03 = #052e34
+base04 = #064048
+base05 = #095b67
+base06 = #0c7c8c
+base07 = #109cb0
+base08 = #16c1d9
+base09 = #b3ebf2
+base0a = #80deea
+base0b = #4dd0e1
+base0c = #26c6da
+base0d = #00bcd4
+base0e = #00acc1
+base0f = #0097a7
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

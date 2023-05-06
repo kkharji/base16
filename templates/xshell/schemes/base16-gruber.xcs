@@ -1,0 +1,23 @@
+[Base16 Gruber]
+text=f4f4ff
+text(bold)=f4f4ff
+background=181818
+black=181818
+black(bold)=52494e
+red=f43841
+red(bold)=c73c3f
+green=73c936
+green(bold)=453d41
+yellow=ffdd33
+yellow(bold)=484848
+blue=96a6c8
+blue(bold)=e4e4ef
+magenta=9e95c7
+magenta(bold)=f5f5f5
+cyan=95a99f
+cyan(bold)=cc8c3c
+white=f4f4ff
+white(bold)=e4e4ef
+[Names]
+name0=Base16 Gruber
+count=1

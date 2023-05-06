@@ -1,0 +1,23 @@
+[Base16 pandora]
+text=f15c99
+text(bold)=f15c99
+background=131213
+black=131213
+black(bold)=ffbee3
+red=b00b69
+red(bold)=ff9153
+green=9ddf69
+green(bold)=2f1823
+yellow=ffcc00
+yellow(bold)=472234
+blue=008080
+blue(bold)=9b2a46
+magenta=a24030
+magenta(bold)=81506a
+cyan=714ca6
+cyan(bold)=a24030
+white=f15c99
+white(bold)=632227
+[Names]
+name0=Base16 pandora
+count=1

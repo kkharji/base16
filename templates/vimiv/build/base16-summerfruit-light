@@ -1,0 +1,31 @@
+; base16-summerfruit-light
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Christopher Corley (http://christop.club/)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #FFFFFF
+base01 = #E0E0E0
+base02 = #D0D0D0
+base03 = #B0B0B0
+base04 = #000000
+base05 = #101010
+base06 = #151515
+base07 = #202020
+base08 = #FF0086
+base09 = #FD8900
+base0a = #ABA800
+base0b = #00C918
+base0c = #1FAAAA
+base0d = #3777E6
+base0e = #AD00A1
+base0f = #CC6633
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

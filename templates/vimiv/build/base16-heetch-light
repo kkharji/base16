@@ -1,0 +1,31 @@
+; base16-heetch-light
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Geoffrey Teale (tealeg@gmail.com)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #feffff
+base01 = #392551
+base02 = #7b6d8b
+base03 = #9c92a8
+base04 = #ddd6e5
+base05 = #5a496e
+base06 = #470546
+base07 = #190134
+base08 = #27d9d5
+base09 = #bdb6c5
+base0a = #5ba2b6
+base0b = #f80059
+base0c = #c33678
+base0d = #47f9f5
+base0e = #bd0152
+base0f = #dedae2
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

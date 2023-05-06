@@ -1,0 +1,23 @@
+[Base16 Unikitty Reversible]
+text=c3c2c4
+text(bold)=c3c2c4
+background=2e2a31
+black=2e2a31
+black(bold)=878589
+red=d8137f
+red(bold)=d65407
+green=17ad98
+green(bold)=4b484e
+yellow=dc8a0e
+yellow(bold)=69666b
+blue=7864fa
+blue(bold)=a5a3a6
+magenta=b33ce8
+magenta(bold)=e1e0e1
+cyan=149bda
+cyan(bold)=d41acd
+white=c3c2c4
+white(bold)=ffffff
+[Names]
+name0=Base16 Unikitty Reversible
+count=1

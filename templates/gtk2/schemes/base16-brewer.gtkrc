@@ -1,0 +1,6 @@
+# Base16 Brewer for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Timothée Poisot (http://github.com/tpoisot)
+# brewer (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#0c0d0e\nfg_color:#b7b8b9\nbase_color:#0c0d0e\ntext_color:#b7b8b9\nselected_bg_color:#515253\nselected_fg_color:#b7b8b9\ntooltip_bg_color:#0c0d0e\ntooltip_fg_color:#959697\ntitlebar_bg_color:#0c0d0e\ntitlebar_fg_color:#3182bd\nmenubar_bg_color:#0c0d0e\nmenubar_fg_color:#3182bd\ntoolbar_bg_color:#0c0d0e\ntoolbar_fg_color:#dca060\nmenu_bg_color:#0c0d0e\nmenu_fg_color:#b7b8b9\npanel_bg_color:#0c0d0e\npanel_fg_color:#31a354\nlink_color:#e6550d"
+

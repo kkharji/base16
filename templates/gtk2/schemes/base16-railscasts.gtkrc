@@ -1,0 +1,6 @@
+# Base16 Railscasts for gtk2 (https://github.com/dawikur/base16-gtk2)
+# By Ryan Bates (http://railscasts.com)
+# railscasts (https://github.com/dawikur/base16-gruvbox-scheme)
+
+gtk-color-scheme = "bg_color:#2b2b2b\nfg_color:#e6e1dc\nbase_color:#2b2b2b\ntext_color:#e6e1dc\nselected_bg_color:#3a4055\nselected_fg_color:#e6e1dc\ntooltip_bg_color:#2b2b2b\ntooltip_fg_color:#d4cfc9\ntitlebar_bg_color:#2b2b2b\ntitlebar_fg_color:#6d9cbe\nmenubar_bg_color:#2b2b2b\nmenubar_fg_color:#6d9cbe\ntoolbar_bg_color:#2b2b2b\ntoolbar_fg_color:#ffc66d\nmenu_bg_color:#2b2b2b\nmenu_fg_color:#e6e1dc\npanel_bg_color:#2b2b2b\npanel_fg_color:#a5c261\nlink_color:#cc7833"
+

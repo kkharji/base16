@@ -1,0 +1,23 @@
+[Base16 Bright]
+text=e0e0e0
+text(bold)=e0e0e0
+background=000000
+black=000000
+black(bold)=b0b0b0
+red=fb0120
+red(bold)=fc6d24
+green=a1c659
+green(bold)=303030
+yellow=fda331
+yellow(bold)=505050
+blue=6fb3d2
+blue(bold)=d0d0d0
+magenta=d381c3
+magenta(bold)=f5f5f5
+cyan=76c7b7
+cyan(bold)=be643c
+white=e0e0e0
+white(bold)=ffffff
+[Names]
+name0=Base16 Bright
+count=1

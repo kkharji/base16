@@ -1,0 +1,121 @@
+
+# base16 Material Lighter by Nate Peterson
+
+.colors *
+
+-text		$80cbc4/$fafafa
+-status		$8796b0/$cceae7
+-cursor		$fafafa/$80cbc4
+-selection	/$cceae7
+-curlin		/$e7eaec
+-linum		$ccd7da/$e7eaec
+-curlinum	$8796b0/$e7eaec
+-menusel	$e7eaec/$8796b0
+
+-term 0 	$fafafa
+-term 1 	$6182b8
+-term 2 	$91b859
+-term 3 	$39adb5
+-term 4 	$f76d47
+-term 5 	$7c4dff
+-term 6 	$ffb62c
+-term 7 	$8796b0
+-term 8 	$ccd7da
+-term 9 	$6182b8
+-term 10	$91b859
+-term 11	$39adb5
+-term 12	$ff5370
+-term 13	$e53935
+-term 14	$ffb62c
+-term 15	$ffffff
+
+=Constant	$f76d47
+=String		$91b859
+=Escape		$39adb5
+
+=Comment	$ccd7da
+=StorageClass	+Type
+=Keyword	$7c4dff
+=Conditional	$7c4dff
+=Operator	$80cbc4
+=Loop		$ffb62c
+=Statement	$ff5370
+=Type		$ffb62c
+
+=DefinedIdent	$ff5370
+=Label		$ffb62c
+=DefinedType	$ffb62c
+=Structure	$7c4dff
+
+=Preproc	$ffb62c
+=Include	$6182b8
+=Define		$7c4dff
+=TODO		$ffb62c/$e7eaec
+=Precond	$7c4dff
+
+=diff.AddLine	$91b859/$e7eaec
+=diff.ChgLine	$ccd7da/$e7eaec
+=diff.DelLine	$ff5370/$e7eaec
+=diff.File	$ff5370
+=diff.FileNew	$91b859
+=diff.Hunk	$6182b8
+
+.colors 256
+
+-text		116/231
+-status		103/195
+-cursor		231/116
+-selection	/195
+-curlin		/255
+-linum		253/255
+-curlinum	103/255
+-menusel	255/103
+
+-term 0 	231
+-term 1 	67
+-term 2 	107
+-term 3 	73
+-term 4 	209
+-term 5 	99
+-term 6 	214
+-term 7 	103
+-term 8 	253
+-term 9 	67
+-term 10	107
+-term 11	73
+-term 12	204
+-term 13	196
+-term 14	214
+-term 15	231
+
+=Constant	209
+=String		107
+=Escape		73
+
+=Comment	253
+=StorageClass	+Type
+=Keyword	99
+=Conditional	99
+=Operator	116
+=Loop		214
+=Statement	204
+=Type		214
+
+=DefinedIdent	204
+=Label		214
+=DefinedType	214
+=Structure	99
+
+=Preproc	214
+=Include	67
+=Define		99
+=TODO		214/255
+=Precond	99
+
+=diff.AddLine	107/255
+=diff.ChgLine	253/255
+=diff.DelLine	204/255
+=diff.File	204
+=diff.FileNew	107
+=diff.Hunk	67
+

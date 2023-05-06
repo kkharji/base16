@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Snazzy scheme by Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy) */
+
+window {
+	background-color: #282a36;
+	color: #e2e4e5;
+}
+
+#entry:nth-child(odd) {
+	background-color: #282a36;
+}
+
+#entry:nth-child(even) {
+	background-color: #34353e;
+}
+
+#entry:selected {
+	background-color: #43454f;
+}
+
+#input {
+	background-color: #34353e;
+	color: #a5a5a9;
+	border-color: #43454f; 
+}
+
+#input:focus {
+	border-color: #f3f99d; 
+}

@@ -1,0 +1,12 @@
+tags
+sources
+schemes
+output
+sources.yaml
+templates/*
+base16-luakit.wiki
+
+# dont ignore the following files
+!templates/default.mustache
+!templates/colors.mustache
+!templates/config.yaml

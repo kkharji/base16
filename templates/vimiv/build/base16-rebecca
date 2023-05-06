@@ -1,0 +1,31 @@
+; base16-rebecca
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #292a44
+base01 = #663399
+base02 = #383a62
+base03 = #666699
+base04 = #a0a0c5
+base05 = #f1eff8
+base06 = #ccccff
+base07 = #53495d
+base08 = #a0a0c5
+base09 = #efe4a1
+base0a = #ae81ff
+base0b = #6dfedf
+base0c = #8eaee0
+base0d = #2de0a7
+base0e = #7aa5ff
+base0f = #ff79c6
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

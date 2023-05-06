@@ -1,0 +1,23 @@
+[Base16 Bespin]
+text=8a8986
+text(bold)=8a8986
+background=28211c
+black=28211c
+black(bold)=666666
+red=cf6a4c
+red(bold)=cf7d34
+green=54be0d
+green(bold)=36312e
+yellow=f9ee98
+yellow(bold)=5e5d5c
+blue=5ea6ea
+blue(bold)=797977
+magenta=9b859d
+magenta(bold)=9d9b97
+cyan=afc4db
+cyan(bold)=937121
+white=8a8986
+white(bold)=baae9e
+[Names]
+name0=Base16 Bespin
+count=1

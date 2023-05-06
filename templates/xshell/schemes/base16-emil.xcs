@@ -1,0 +1,23 @@
+[Base16 emil]
+text=313145
+text(bold)=313145
+background=efefef
+black=efefef
+black(bold)=7c7c98
+red=f43979
+red(bold)=d22a8b
+green=0073a8
+green(bold)=bebed2
+yellow=ff669b
+yellow(bold)=9e9eaf
+blue=471397
+blue(bold)=505063
+magenta=6916b6
+magenta(bold)=22223a
+cyan=2155d6
+cyan(bold)=8d17a5
+white=313145
+white(bold)=1a1a2f
+[Names]
+name0=Base16 emil
+count=1

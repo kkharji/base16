@@ -1,0 +1,23 @@
+[Base16 Isotope]
+text=d0d0d0
+text(bold)=d0d0d0
+background=000000
+black=000000
+black(bold)=808080
+red=ff0000
+red(bold)=ff9900
+green=33ff00
+green(bold)=404040
+yellow=ff0099
+yellow(bold)=606060
+blue=0066ff
+blue(bold)=c0c0c0
+magenta=cc00ff
+magenta(bold)=e0e0e0
+cyan=00ffff
+cyan(bold)=3300ff
+white=d0d0d0
+white(bold)=ffffff
+[Names]
+name0=Base16 Isotope
+count=1

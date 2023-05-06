@@ -1,0 +1,121 @@
+
+# base16 Hopscotch by Jan T. Sott
+
+.colors *
+
+-text		$b9b5b8/$322931
+-status		$989498/$5c545b
+-cursor		$322931/$b9b5b8
+-selection	/$5c545b
+-curlin		/$433b42
+-linum		$797379/$433b42
+-curlinum	$989498/$433b42
+-menusel	$433b42/$989498
+
+-term 0 	$322931
+-term 1 	$1290bf
+-term 2 	$8fc13e
+-term 3 	$149b93
+-term 4 	$fd8b19
+-term 5 	$c85e7c
+-term 6 	$fdcc59
+-term 7 	$989498
+-term 8 	$797379
+-term 9 	$1290bf
+-term 10	$8fc13e
+-term 11	$149b93
+-term 12	$dd464c
+-term 13	$b33508
+-term 14	$fdcc59
+-term 15	$ffffff
+
+=Constant	$fd8b19
+=String		$8fc13e
+=Escape		$149b93
+
+=Comment	$797379
+=StorageClass	+Type
+=Keyword	$c85e7c
+=Conditional	$c85e7c
+=Operator	$b9b5b8
+=Loop		$fdcc59
+=Statement	$dd464c
+=Type		$fdcc59
+
+=DefinedIdent	$dd464c
+=Label		$fdcc59
+=DefinedType	$fdcc59
+=Structure	$c85e7c
+
+=Preproc	$fdcc59
+=Include	$1290bf
+=Define		$c85e7c
+=TODO		$fdcc59/$433b42
+=Precond	$c85e7c
+
+=diff.AddLine	$8fc13e/$433b42
+=diff.ChgLine	$797379/$433b42
+=diff.DelLine	$dd464c/$433b42
+=diff.File	$dd464c
+=diff.FileNew	$8fc13e
+=diff.Hunk	$1290bf
+
+.colors 256
+
+-text		249/236
+-status		246/240
+-cursor		236/249
+-selection	/240
+-curlin		/237
+-linum		243/237
+-curlinum	246/237
+-menusel	237/246
+
+-term 0 	236
+-term 1 	31
+-term 2 	106
+-term 3 	37
+-term 4 	208
+-term 5 	168
+-term 6 	221
+-term 7 	246
+-term 8 	243
+-term 9 	31
+-term 10	106
+-term 11	37
+-term 12	167
+-term 13	124
+-term 14	221
+-term 15	231
+
+=Constant	208
+=String		106
+=Escape		37
+
+=Comment	243
+=StorageClass	+Type
+=Keyword	168
+=Conditional	168
+=Operator	249
+=Loop		221
+=Statement	167
+=Type		221
+
+=DefinedIdent	167
+=Label		221
+=DefinedType	221
+=Structure	168
+
+=Preproc	221
+=Include	31
+=Define		168
+=TODO		221/237
+=Precond	168
+
+=diff.AddLine	106/237
+=diff.ChgLine	243/237
+=diff.DelLine	167/237
+=diff.File	167
+=diff.FileNew	106
+=diff.Hunk	31
+

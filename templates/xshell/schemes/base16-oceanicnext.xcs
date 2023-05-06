@@ -1,0 +1,23 @@
+[Base16 OceanicNext]
+text=c0c5ce
+text(bold)=c0c5ce
+background=1b2b34
+black=1b2b34
+black(bold)=65737e
+red=ec5f67
+red(bold)=f99157
+green=99c794
+green(bold)=343d46
+yellow=fac863
+yellow(bold)=4f5b66
+blue=6699cc
+blue(bold)=a7adba
+magenta=c594c5
+magenta(bold)=cdd3de
+cyan=5fb3b3
+cyan(bold)=ab7967
+white=c0c5ce
+white(bold)=d8dee9
+[Names]
+name0=Base16 OceanicNext
+count=1

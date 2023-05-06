@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * iA Light scheme by iA Inc. (modified by aramisgithub) */
+
+window {
+	background-color: #f6f6f6;
+	color: #181818;
+}
+
+#entry:nth-child(odd) {
+	background-color: #f6f6f6;
+}
+
+#entry:nth-child(even) {
+	background-color: #dedede;
+}
+
+#entry:selected {
+	background-color: #bde5f2;
+}
+
+#input {
+	background-color: #dedede;
+	color: #767676;
+	border-color: #bde5f2; 
+}
+
+#input:focus {
+	border-color: #c48218; 
+}

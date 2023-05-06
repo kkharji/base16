@@ -1,0 +1,121 @@
+
+# base16 Marrakesh by Alexandre Gavioli (http://github.com/Alexx2/)
+
+.colors *
+
+-text		$948e48/$201602
+-status		$86813b/$5f5b17
+-cursor		$201602/$948e48
+-selection	/$5f5b17
+-curlin		/$302e00
+-linum		$6c6823/$302e00
+-curlinum	$86813b/$302e00
+-menusel	$302e00/$86813b
+
+-term 0 	$201602
+-term 1 	$477ca1
+-term 2 	$18974e
+-term 3 	$75a738
+-term 4 	$b36144
+-term 5 	$8868b3
+-term 6 	$a88339
+-term 7 	$86813b
+-term 8 	$6c6823
+-term 9 	$477ca1
+-term 10	$18974e
+-term 11	$75a738
+-term 12	$c35359
+-term 13	$b3588e
+-term 14	$a88339
+-term 15	$faf0a5
+
+=Constant	$b36144
+=String		$18974e
+=Escape		$75a738
+
+=Comment	$6c6823
+=StorageClass	+Type
+=Keyword	$8868b3
+=Conditional	$8868b3
+=Operator	$948e48
+=Loop		$a88339
+=Statement	$c35359
+=Type		$a88339
+
+=DefinedIdent	$c35359
+=Label		$a88339
+=DefinedType	$a88339
+=Structure	$8868b3
+
+=Preproc	$a88339
+=Include	$477ca1
+=Define		$8868b3
+=TODO		$a88339/$302e00
+=Precond	$8868b3
+
+=diff.AddLine	$18974e/$302e00
+=diff.ChgLine	$6c6823/$302e00
+=diff.DelLine	$c35359/$302e00
+=diff.File	$c35359
+=diff.FileNew	$18974e
+=diff.Hunk	$477ca1
+
+.colors 256
+
+-text		101/234
+-status		100/58
+-cursor		234/101
+-selection	/58
+-curlin		/236
+-linum		58/236
+-curlinum	100/236
+-menusel	236/100
+
+-term 0 	234
+-term 1 	67
+-term 2 	35
+-term 3 	70
+-term 4 	131
+-term 5 	97
+-term 6 	136
+-term 7 	100
+-term 8 	58
+-term 9 	67
+-term 10	35
+-term 11	70
+-term 12	131
+-term 13	132
+-term 14	136
+-term 15	229
+
+=Constant	131
+=String		35
+=Escape		70
+
+=Comment	58
+=StorageClass	+Type
+=Keyword	97
+=Conditional	97
+=Operator	101
+=Loop		136
+=Statement	131
+=Type		136
+
+=DefinedIdent	131
+=Label		136
+=DefinedType	136
+=Structure	97
+
+=Preproc	136
+=Include	67
+=Define		97
+=TODO		136/236
+=Precond	97
+
+=diff.AddLine	35/236
+=diff.ChgLine	58/236
+=diff.DelLine	131/236
+=diff.File	131
+=diff.FileNew	35
+=diff.Hunk	67
+

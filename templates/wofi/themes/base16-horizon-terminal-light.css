@@ -1,0 +1,30 @@
+/* base16-wofi (https://sr.ht/~knezi/base16-wofi)
+ * Base16 wofi template by knezi
+ * Horizon Light scheme by Michaël Ball (http://github.com/michael-ball/) */
+
+window {
+	background-color: #FDF0ED;
+	color: #403C3D;
+}
+
+#entry:nth-child(odd) {
+	background-color: #FDF0ED;
+}
+
+#entry:nth-child(even) {
+	background-color: #FADAD1;
+}
+
+#entry:selected {
+	background-color: #F9CBBE;
+}
+
+#input {
+	background-color: #FADAD1;
+	color: #948C8A;
+	border-color: #F9CBBE; 
+}
+
+#input:focus {
+	border-color: #FADAD1; 
+}

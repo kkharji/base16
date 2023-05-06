@@ -1,0 +1,31 @@
+; base16-rose-pine-moon
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #232136
+base01 = #2a273f
+base02 = #393552
+base03 = #59546d
+base04 = #817c9c
+base05 = #e0def4
+base06 = #f5f5f7
+base07 = #d9d7e1
+base08 = #ecebf0
+base09 = #eb6f92
+base0a = #f6c177
+base0b = #ea9a97
+base0c = #3e8fb0
+base0d = #9ccfd8
+base0e = #c4a7e7
+base0f = #b9b9bc
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

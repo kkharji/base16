@@ -1,0 +1,23 @@
+[Base16 Gotham]
+text=599cab
+text(bold)=599cab
+background=0c1014
+black=0c1014
+black(bold)=0a3749
+red=c23127
+red(bold)=d26937
+green=33859e
+green(bold)=11151c
+yellow=edb443
+yellow(bold)=091f2e
+blue=195466
+blue(bold)=245361
+magenta=888ca6
+magenta(bold)=99d1ce
+cyan=2aa889
+cyan(bold)=4e5166
+white=599cab
+white(bold)=d3ebe9
+[Names]
+name0=Base16 Gotham
+count=1

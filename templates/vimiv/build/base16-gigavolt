@@ -1,0 +1,31 @@
+; base16-gigavolt
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Aidan Swope (http://github.com/Whillikers)
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #202126
+base01 = #2d303d
+base02 = #5a576e
+base03 = #a1d2e6
+base04 = #cad3ff
+base05 = #e9e7e1
+base06 = #eff0f9
+base07 = #f2fbff
+base08 = #ff661a
+base09 = #19f988
+base0a = #ffdc2d
+base0b = #f2e6a9
+base0c = #fb6acb
+base0d = #40bfff
+base0e = #ae94f9
+base0f = #6187ff
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini

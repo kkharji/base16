@@ -1,0 +1,23 @@
+[Base16 Shapeshifter]
+text=102015
+text(bold)=102015
+background=f9f9f9
+black=f9f9f9
+black(bold)=555555
+red=e92f2f
+red(bold)=e09448
+green=0ed839
+green(bold)=e0e0e0
+yellow=dddd13
+yellow(bold)=ababab
+blue=3b48e3
+blue(bold)=343434
+magenta=f996e2
+magenta(bold)=040404
+cyan=23edda
+cyan(bold)=69542d
+white=102015
+white(bold)=000000
+[Names]
+name0=Base16 Shapeshifter
+count=1

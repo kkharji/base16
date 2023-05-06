@@ -1,0 +1,31 @@
+; base16-sagelight
+;
+; base16: (https://github.com/chriskempson/base16)
+;
+; Scheme: Carter Veldhuizen
+; Template: Christian Karl <karlch at protonmail dot com>
+
+[STYLE]
+; Colors
+base00 = #f8f8f8
+base01 = #e8e8e8
+base02 = #d8d8d8
+base03 = #b8b8b8
+base04 = #585858
+base05 = #383838
+base06 = #282828
+base07 = #181818
+base08 = #fa8480
+base09 = #ffaa61
+base0a = #ffdc61
+base0b = #a0d2c8
+base0c = #a2d6f5
+base0d = #a0a7d2
+base0e = #c8a0d2
+base0f = #d2b2a0
+
+; Additional custom overrides, e.g.
+; font = 10pt Hack
+; thumbnail.padding = 32
+
+; vim:ft=dosini
